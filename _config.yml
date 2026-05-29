@@ -10,7 +10,6 @@ plugins: []
 # Exclude from build
 exclude:
   - build.py
-  - dashboard.html
   - "*.pdf"
   - node_modules/
   - vendor/

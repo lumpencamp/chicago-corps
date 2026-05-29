@@ -18,7 +18,7 @@ Open `chicago_mutual_aid_groups.csv` in any spreadsheet app. Filter by `neighbor
 ### Run the dashboard
 
 ```bash
-open dashboard.html
+open index.html
 ```
 
 A self-contained HTML page that reads the CSV files and displays live stats, a coverage map, stale data alerts, and category breakdowns. No server required.
