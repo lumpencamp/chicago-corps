@@ -28,9 +28,8 @@ Icon
 *.local
 config.local.toml
 
-# Large artifacts (PDFs fetched during research)
+# PDFs and large research artifacts
 *.pdf
-!ChicagoCore*.pdf
 
 # OS generated files
 Thumbs.db

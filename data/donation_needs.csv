@@ -1,0 +1,13 @@
+group_id,item,category,quantity_needed,urgency,last_confirmed,evidence_url,evidence_summary,notes
+belmont-cragin-ma,winter coats,Clothing,,HIGH,2025-10-14,,Block Club article references supply distribution during ICE response events.,Seeded from news coverage — needs direct confirmation
+portage-park-ma,grocery items (non-perishable),Food,,MEDIUM,2025-10-14,,Referenced in Block Club mutual aid roundup.,Seeded from news coverage
+south-suburban-ma,food donations,Food,,HIGH,2026-05-29,https://ssmutualaid.org/,"Website states: ""We are seeking food, clothing and monetary donations.""",Confirmed via website
+south-suburban-ma,clothing donations,Clothing,,HIGH,2026-05-29,https://ssmutualaid.org/,"Website states: ""We are seeking food, clothing and monetary donations.""",Confirmed via website
+south-suburban-ma,monetary donations,Financial,,HIGH,2026-05-29,https://ssmutualaid.org/,"Website states seeking monetary donations.",Confirmed via website
+humans-at-help,non-perishable food,Food,,MEDIUM,2026-05-29,https://www.humansathelp.org/,Food pantry operating Mondays and Saturdays. Accepts donations.,Confirmed via website
+humans-at-help,clothing for free store,Clothing,,MEDIUM,2026-05-29,https://www.humansathelp.org/,Community Free Store listed on website.,Confirmed via website
+beyond-hunger,non-perishable food,Food,,HIGH,2026-05-29,https://www.gobeyondhunger.org/,"Pantry open Mon/Tue/Thu/Fri 9am-4pm for donations.",Confirmed via website
+evanston-community-cares,non-perishable food,Food,,HIGH,2026-01-24,,Evanston Roundtable Jan 2026 references food drives and continued operations.,Seeded from news coverage
+target-area,non-perishable food,Food,,HIGH,2025-11-13,,Facebook Nov 2025 shows Community Market actively distributing food.,Seeded from social media
+restoration-ministries,non-perishable food,Food,,HIGH,2026-05-29,https://restorationministries.net/food-pantry/,"Food pantry open Saturdays 8:30am-12:30pm. GCFD partner.",Confirmed via website
+gage-park-latinx-council,art supplies,Arts & Education,,MEDIUM,2026-05-29,,Cultural center programs include art and popular education.,Inferred from stated programs

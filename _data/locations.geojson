@@ -30,7 +30,7 @@
       },
       "properties": {
         "group_id": "mouse-arts-letters",
-        "name": "Unknown Group",
+        "name": "mouse-arts-letters",
         "location_name": "",
         "address": "555 W 31st St",
         "verification_status": "UNCERTAIN",
@@ -102,7 +102,7 @@
       },
       "properties": {
         "group_id": "sheldon-heights-pantry",
-        "name": "Unknown Group",
+        "name": "sheldon-heights-pantry",
         "location_name": "",
         "address": "11325 S Halsted St",
         "verification_status": "UNCERTAIN",
@@ -120,7 +120,7 @@
       },
       "properties": {
         "group_id": "st-sabina-pantry",
-        "name": "Unknown Group",
+        "name": "st-sabina-pantry",
         "location_name": "",
         "address": "1120 W 79th St",
         "verification_status": "UNCERTAIN",
@@ -138,7 +138,7 @@
       },
       "properties": {
         "group_id": "chinese-mutual-aid",
-        "name": "Unknown Group",
+        "name": "chinese-mutual-aid",
         "location_name": "",
         "address": "1016 W Argyle St",
         "verification_status": "UNCERTAIN",
@@ -156,7 +156,7 @@
       },
       "properties": {
         "group_id": "cvls",
-        "name": "Unknown Group",
+        "name": "cvls",
         "location_name": "",
         "address": "33 N Dearborn St",
         "verification_status": "UNCERTAIN",
@@ -174,7 +174,7 @@
       },
       "properties": {
         "group_id": "garfield-park-cc",
-        "name": "Unknown Group",
+        "name": "garfield-park-cc",
         "location_name": "",
         "address": "300 N Central Park Ave",
         "verification_status": "UNCERTAIN",
@@ -192,7 +192,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "The Fridge on Marz",
         "address": "3630 S Iron St",
         "verification_status": "UNCERTAIN",
@@ -210,7 +210,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "The Kindness Korner",
         "address": "11201 S Ave G",
         "verification_status": "UNCERTAIN",
@@ -228,7 +228,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "The Love Shack",
         "address": "2751 W 21st St",
         "verification_status": "UNCERTAIN",
@@ -246,7 +246,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "BInk Food Bank",
         "address": "3206 W Armitage Ave",
         "verification_status": "UNCERTAIN",
@@ -264,7 +264,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Comida Para el Pueblo",
         "address": "1855 S Blue Island Ave",
         "verification_status": "UNCERTAIN",
@@ -282,7 +282,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Getting Grown Collective",
         "address": "6344 S Morgan St",
         "verification_status": "UNCERTAIN",
@@ -300,7 +300,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Good Neighbor Love Fridge",
         "address": "6601 S Pulaski Rd",
         "verification_status": "UNCERTAIN",
@@ -318,7 +318,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Sacred Keepers Love Fridge",
         "address": "4445 S King Dr",
         "verification_status": "UNCERTAIN",
@@ -336,7 +336,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "South Shore Love Fridge",
         "address": "2465 E 74th St",
         "verification_status": "UNCERTAIN",
@@ -354,7 +354,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Star Farm Love Fridge",
         "address": "5155 S Wolcott Ave",
         "verification_status": "UNCERTAIN",
@@ -372,7 +372,7 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "Unknown Group",
+        "name": "love-fridge-chicago",
         "location_name": "Stone Temple Fridge",
         "address": "3622 W Douglas Blvd",
         "verification_status": "UNCERTAIN",
@@ -384,14 +384,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65106420781956,
-          41.829411603709545
+          -87.65168898374051,
+          41.83060551135083
         ]
       },
       "properties": {
         "group_id": "urban-growers-collective",
         "name": "Urban Growers Collective",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Bridgeport/Armour",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -402,14 +402,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59474418144389,
-          41.77631514509176
+          -87.59129002701923,
+          41.77547274917525
         ]
       },
       "properties": {
         "group_id": "southside-nature-play",
         "name": "Southside Nature Play",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Woodlawn",
         "verification_status": "LIKELY_ACTIVE",
         "category": "Environmental & Green Space"
@@ -420,14 +420,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6162499014945,
-          41.823384366497464
+          -87.61733559942087,
+          41.82391978862465
         ]
       },
       "properties": {
         "group_id": "lake-meadows-park-advisory-council",
         "name": "Lake Meadows Park Advisory Council",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Bronzeville",
         "verification_status": "UNCERTAIN",
         "category": "Environmental & Green Space"
@@ -438,14 +438,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6188633783115,
-          41.824051978480796
+          -87.61905172105952,
+          41.82320794657826
         ]
       },
       "properties": {
-        "group_id": "mouse-arts--letters-social-club",
+        "group_id": "mouse-arts-letters-social-club",
         "name": "Mouse Arts & Letters Social Club",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Bronzeville",
         "verification_status": "UNCERTAIN",
         "category": "Arts & Culture"
@@ -456,14 +456,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7090602630454,
-          41.94042150390843
+          -87.70913803460928,
+          41.942589477104356
         ]
       },
       "properties": {
         "group_id": "avondale-mutual-aid",
         "name": "Avondale Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Avondale",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -474,14 +474,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66058592234394,
-          41.990072414211234
+          -87.65817072570675,
+          41.98992343331554
         ]
       },
       "properties": {
         "group_id": "edgewater-mutual-aid-eman",
         "name": "Edgewater Mutual Aid (EMAN)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Edgewater",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -492,14 +492,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68849830681438,
-          42.04677026863002
+          -87.69007437199788,
+          42.044935821951675
         ]
       },
       "properties": {
         "group_id": "evanston-community-fridges",
         "name": "Evanston Community Fridges",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Evanston",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -510,14 +510,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.70885489568104,
-          41.92001635126084
+          -87.7069312232917,
+          41.9238239390995
         ]
       },
       "properties": {
         "group_id": "logan-square-mutual-aid",
         "name": "Logan Square Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Logan Square",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -528,14 +528,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66006382558845,
-          41.852375559962226
+          -87.663283815134,
+          41.855379353807166
         ]
       },
       "properties": {
         "group_id": "pilsen-solidarity-network",
         "name": "Pilsen Solidarity Network",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Pilsen",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -546,14 +546,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7652657308761,
-          41.90145484712196
+          -87.76392556702733,
+          41.8970757767006
         ]
       },
       "properties": {
         "group_id": "westside-mutual-aid",
         "name": "Westside Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Austin",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -564,14 +564,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72782895501106,
-          41.96762926176935
+          -87.72545296524216,
+          41.96888315083808
         ]
       },
       "properties": {
         "group_id": "albany-park-mutual-aid",
         "name": "Albany Park Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Albany Park",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -582,14 +582,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72070115566366,
-          41.89801838394786
+          -87.71969815147736,
+          41.90110923874823
         ]
       },
       "properties": {
         "group_id": "hp-solidarity-network",
         "name": "HP Solidarity Network",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Humboldt Park",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -600,14 +600,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72495143499832,
-          41.956804585150664
+          -87.72401783995906,
+          41.95234627037406
         ]
       },
       "properties": {
         "group_id": "irving-park-mutual-aid",
         "name": "Irving Park Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Irving Park",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -618,14 +618,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.75562199951867,
-          41.97059107973802
+          -87.75251837756169,
+          41.970016037037375
         ]
       },
       "properties": {
         "group_id": "mayfair-mutual-aid",
         "name": "Mayfair Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Mayfair",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -636,14 +636,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66219014426599,
-          41.998912243896186
+          -87.66472004118152,
+          41.997926457588775
         ]
       },
       "properties": {
         "group_id": "po-box-collective",
         "name": "PO Box Collective",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Rogers Park",
         "verification_status": "VERIFIED",
         "category": "Social Justice"
@@ -654,14 +654,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62167432279742,
-          41.75876797475953
+          -87.62013911234708,
+          41.75802944215786
         ]
       },
       "properties": {
         "group_id": "southside-together",
         "name": "Southside Together",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "South Side",
         "verification_status": "VERIFIED",
         "category": "Social Justice"
@@ -672,14 +672,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74238253176834,
-          41.883621117611504
+          -87.73773777288862,
+          41.882825858743686
         ]
       },
       "properties": {
         "group_id": "southwest-collective",
         "name": "Southwest Collective",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Southwest Side",
         "verification_status": "VERIFIED",
         "category": "Community Advocacy"
@@ -690,14 +690,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62222190418328,
-          41.75906467513282
+          -87.6221928406085,
+          41.76058045312751
         ]
       },
       "properties": {
         "group_id": "brave-space-alliance",
         "name": "Brave Space Alliance",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "South Side",
         "verification_status": "VERIFIED",
         "category": "Healthcare & Wellness"
@@ -708,14 +708,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61850673770904,
-          41.75921658226946
+          -87.61996373931984,
+          41.761714536951494
         ]
       },
       "properties": {
         "group_id": "chicago-united-solidarity-project-cusp",
         "name": "Chicago United Solidarity Project (CUSP)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "South Side",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -726,14 +726,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65761356405329,
-          41.97286369032068
+          -87.65657748166856,
+          41.97128252230033
         ]
       },
       "properties": {
         "group_id": "chinese-mutual-aid-association-cmaa",
         "name": "Chinese Mutual Aid Association (CMAA)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Uptown/Argyle",
         "verification_status": "VERIFIED",
         "category": "Migrant & Immigrant Support"
@@ -744,14 +744,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62196466794217,
-          41.75975412624824
+          -87.62039280540178,
+          41.761909531499114
         ]
       },
       "properties": {
         "group_id": "market-box-chicago",
         "name": "Market Box Chicago",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "South Side",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -762,14 +762,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65099090709177,
-          41.945173934060485
+          -87.64704960384582,
+          41.946004152966005
         ]
       },
       "properties": {
         "group_id": "lakeview-lincoln-park-mutual-aid",
         "name": "Lakeview/Lincoln Park Mutual Aid",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Lakeview",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -780,14 +780,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74053539005583,
-          41.88087283502715
+          -87.7392440368021,
+          41.880678577210396
         ]
       },
       "properties": {
         "group_id": "northwest-side-solidarity-network",
         "name": "Northwest Side Solidarity Network",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Northwest Side",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -798,14 +798,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66516564878019,
-          41.99641750594719
+          -87.6622822816934,
+          41.99588915243039
         ]
       },
       "properties": {
         "group_id": "one-northside",
         "name": "ONE Northside",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Rogers Park",
         "verification_status": "VERIFIED",
         "category": "Community Advocacy"
@@ -816,14 +816,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72020222734464,
-          41.880729604476926
+          -87.72050704173276,
+          41.88150571159216
         ]
       },
       "properties": {
         "group_id": "garfield-park-community-council",
         "name": "Garfield Park Community Council",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Garfield Park",
         "verification_status": "VERIFIED",
         "category": "Food Security / Community Development"
@@ -834,14 +834,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.73804644483104,
-          41.88163171593016
+          -87.7382870865658,
+          41.88384197419195
         ]
       },
       "properties": {
         "group_id": "john-walt-foundation",
         "name": "John Walt Foundation",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "West Side",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -852,14 +852,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.64689293076188,
-          41.94234638812139
+          -87.64910769172037,
+          41.94415268508302
         ]
       },
       "properties": {
         "group_id": "center-on-halsted",
         "name": "Center on Halsted",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Lakeview",
         "verification_status": "VERIFIED",
         "category": "LGBTQ+ Support"
@@ -870,14 +870,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7414425959971,
-          41.88166660635023
+          -87.74033672280873,
+          41.8804097713909
         ]
       },
       "properties": {
         "group_id": "chicago-environmental-justice-network-cejn",
         "name": "Chicago Environmental Justice Network (CEJN)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "South and West Sides",
         "verification_status": "VERIFIED",
         "category": "Environmental Justice"
@@ -888,14 +888,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74196355959418,
-          41.87977861570415
+          -87.74153143098549,
+          41.88141437808095
         ]
       },
       "properties": {
         "group_id": "sarah-s-inn",
         "name": "Sarah's Inn",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "West Side",
         "verification_status": "VERIFIED",
         "category": "Domestic Violence Support"
@@ -906,14 +906,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.76493690179127,
-          41.899055146861
+          -87.76579781715877,
+          41.8966358877977
         ]
       },
       "properties": {
         "group_id": "westside-community-development-collaboration",
         "name": "Westside Community Development Collaboration",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Austin",
         "verification_status": "VERIFIED",
         "category": "Community Development"
@@ -924,14 +924,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59389632361444,
-          41.79500451868277
+          -87.59495306534123,
+          41.795632086268846
         ]
       },
       "properties": {
         "group_id": "uchrp-u-of-chicago-harm-reduction-project",
         "name": "UCHRP (U of Chicago Harm Reduction Project)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Hyde Park / South Side",
         "verification_status": "VERIFIED",
         "category": "Harm Reduction"
@@ -942,14 +942,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65925140794758,
-          41.973312505354016
+          -87.65868281744063,
+          41.97264915052867
         ]
       },
       "properties": {
         "group_id": "american-indian-center-chicago",
         "name": "American Indian Center Chicago",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Uptown / Citywide",
         "verification_status": "VERIFIED",
         "category": "Indigenous Solidarity"
@@ -960,14 +960,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59626664077406,
-          41.79749822886268
+          -87.59763382082292,
+          41.79543458417293
         ]
       },
       "properties": {
         "group_id": "hyde-park-art-center",
         "name": "Hyde Park Art Center",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Hyde Park",
         "verification_status": "VERIFIED",
         "category": "Arts & Culture"
@@ -978,14 +978,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6218654458578,
-          41.691791599859634
+          -87.62248061855564,
+          41.693476202406565
         ]
       },
       "properties": {
         "group_id": "roseland-ceasefire",
         "name": "Roseland Ceasefire",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Roseland",
         "verification_status": "VERIFIED",
         "category": "Community Advocacy"
@@ -996,14 +996,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62434439199237,
-          41.693915893129336
+          -87.62089653711537,
+          41.69408999827021
         ]
       },
       "properties": {
         "group_id": "sheldon-heights-coc-food-pantry",
         "name": "Sheldon Heights CoC Food Pantry",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Roseland",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -1014,14 +1014,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66094695905764,
-          41.753530213355695
+          -87.66173243534465,
+          41.74948342740983
         ]
       },
       "properties": {
         "group_id": "st-sabina-church-food-pantry",
         "name": "St. Sabina Church Food Pantry",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Auburn Gresham",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -1032,14 +1032,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.69019713015673,
-          42.04610344700957
+          -87.68981540590983,
+          42.04614940473574
         ]
       },
       "properties": {
         "group_id": "evanston-community-cares",
         "name": "Evanston Community Cares",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Evanston",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -1050,14 +1050,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68795321772056,
-          42.04604956545202
+          -87.68721131595733,
+          42.04669523269412
         ]
       },
       "properties": {
         "group_id": "evanston-skokie-mutual-aid-network",
         "name": "Evanston/Skokie Mutual Aid Network",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Evanston",
         "verification_status": "VERIFIED",
         "category": "Mutual Aid - General"
@@ -1068,14 +1068,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62388254125494,
-          41.69097112595525
+          -87.62372117672145,
+          41.6931123947864
         ]
       },
       "properties": {
         "group_id": "greater-roseland-west-pullman-food-network",
         "name": "Greater Roseland West Pullman Food Network",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Roseland",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -1086,14 +1086,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66211473307662,
-          41.7519793141178
+          -87.66511993176638,
+          41.74945277464497
         ]
       },
       "properties": {
         "group_id": "target-area-development-corporation",
         "name": "Target Area Development Corporation",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Auburn Gresham",
         "verification_status": "VERIFIED",
         "category": "Food Security"
@@ -1104,14 +1104,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66297415227072,
-          41.751464066309985
+          -87.66405260677705,
+          41.74972168013901
         ]
       },
       "properties": {
         "group_id": "greater-auburn-gresham-development-corporation-gagdc",
         "name": "Greater Auburn Gresham Development Corporation (GAGDC)",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Auburn Gresham",
         "verification_status": "VERIFIED",
         "category": "Community Development"
@@ -1122,14 +1122,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6225550964338,
-          41.69391333918814
+          -87.62006490180897,
+          41.691601706487425
         ]
       },
       "properties": {
         "group_id": "youth-peace-center-of-roseland",
         "name": "Youth Peace Center of Roseland",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Roseland",
         "verification_status": "VERIFIED",
         "category": "Youth & Education"
@@ -1140,14 +1140,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62135163113479,
-          41.69402327883923
+          -87.62208171185897,
+          41.69170686360951
         ]
       },
       "properties": {
         "group_id": "peaceplayers-chicago",
         "name": "PeacePlayers Chicago",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Roseland",
         "verification_status": "VERIFIED",
         "category": "Youth & Education"
@@ -1158,14 +1158,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.5912076509576,
-          41.772637955701505
+          -87.59190444865371,
+          41.7762699153765
         ]
       },
       "properties": {
         "group_id": "southside-nature-play",
         "name": "Southside Nature Play",
-        "location_name": "Neighborhood Centroid",
+        "location_name": "Neighbourhood Centroid",
         "address": "Woodlawn",
         "verification_status": "LIKELY_ACTIVE",
         "category": "Environmental & Green Space"

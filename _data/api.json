@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T15:05:53.906333",
+  "generated_at": "2026-05-29T15:10:26.145543",
   "groups": [
     {
       "name": "Cooperation Racine",
@@ -133,7 +133,7 @@
       "last_verified_activity": "2024-06-01",
       "verification_evidence": "Instagram handle referenced in PDF. Search engine queries returned no results. Needs direct verification.",
       "source": "Baseline PDF",
-      "group_id": "mouse-arts--letters-social-club",
+      "group_id": "mouse-arts-letters-social-club",
       "is_urgent": false,
       "urgent_description": null,
       "donation_needs": [],
@@ -953,7 +953,7 @@
       "last_verified_activity": "2025-10-01",
       "verification_evidence": "Facebook page active with food distribution announcements. Serves western suburbs.",
       "source": "web_search",
-      "group_id": "berwyn-cicero-mutual-aid--ayuda-mutua",
+      "group_id": "berwyn-cicero-mutual-aid-ayuda-mutua",
       "is_urgent": false,
       "urgent_description": null,
       "donation_needs": [],
