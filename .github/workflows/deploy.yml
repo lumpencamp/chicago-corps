@@ -1,0 +1,34 @@
+name: Build and Deploy Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'chicago_mutual_aid_groups.csv'
+      - 'data/**'
+      - 'build.py'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Run Build Script (Geocoding & JSON generation)
+        run: python build.py
+        
+      - name: Commit built data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated build: update api.json and locations.geojson"
+          file_pattern: "_data/* data/locations.csv"
