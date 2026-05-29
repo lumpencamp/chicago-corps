@@ -195,5 +195,47 @@ def build_data():
     print(f"Built api.json ({len(groups)} groups)")
     print(f"Built locations.geojson ({len(features)} locations)")
 
+    # 6. Inject data inline into index.html so no fetch() is needed (works on GitHub Pages with no backend)
+    inject_into_html(groups, geojson)
+    print("Injected data into index.html")
+
+
+def inject_into_html(groups, geojson):
+    html_file = Path("index.html")
+    if not html_file.exists():
+        print("  index.html not found, skipping injection")
+        return
+
+    with open(html_file, "r", encoding="utf-8") as f:
+        html = f.read()
+
+    groups_json = json.dumps(groups, ensure_ascii=False)
+    geojson_str = json.dumps(geojson, ensure_ascii=False)
+    generated = datetime.now().isoformat()
+
+    injection = (
+        f"window.CHICAGO_CORPS_DATA = {{\n"
+        f"  generated_at: '{generated}',\n"
+        f"  groups: {groups_json},\n"
+        f"  geojson: {geojson_str}\n"
+        f"}};"
+    )
+
+    start_marker = "/* DATA_INJECTION_START */"
+    end_marker = "/* DATA_INJECTION_END */"
+
+    if start_marker in html and end_marker in html:
+        before = html.split(start_marker)[0]
+        after = html.split(end_marker)[1]
+        html = f"{before}{start_marker}\n{injection}\n{end_marker}{after}"
+    else:
+        # Append a script tag before </body>
+        script_block = f"\n<script>\n{start_marker}\n{injection}\n{end_marker}\n</script>\n"
+        html = html.replace("</body>", script_block + "</body>")
+
+    with open(html_file, "w", encoding="utf-8") as f:
+        f.write(html)
+
+
 if __name__ == "__main__":
     build_data()
