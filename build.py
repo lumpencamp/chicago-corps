@@ -201,6 +201,7 @@ def build_data():
 
 
 def inject_into_html(groups, geojson):
+    import re
     html_file = Path("index.html")
     if not html_file.exists():
         print("  index.html not found, skipping injection")
@@ -209,32 +210,42 @@ def inject_into_html(groups, geojson):
     with open(html_file, "r", encoding="utf-8") as f:
         html = f.read()
 
+    # Strip any existing injected data block (the whole <script> tag we added)
+    html = re.sub(
+        r'\n<script>\s*/\* DATA_INJECTION_START \*/.*?/\* DATA_INJECTION_END \*/\s*</script>\n',
+        '',
+        html,
+        flags=re.DOTALL
+    )
+
     groups_json = json.dumps(groups, ensure_ascii=False)
     geojson_str = json.dumps(geojson, ensure_ascii=False)
     generated = datetime.now().isoformat()
 
-    injection = (
+    script_block = (
+        "\n<script>\n"
+        "/* DATA_INJECTION_START */\n"
         f"window.CHICAGO_CORPS_DATA = {{\n"
         f"  generated_at: '{generated}',\n"
         f"  groups: {groups_json},\n"
         f"  geojson: {geojson_str}\n"
-        f"}};"
+        f"}};\n"
+        "/* DATA_INJECTION_END */\n"
+        "</script>\n"
     )
 
-    start_marker = "/* DATA_INJECTION_START */"
-    end_marker = "/* DATA_INJECTION_END */"
-
-    if start_marker in html and end_marker in html:
-        before = html.split(start_marker)[0]
-        after = html.split(end_marker)[1]
-        html = f"{before}{start_marker}\n{injection}\n{end_marker}{after}"
+    # Insert BEFORE the first inline <script> tag (no src=) so data exists when init() runs
+    match = re.search(r'\n<script>(?!\s*src)', html)
+    if match:
+        pos = match.start()
+        html = html[:pos] + script_block + html[pos:]
     else:
-        # Append a script tag before </body>
-        script_block = f"\n<script>\n{start_marker}\n{injection}\n{end_marker}\n</script>\n"
         html = html.replace("</body>", script_block + "</body>")
 
     with open(html_file, "w", encoding="utf-8") as f:
         f.write(html)
+
+
 
 
 if __name__ == "__main__":
