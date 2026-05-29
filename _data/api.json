@@ -1,0 +1,2115 @@
+{
+  "generated_at": "2026-05-29T14:51:36.250649",
+  "groups": [
+    {
+      "name": "Cooperation Racine",
+      "category": "Worker Co-ops & Economic Justice",
+      "neighborhood": "Englewood",
+      "description": "Artist-owned Limited Worker Cooperative Association. Woodworking, public art, activism, community workshops.",
+      "website": "https://cooperationracine.com/",
+      "social_media": "https://www.instagram.com/cooperation.racine/",
+      "contact_info": "Andrea Yarbrough",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-12-22",
+      "verification_evidence": "Instagram post Dec 22 2025 (122 likes). Chicago Reader feature. CCWBE profile. Squarespace site live.",
+      "source": "Baseline PDF + web_search",
+      "group_id": "cooperation-racine",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Bridgeport Alliance",
+      "category": "Community Advocacy",
+      "neighborhood": "Bridgeport/Armour",
+      "description": "Grassroots organization of residents and institutions committed to community decision-making, responsive government, and quality of life. Monthly meetings last Thursday at 7pm.",
+      "website": "https://actionnetwork.org/groups/bridgeport-alliance",
+      "social_media": "https://www.instagram.com/bridgeportalliance/ https://linktr.ee/BridgeportAlliance",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-11-01",
+      "verification_evidence": "Action Network page live. Facebook 1,546 likes. Instagram 1,395 followers, 95 posts. Monthly meetings ongoing.",
+      "source": "Baseline PDF + web_search + fetch_url",
+      "group_id": "bridgeport-alliance",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Urban Growers Collective",
+      "category": "Food Security",
+      "neighborhood": "Bridgeport/Armour",
+      "description": "Black- and women-led nonprofit urban farm cultivating 8 farms on 41 acres. Food growing, health, economic development, healing, job training for youth. Volunteer opportunities listed.",
+      "website": "https://www.urbangrowerscollective.org/",
+      "social_media": "https://www.facebook.com/100064405827170/",
+      "contact_info": "Malik / info@urbangrowerscollective.org",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Squarespace website live. Facebook page active. 501(c)(3) nonprofit. Volunteer opportunities page.",
+      "source": "Baseline PDF + web_search + fetch_url",
+      "group_id": "urban-growers-collective",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Southside Nature Play",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Woodlawn",
+      "description": "Black woman-led environmental education collective. Family-centered outdoor education co-op.",
+      "website": "https://docs.google.com/forms/",
+      "social_media": "https://www.instagram.com/southsidenatureplay/",
+      "contact_info": "",
+      "verification_status": "LIKELY_ACTIVE",
+      "last_verified_activity": "2025-06-01",
+      "verification_evidence": "Instagram 1,568 followers, 59 posts. Facebook 80 likes. findglocal 2025 listing.",
+      "source": "Baseline PDF + web_search",
+      "group_id": "southside-nature-play",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Community Food Navigator",
+      "category": "Food Security",
+      "neighborhood": "Citywide",
+      "description": "Hub for knowledge in the growing food community. Designed by and for food growers.",
+      "website": "https://communityfoodnavigator.org/",
+      "social_media": "https://www.instagram.com/communityfoodnavigator/",
+      "contact_info": "",
+      "verification_status": "LIKELY_ACTIVE",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "WordPress site live (WP Engine hosted). Instagram account referenced in baseline PDF.",
+      "source": "Baseline PDF + fetch_url",
+      "group_id": "community-food-navigator",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Lake Meadows Park Advisory Council",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Bronzeville",
+      "description": "Citizen council overseeing Lake Meadows Park. Works with Chicago Park District on landscaping volunteer projects.",
+      "website": "https://www.chicagoparkdistrict.com/",
+      "social_media": "https://www.facebook.com/LakeMeadowsPAC/",
+      "contact_info": "Angela Higginbottom / lakemeadowspac@gmail.com",
+      "verification_status": "UNCERTAIN",
+      "last_verified_activity": "2024-06-01",
+      "verification_evidence": "Facebook page exists but only 1 like, 77 check-ins. Official Park District advisory council structure exists.",
+      "source": "Baseline PDF + web_search",
+      "group_id": "lake-meadows-park-advisory-council",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Mouse Arts & Letters Social Club",
+      "category": "Arts & Culture",
+      "neighborhood": "Bronzeville",
+      "description": "Social club offering free public programming on journalism, literature, film, music, language exchange, ecology, and history. 555 W 31st St, Chicago IL 60616.",
+      "website": "https://mouseartsandletters.com/",
+      "social_media": "https://www.instagram.com/mouseartsandletters/",
+      "contact_info": "",
+      "verification_status": "UNCERTAIN",
+      "last_verified_activity": "2024-06-01",
+      "verification_evidence": "Instagram handle referenced in PDF. Search engine queries returned no results. Needs direct verification.",
+      "source": "Baseline PDF",
+      "group_id": "mouse-arts--letters-social-club",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Scuttle Chicago",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Citywide",
+      "description": "Grassroots collective coordinating mutual aid and community support initiatives. Direct assistance, resource sharing, solidarity networks.",
+      "website": "",
+      "social_media": "https://www.instagram.com/scuttlechicago/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "scuttle-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Avondale Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Avondale",
+      "description": "All-volunteer group providing mutual aid support in Avondale neighborhood.",
+      "website": "",
+      "social_media": "https://www.instagram.com/avondalemutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "avondale-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Edgewater Mutual Aid (EMAN)",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Edgewater",
+      "description": "Abolitionist Mutual Aid Network in Edgewater. Community support and solidarity organizing.",
+      "website": "https://linktr.ee/edgewatermutualaid",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Linktree active.",
+      "source": "Organize Directory",
+      "group_id": "edgewater-mutual-aid-eman",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Evanston Community Fridges",
+      "category": "Food Security",
+      "neighborhood": "Evanston",
+      "description": "Food-based mutual aid project led by the community for the community. Free community fridges.",
+      "website": "",
+      "social_media": "https://www.instagram.com/evanstoncommunityfridges/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "evanston-community-fridges",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Mutual Aid Dawning",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Chicago Suburbs",
+      "description": "Mutual aid collective building liberation culture and projects in the suburbs of Chicago.",
+      "website": "https://mutualaiddawning.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website link active.",
+      "source": "Organize Directory",
+      "group_id": "mutual-aid-dawning",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Logan Square Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Logan Square",
+      "description": "Making helping one another easy. Community support, resource sharing in Logan Square.",
+      "website": "https://logansquaremutualaid.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website link active.",
+      "source": "Organize Directory",
+      "group_id": "logan-square-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Pilsen Solidarity Network",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Pilsen",
+      "description": "Neighbor to neighbor mutual aid in Pilsen.",
+      "website": "https://pilsenmutualaid.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website link active.",
+      "source": "Organize Directory",
+      "group_id": "pilsen-solidarity-network",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Westside Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Austin, East Garfield Park, North Lawndale, West Garfield Park, West Loop",
+      "description": "Mutual aid network across West Side neighborhoods.",
+      "website": "",
+      "social_media": "https://www.instagram.com/westsidemutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory. Instagram 1,409 followers, 80 posts. Active.",
+      "source": "Organize Directory",
+      "group_id": "westside-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Albany Park Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Albany Park",
+      "description": "Supporting neighbors in need with groceries, household supplies, diapers, and resource referrals.",
+      "website": "",
+      "social_media": "https://www.instagram.com/albanyparkmutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "albany-park-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "HP Solidarity Network",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Humboldt Park",
+      "description": "Neighbors helping neighbors in Humboldt Park.",
+      "website": "",
+      "social_media": "https://www.instagram.com/hpsolidaritynetwork/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "hp-solidarity-network",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "West Town Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Ukrainian Village, Bucktown, Wicker Park",
+      "description": "All-volunteer grassroots group operating in West Town neighborhoods.",
+      "website": "",
+      "social_media": "https://www.instagram.com/westtownmutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "west-town-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Irving Park Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Irving Park",
+      "description": "Working to provide support and relief to neighbors in Irving Park impacted by crisis.",
+      "website": "",
+      "social_media": "https://www.instagram.com/irvingparkmutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "irving-park-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Mayfair Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Mayfair",
+      "description": "Neighbors helping with grocery/medicine delivery, cash assistance for rent/bills, resource sharing.",
+      "website": "https://mayfairmutualaid.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "mayfair-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Food Not Bombs Chicago",
+      "category": "Food Security",
+      "neighborhood": "Citywide",
+      "description": "Sharing free vegan and vegetarian meals with anyone who is hungry.",
+      "website": "https://foodnotbombs.net/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory. Active chapter of international network.",
+      "source": "Organize Directory",
+      "group_id": "food-not-bombs-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "PO Box Collective",
+      "category": "Social Justice",
+      "neighborhood": "Rogers Park",
+      "description": "Grassroots community space fostering mutual aid and radical education through art, workshops, and collective organizing.",
+      "website": "https://poboxcollective.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with detailed description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "po-box-collective",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "CAARP",
+      "category": "Social Justice",
+      "neighborhood": "Citywide",
+      "description": "Chicago Alliance Against Racist and Political Repression. Anti-racist organizing and political advocacy. Community defense and solidarity networks.",
+      "website": "https://caarpr.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "caarp",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Let Us Breathe Collective",
+      "category": "Social Justice",
+      "neighborhood": "Citywide",
+      "description": "Black-led organization fostering mutual aid through cultural organizing and abolitionist movement building. Arts activism, transformative justice.",
+      "website": "https://letusbreathecollective.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "let-us-breathe-collective",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Southside Together",
+      "category": "Social Justice",
+      "neighborhood": "South Side",
+      "description": "Grassroots collective fostering mutual aid and community power through neighborhood organizing on Chicago's South Side.",
+      "website": "",
+      "social_media": "https://www.instagram.com/southsidetogether/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Instagram link active.",
+      "source": "Organize Directory",
+      "group_id": "southside-together",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Southwest Collective",
+      "category": "Community Advocacy",
+      "neighborhood": "Southwest Side",
+      "description": "Breaking down barriers and building up communities on Chicago's southwest side.",
+      "website": "https://southwestcollective.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "southwest-collective",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Brave Space Alliance",
+      "category": "Healthcare & Wellness",
+      "neighborhood": "South Side",
+      "description": "Black-led, trans-led LGBTQ+ center. Direct support services, resource distribution, trans mutual aid programs, community organizing.",
+      "website": "https://bravespacealliance.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with detailed description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "brave-space-alliance",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Abortion Fund",
+      "category": "Healthcare & Wellness",
+      "neighborhood": "Citywide",
+      "description": "Mutual aid organization providing financial, logistical, and emotional support to people seeking abortion care in Chicago and Illinois.",
+      "website": "https://chicagoabortionfund.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "chicago-abortion-fund",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Action Medical",
+      "category": "Healthcare & Wellness",
+      "neighborhood": "Citywide",
+      "description": "Collective of street medics providing direct action medical support. Emergency care at protests, medical training workshops.",
+      "website": "https://chicagoactionmedical.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "chicago-action-medical",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "AIDS Foundation Chicago",
+      "category": "Healthcare & Wellness",
+      "neighborhood": "Citywide",
+      "description": "HIV/AIDS support and health justice. Direct services, resource sharing, community health initiatives.",
+      "website": "https://aidschicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "aids-foundation-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Support Ho(s)e",
+      "category": "Healthcare & Wellness",
+      "neighborhood": "Citywide",
+      "description": "Collective of sex workers and allies providing mutual aid, harm reduction, and community support.",
+      "website": "https://sxhxcollective.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed on Organize Directory with description. Website active.",
+      "source": "Organize Directory",
+      "group_id": "support-ho-s-e",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Housing Justice Coalition",
+      "category": "Housing Justice",
+      "neighborhood": "Citywide",
+      "description": "Coalition of 60+ grassroots groups fighting for housing justice. Focus on renters, those facing discrimination due to race, gender, immigration status, disability.",
+      "website": "https://www.chihousingjustice.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-05-01",
+      "verification_evidence": "Website referenced in multiple sources. Member of Chicago Tenants Movement network. Housing ordinance advocacy active 2025.",
+      "source": "web_search",
+      "group_id": "chicago-housing-justice-coalition",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Coalition to End Homelessness",
+      "category": "Housing Justice",
+      "neighborhood": "Citywide",
+      "description": "Works to prevent and end homelessness across Chicago and Illinois. Housing is a human right.",
+      "website": "https://chicagohomeless.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "WordPress site live. Long-established nonprofit. Active advocacy work.",
+      "source": "web_search + fetch_url",
+      "group_id": "chicago-coalition-to-end-homelessness",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Tenants Movement",
+      "category": "Housing Justice",
+      "neighborhood": "Citywide",
+      "description": "Collaborative network of tenant organizations and housing organizers. Helps renters build democratic tenant unions as mutual aid and solidarity networks.",
+      "website": "https://chicagotenants.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "WordPress site live. Active tenant organizing. Referenced in housing justice news coverage 2025.",
+      "source": "web_search + fetch_url",
+      "group_id": "chicago-tenants-movement",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "MAMAS (Mothering is Radical)",
+      "category": "Prison Abolition & Solidarity",
+      "neighborhood": "Citywide",
+      "description": "Feminist of color reproductive justice collective. Dismantling systems of state violence including prisons, war, colonization. Mutual care among mother-survivors.",
+      "website": "https://www.motheringisradical.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active organization referenced in prison abolition resources.",
+      "source": "web_search",
+      "group_id": "mamas-mothering-is-radical",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago United Solidarity Project (CUSP)",
+      "category": "Mutual Aid - General",
+      "neighborhood": "South Side",
+      "description": "Radical and holistic systems of care meeting basic needs. Mutual aid with reparative lens. Partners with grassroots projects on South Side.",
+      "website": "https://www.cuspchicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Squarespace website live. Active mutual aid programs referenced in multiple sources.",
+      "source": "web_search + fetch_url",
+      "group_id": "chicago-united-solidarity-project-cusp",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chinese Mutual Aid Association (CMAA)",
+      "category": "Migrant & Immigrant Support",
+      "neighborhood": "Uptown/Argyle",
+      "description": "Adult education, citizenship and immigration help, youth programs. Serves low-income immigrants and refugees. Volunteer opportunities.",
+      "website": "https://www.chinesemutualaid.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Wix website live. Referenced in Block Club Give Local 2025. Active youth programs.",
+      "source": "web_search + fetch_url",
+      "group_id": "chinese-mutual-aid-association-cmaa",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "ICIRR (Illinois Coalition for Immigrant and Refugee Rights)",
+      "category": "Migrant & Immigrant Support",
+      "neighborhood": "Statewide/Chicago",
+      "description": "Partners with 60+ nonprofit organizations providing services throughout Illinois. Immigration advocacy, resource connection.",
+      "website": "https://www.icirr.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Major statewide coalition. Active 2025 advocacy work.",
+      "source": "web_search",
+      "group_id": "icirr-illinois-coalition-for-immigrant-and-refugee-rights",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "MIRA Chicago (Middle Eastern Immigrant and Refugee Alliance)",
+      "category": "Migrant & Immigrant Support",
+      "neighborhood": "Citywide",
+      "description": "Founded by Iraqi refugees. Supports Middle Eastern immigrants and refugees with resettlement, legal aid referrals, health care access.",
+      "website": "https://mirachicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active refugee resettlement work. Referenced in state resource directories.",
+      "source": "web_search",
+      "group_id": "mira-chicago-middle-eastern-immigrant-and-refugee-alliance",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "The Love Fridge Chicago",
+      "category": "Food Security",
+      "neighborhood": "Citywide (25+ locations)",
+      "description": "Food-based mutual aid with 25+ community refrigerators across Chicago. Each painted by local artists. Take-what-you-need, leave-what-you-can.",
+      "website": "https://www.thelovefridge.com/",
+      "social_media": "https://www.facebook.com/thelovefridge/ https://linktr.ee/thelovefridgechicago",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-03-17",
+      "verification_evidence": "Facebook post Mar 17 2026. Squarespace site live. Wikipedia article. Mapped Chicago profile. 25+ active fridges citywide.",
+      "source": "web_search + fetch_url",
+      "group_id": "the-love-fridge-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Market Box Chicago",
+      "category": "Food Security",
+      "neighborhood": "South Side",
+      "description": "Mutual aid project sourcing food from small farms and distributing it for free across the South Side of Chicago.",
+      "website": "https://marketboxchi.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-11-01",
+      "verification_evidence": "Netlify site live. Featured on City Cast Chicago podcast Nov 2025.",
+      "source": "web_search + fetch_url",
+      "group_id": "market-box-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Lakeview/Lincoln Park Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Lakeview, Lincoln Park",
+      "description": "All-volunteer grassroots group. Pro-active resource sharing, supply delivery, emotional support. East Lakeview and West Lakeview to Lincoln Park.",
+      "website": "https://sites.google.com/view/llma/home",
+      "social_media": "https://www.facebook.com/groups/628855154340974/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Google Sites page live. Facebook group active. Referenced in mutual aid roundups.",
+      "source": "web_search",
+      "group_id": "lakeview-lincoln-park-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Northwest Side Solidarity Network",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Northwest Side",
+      "description": "Works in solidarity with mutual aid groups throughout Chicago. Monthly free food pop-up with fresh produce, dairy, dried and canned goods.",
+      "website": "https://www.northwestsidesolidarity.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Squarespace website live. Active food distribution program. Monthly pop-up events.",
+      "source": "web_search + fetch_url",
+      "group_id": "northwest-side-solidarity-network",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "ONE Northside",
+      "category": "Community Advocacy",
+      "neighborhood": "Rogers Park, Edgewater, Uptown, Ravenswood, North Center, Lake View, Lincoln Park",
+      "description": "Mixed-income, multi-ethnic, intergenerational organization. Builds collective power through community organizing. Housing justice focus.",
+      "website": "https://www.onenorthside.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-05-01",
+      "verification_evidence": "Active housing justice campaigns 2025. Green Social Housing Ordinance advocacy. Referenced in news coverage.",
+      "source": "web_search",
+      "group_id": "one-northside",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "19th Ward Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Mount Greenwood, Morgan Park, Beverly",
+      "description": "Neighborhood-based mutual aid serving the southwest side 19th Ward communities.",
+      "website": "",
+      "social_media": "https://www.facebook.com/groups/ (Chicagoland Mutual Aid list)",
+      "contact_info": "",
+      "verification_status": "LIKELY_ACTIVE",
+      "last_verified_activity": "2025-01-28",
+      "verification_evidence": "Referenced in Chicagoland Mutual Aid Group List Facebook post Jan 28 2025.",
+      "source": "web_search",
+      "group_id": "19th-ward-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Garfield Park Community Council",
+      "category": "Food Security / Community Development",
+      "neighborhood": "Garfield Park",
+      "description": "Farmers market with hyper-local produce grown in community gardens. Community development on Chicago's West Side.",
+      "website": "https://www.gpcommunitycouncil.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Farmers market program active. Community garden network.",
+      "source": "web_search",
+      "group_id": "garfield-park-community-council",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "John Walt Foundation",
+      "category": "Food Security",
+      "neighborhood": "West Side",
+      "description": "Feed the Westside program. Food distribution serving Garfield Park, Lawndale, Humboldt Park, West Town. Benefits hundreds of Cook County residents monthly.",
+      "website": "https://www.johnwaltfoundation.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active food distribution program. Weekly Saturday distributions.",
+      "source": "web_search",
+      "group_id": "john-walt-foundation",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Berwyn Cicero Mutual Aid / Ayuda Mutua",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Berwyn, Cicero",
+      "description": "Food distributions serving Berwyn and Cicero communities. First come, first serve basis.",
+      "website": "",
+      "social_media": "https://www.facebook.com/bcmutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Facebook page active with food distribution announcements. Serves western suburbs.",
+      "source": "web_search",
+      "group_id": "berwyn-cicero-mutual-aid--ayuda-mutua",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Center on Halsted",
+      "category": "LGBTQ+ Support",
+      "neighborhood": "Lakeview",
+      "description": "Midwest's most comprehensive LGBTQ+ community center. Mental health, gender-affirming care, trauma services, violence survivor assistance.",
+      "website": "https://www.centeronhalsted.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Major LGBTQ+ institution. Referenced in multiple LGBTQ+ resource guides.",
+      "source": "web_search",
+      "group_id": "center-on-halsted",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Environmental Justice Network (CEJN)",
+      "category": "Environmental Justice",
+      "neighborhood": "South and West Sides",
+      "description": "Led by frontline community-based organizations, mostly women of color. Addresses environmental and health disparities from pollution.",
+      "website": "https://www.chicagoejn.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-01-01",
+      "verification_evidence": "Website live. findglocal 2026 listing. Coalition of neighborhood-based grassroots EJ organizations.",
+      "source": "web_search",
+      "group_id": "chicago-environmental-justice-network-cejn",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "350 Chicago",
+      "category": "Environmental Justice",
+      "neighborhood": "Citywide",
+      "description": "Local chapter of 350.org. Climate action organizing. Attended 2026 Climate Action Hero Awards.",
+      "website": "https://www.350chicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-01-01",
+      "verification_evidence": "Website live. Active 2026 events. Climate action organizing.",
+      "source": "web_search",
+      "group_id": "350-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Between Friends",
+      "category": "Domestic Violence Support",
+      "neighborhood": "Citywide",
+      "description": "Crisis intervention and support services for domestic violence survivors and their children. 24-hour crisis line, court advocacy, counseling.",
+      "website": "https://betweenfriendschicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Established domestic violence agency. Referenced in city resource directories.",
+      "source": "web_search",
+      "group_id": "between-friends",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "WINGS Program",
+      "category": "Domestic Violence Support",
+      "neighborhood": "Citywide, Suburban",
+      "description": "Provides victims of domestic violence and their children with 155 safe housing options in and around Chicagoland.",
+      "website": "https://wingsprogram.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Major housing provider for DV survivors. Referenced in state resource directories.",
+      "source": "web_search",
+      "group_id": "wings-program",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Sarah's Inn",
+      "category": "Domestic Violence Support",
+      "neighborhood": "West Side, Near West Suburbs",
+      "description": "Immediate confidential support to survivors of domestic violence. 24-hour crisis line, emergency shelter navigation, advocacy, safety planning.",
+      "website": "https://sarahsinn.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. 24-hour crisis line. Referenced in city/state DV resource directories.",
+      "source": "web_search",
+      "group_id": "sarah-s-inn",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "The Village Chicago",
+      "category": "Senior & Elder Support",
+      "neighborhood": "Citywide (Lincoln Park based)",
+      "description": "Programs enriching members' lives: health and wellness, social connections, brain health, intergenerational activities, lifelong learning, volunteering.",
+      "website": "https://thevillagechicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active membership organization. Referenced in senior resource guides.",
+      "source": "web_search",
+      "group_id": "the-village-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Youth Programs (CYP)",
+      "category": "Youth & Education",
+      "neighborhood": "Citywide",
+      "description": "Pursues equity and access for youth. After-school and community programs. Volunteer opportunities for tutors and mentors.",
+      "website": "https://chicagoyouthprograms.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active youth programming. Referenced in education resource listings.",
+      "source": "web_search",
+      "group_id": "chicago-youth-programs-cyp",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "After School Matters",
+      "category": "Youth & Education",
+      "neighborhood": "Citywide",
+      "description": "Programs for Chicago teens ages 14-18. Explore passions, learn new skills, earn money. Arts, STEM, sports, communications.",
+      "website": "https://afterschoolmatters.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. City-funded program. FY26 NOFO released Aug 2025. $18M program budget.",
+      "source": "web_search",
+      "group_id": "after-school-matters",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chatham-Avalon Ministries",
+      "category": "Food Security",
+      "neighborhood": "Chatham, South Side",
+      "description": "Food pantry at 8601 S State St. 501(c)(3) in partnership with Greater Chicago Food Depository. Serves 7 targeted underserved communities on South Side.",
+      "website": "https://www.idealist.org/en/nonprofit/3a5c8ea198ac42db8c2ba85bffbc0e42-chatham-avalon-ministries-inc-chicago",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Idealist profile active. Greater Chicago Food Depository partner. Established food pantry.",
+      "source": "web_search",
+      "group_id": "chatham-avalon-ministries",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Westside Community Development Collaboration",
+      "category": "Community Development",
+      "neighborhood": "Austin, East Garfield Park, West Garfield Park, North Lawndale, Humboldt Park, Hermosa",
+      "description": "Community building and development on Chicago's West Side. Established 2020.",
+      "website": "https://wcdconline.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active community development work across multiple West Side neighborhoods.",
+      "source": "web_search",
+      "group_id": "westside-community-development-collaboration",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Critical Resistance Chicago",
+      "category": "Prison Abolition & Solidarity",
+      "neighborhood": "Citywide",
+      "description": "Chapter of national prison abolition organization. Prisoner solidarity mail programs, political education, organizing against prison-industrial complex.",
+      "website": "https://criticalresistance.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "National website live. Prisoner mail programs referenced for Chicago area. Part of abolitionist network.",
+      "source": "web_search",
+      "group_id": "critical-resistance-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Recovery Alliance (CRA)",
+      "category": "Harm Reduction",
+      "neighborhood": "Citywide",
+      "description": "Racially and ethnically diverse group providing harm reduction services. People living with HIV and drug use, addiction treatment, healthcare, education.",
+      "website": "https://anypositivechange.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-08-27",
+      "verification_evidence": "WordPress site live. Active naloxone distribution. Referenced in Chicago Tribune Aug 2025 Narcan newsstand coverage.",
+      "source": "web_search + fetch_url",
+      "group_id": "chicago-recovery-alliance-cra",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "UCHRP (U of Chicago Harm Reduction Project)",
+      "category": "Harm Reduction",
+      "neighborhood": "Hyde Park / South Side",
+      "description": "Harm reduction interventions including naloxone distribution, drug-testing kits, overdose prevention. Empirically supported approach for reducing overdose deaths.",
+      "website": "https://www.uchrp.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Weebly site live. Active harm reduction programming. Referenced in CDPH harm reduction resources.",
+      "source": "web_search + fetch_url",
+      "group_id": "uchrp-u-of-chicago-harm-reduction-project",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "UIC Community Outreach Intervention Projects (COIP)",
+      "category": "Harm Reduction",
+      "neighborhood": "Citywide",
+      "description": "Needle exchange program. Allows injecting drug users to obtain hypodermic needles and associated paraphernalia at no cost.",
+      "website": "https://search.211illinois.org/search/9ad137b7-3e83-5169-9cd3-64c1b2273a9b",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Listed in Illinois 211 resource directory. Long-established UIC program.",
+      "source": "web_search",
+      "group_id": "uic-community-outreach-intervention-projects-coip",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "FGC Mobile Harm Reduction",
+      "category": "Harm Reduction",
+      "neighborhood": "Citywide / Statewide",
+      "description": "Mobile harm reduction programs distributing naloxone, safer use kits, drug testing strips, hygiene supplies. Direct connection to treatment when clients are ready.",
+      "website": "https://www.fgcinc.org/mobile-services-harm-reduction/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Mobile harm reduction services active statewide including Chicago.",
+      "source": "web_search",
+      "group_id": "fgc-mobile-harm-reduction",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Volunteer Legal Services (CVLS)",
+      "category": "Legal Aid & Community Law",
+      "neighborhood": "Citywide",
+      "description": "6+ decades of free legal aid for low-income Cook County residents. Adoption, divorce, foreclosure, landlord/tenant, and other civil cases.",
+      "website": "https://www.cvls.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "WordPress site live. Long-established pro bono organization. Referenced in county legal resource directories.",
+      "source": "web_search + fetch_url",
+      "group_id": "chicago-volunteer-legal-services-cvls",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Legal Aid Chicago",
+      "category": "Legal Aid & Community Law",
+      "neighborhood": "Citywide",
+      "description": "Free legal services to people living in poverty. Community-based legal clinics throughout Chicago. Partnerships with volunteer attorneys.",
+      "website": "https://legalaidchicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "WordPress site live. Active clinic schedule. Referenced in multiple legal resource directories.",
+      "source": "web_search + fetch_url",
+      "group_id": "legal-aid-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Greater Chicago Legal Clinic (GCLC)",
+      "category": "Legal Aid & Community Law",
+      "neighborhood": "Citywide",
+      "description": "Homelessness Advice and Representation Program (HARP). On-site legal aid clinics. Free legal services for people in housing crisis.",
+      "website": "https://www.gclclaw.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Squarespace site live. HARP program active. Referenced in housing justice and legal aid resources.",
+      "source": "web_search + fetch_url",
+      "group_id": "greater-chicago-legal-clinic-gclc",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Beyond Legal Aid",
+      "category": "Legal Aid & Community Law",
+      "neighborhood": "Citywide",
+      "description": "Community law offices providing legal services, activism support, and community empowerment programs across Chicago. Solidarity economy focus.",
+      "website": "https://www.beyondlegalaid.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-02-05",
+      "verification_evidence": "Squarespace site live. Community Enterprise and Solidarity Clinic featured in Resilience.org Feb 2025.",
+      "source": "web_search + fetch_url",
+      "group_id": "beyond-legal-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago American Indian Community Collaborative (CAICC)",
+      "category": "Indigenous Solidarity",
+      "neighborhood": "Citywide",
+      "description": "Collaborative of 15+ Native American organizations. Mutual aid, political support, leadership development. Advancing well-being of American Indians, Alaska Natives, Native Hawaiians, First Nations.",
+      "website": "https://chicagoaicc.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-06-16",
+      "verification_evidence": "Website live. 2025 Native American Summit organized. NPR Illinois coverage June 2025. Cause IQ profile.",
+      "source": "web_search",
+      "group_id": "chicago-american-indian-community-collaborative-caicc",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "American Indian Center Chicago",
+      "category": "Indigenous Solidarity",
+      "neighborhood": "Uptown / Citywide",
+      "description": "First urban Indian Center in the country (est. 1953). Year-round educational youth program. Free food to neighbors in need. Cultural preservation.",
+      "website": "https://aicchicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Referenced in Block Club Give Local 2025. Long-established community institution.",
+      "source": "web_search",
+      "group_id": "american-indian-center-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Artists Coalition",
+      "category": "Arts & Culture",
+      "neighborhood": "Citywide",
+      "description": "Two-year artist residency program. Supports emerging and mid-career Chicago artists and curators through access, resources, and community.",
+      "website": "https://www.chicagoartistscoalition.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Active residency program. Referenced in arts philanthropy coverage.",
+      "source": "web_search",
+      "group_id": "chicago-artists-coalition",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Hyde Park Art Center",
+      "category": "Arts & Culture",
+      "neighborhood": "Hyde Park",
+      "description": "Artist-run platforms fund. Supports self-organizing artists creating opportunities for visual artists. Diverse and experimental programs.",
+      "website": "https://www.hydeparkart.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Artists Run Chicago Fund active. Major South Side arts institution.",
+      "source": "web_search",
+      "group_id": "hyde-park-art-center",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Chicago Cultural Alliance",
+      "category": "Arts & Culture",
+      "neighborhood": "Citywide",
+      "description": "Active consortium of 40+ Chicago-area cultural heritage museums, centers, and historical societies.",
+      "website": "https://www.chicagoculturalalliance.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. Consortium of 40+ member organizations. Active cultural programming.",
+      "source": "web_search",
+      "group_id": "chicago-cultural-alliance",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Roseland Christian Ministries",
+      "category": "Food Security",
+      "neighborhood": "Roseland",
+      "description": "Food pantry, daily lunch, twice-weekly dinner serving Roseland community. Food pantry open Thursdays 9am-11am. Volunteer opportunities. 10858 S Michigan Ave.",
+      "website": "https://roselandchristianministries.org/",
+      "social_media": "https://www.facebook.com/ (findglocal listing)",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "findglocal 2025 listing. Active food pantry with volunteer page. Greater Chicago Food Depository partner.",
+      "source": "web_search",
+      "group_id": "roseland-christian-ministries",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Roseland Ceasefire",
+      "category": "Community Advocacy",
+      "neighborhood": "Roseland",
+      "description": "Community safety and food pantry serving Roseland. Food pantry giveaways. Boots on the ground violence prevention.",
+      "website": "",
+      "social_media": "https://www.facebook.com/roselandceasefirechicago/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-11-21",
+      "verification_evidence": "Facebook post Nov 21 2025: food pantry giveaway announcement. Active community safety programming.",
+      "source": "web_search",
+      "group_id": "roseland-ceasefire",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Sheldon Heights CoC Food Pantry",
+      "category": "Food Security",
+      "neighborhood": "Roseland",
+      "description": "Food pantry serving Roseland community for 40+ years. 11325 S Halsted. Healthy food options in safe, respectful environment.",
+      "website": "https://www.sheldonheights.com/food-pantry",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-01",
+      "verification_evidence": "Website live. 40+ year history. Active food pantry program.",
+      "source": "web_search",
+      "group_id": "sheldon-heights-coc-food-pantry",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "St. Sabina Church Food Pantry",
+      "category": "Food Security",
+      "neighborhood": "Auburn Gresham",
+      "description": "Food pantry at 1120 W 79th St serving 800+ people monthly. Fresh food, clothes, free case management and counseling. Reopened Oct 2024 after Catholic Charities closure.",
+      "website": "https://www.facebook.com/ (Block Club / Sun-Times coverage)",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2024-10-15",
+      "verification_evidence": "Block Club Chicago Oct 2024. ABC7 Chicago Oct 2024. Serves 800+ monthly. Active 2025.",
+      "source": "web_search",
+      "group_id": "st-sabina-church-food-pantry",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Belmont Cragin Mutual Aid (BCMA)",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Belmont Cragin",
+      "description": "All-volunteer mutual aid collective in Belmont Cragin. Formed early COVID pandemic. Neighbor-to-neighbor support, resource sharing.",
+      "website": "",
+      "social_media": "https://www.instagram.com/belmont_cragin_ma/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-14",
+      "verification_evidence": "Listed in State Rep. Will Guzzardi Mutual Aid Spotlight. Referenced in Block Club Chicago Oct 15 2025. Instagram 1,320 followers, 58 posts.",
+      "source": "Block Club Chicago, Rep. Guzzardi site, web_search",
+      "group_id": "belmont-cragin-mutual-aid-bcma",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Portage Park Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Portage Park",
+      "description": "Neighborhood mutual aid network serving Portage Park area. Neighbor-to-neighbor support, resource sharing. Email: portageparkmutualaid@gmail.com",
+      "website": "",
+      "social_media": "https://www.instagram.com/portageparkmutualaid/",
+      "contact_info": "portageparkmutualaid@gmail.com",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-14",
+      "verification_evidence": "Block Club Chicago Oct 2025 article referencing Portage Park Mutual Aid alongside 6 other neighborhood mutual aid groups. Facebook group 1.2K members. Instagram 445 followers, 13 posts.",
+      "source": "Block Club Chicago, web_search",
+      "group_id": "portage-park-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "McKinley Park Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "McKinley Park",
+      "description": "Community garden and mutual aid collective. Runs community garden beds, hosts harvest festivals, provides community support in McKinley Park.",
+      "website": "",
+      "social_media": "https://www.instagram.com/mckinleyparkmutualaid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-07-26",
+      "verification_evidence": "Instagram post Jul 26 2025. Linktree active with volunteer signup and donation links. Facebook page active.",
+      "source": "web_search, Instagram",
+      "group_id": "mckinley-park-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "South Suburban Mutual Aid",
+      "category": "Mutual Aid - General",
+      "neighborhood": "South Suburbs",
+      "description": "Community support and service organization for South Suburban area. Food giveaways, economic support, kids outreach, summer camp, educational programs. 18300 S Halsted St Suite B #192, Glenwood IL 60425.",
+      "website": "https://ssmutualaid.org/",
+      "social_media": "",
+      "contact_info": "info@ssmutualaid.org",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website ssmutualaid.org live with full program listing and volunteer call. Phone 708-314-8624.",
+      "source": "fetch_url, web_search",
+      "group_id": "south-suburban-mutual-aid",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Evanston Community Cares",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Evanston",
+      "description": "Mutual aid organization formed Nov 2025. Food drives, whistle and zine kit-making nights, emergency financial support for Evanston residents.",
+      "website": "https://evanstoncommunitycares.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-01-24",
+      "verification_evidence": "Daily Northwestern Nov 11 2025: $24,999 city commitment. Evanston Roundtable Jan 24 2026: confirmed continued 2026 operations.",
+      "source": "web_search",
+      "group_id": "evanston-community-cares",
+      "is_urgent": true,
+      "urgent_description": "Continued food drive and mutual aid operations in 2026",
+      "donation_needs": [
+        "non-perishable food"
+      ],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Evanston/Skokie Mutual Aid Network",
+      "category": "Mutual Aid - General",
+      "neighborhood": "Evanston, Skokie",
+      "description": "Grassroots community-led mutual aid network covering Evanston and Skokie. Emergency support, resource sharing, community shop operations.",
+      "website": "",
+      "social_media": "https://www.facebook.com/groups/EvanstonAid/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-03-11",
+      "verification_evidence": "Facebook group active. Instagram post Mar 11 2025 promoting network. Community shop opening referenced 2025.",
+      "source": "web_search",
+      "group_id": "evanston-skokie-mutual-aid-network",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Greater Roseland West Pullman Food Network",
+      "category": "Food Security",
+      "neighborhood": "Roseland, West Pullman",
+      "description": "501(c)(3) membership organization of 12+ food pantries fighting hunger on Chicago's south side since 2001. Coordinates food distribution, advocacy, and volunteers.",
+      "website": "https://grwptestweb.weebly.com/about-us.html",
+      "social_media": "https://www.facebook.com/grwpfoodnetwork/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-08-01",
+      "verification_evidence": "Facebook 450 likes. August 2025 network meeting post. Idealist profile active. Habitat Chicago feature.",
+      "source": "web_search, Idealist, Facebook",
+      "group_id": "greater-roseland-west-pullman-food-network",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Humans At Help Foundation",
+      "category": "Food Security",
+      "neighborhood": "Skokie",
+      "description": "501(c)(3) nonprofit in Skokie. Food pantry (Mon & Sat), community free store, mental health first aid trainings, emergency assistance programs.",
+      "website": "https://www.humansathelp.org/",
+      "social_media": "https://www.facebook.com/Humansathelp/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website humansathelp.org live with volunteer page. Food pantry and free store programs listed. Facebook active. Skokie Public Library resource listing.",
+      "source": "fetch_url, web_search",
+      "group_id": "humans-at-help-foundation",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Target Area Development Corporation",
+      "category": "Food Security",
+      "neighborhood": "Auburn Gresham",
+      "description": "Community nonprofit founded 1995. Launched Target Cares Community Market May 2025 \u2014 grocery store-style food pantry. 3,000+ lbs food distributed, 400+ families served. Youth mentorship programs.",
+      "website": "https://www.targetarea.org/",
+      "social_media": "https://www.facebook.com/targetareadevelopment/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-11-13",
+      "verification_evidence": "Facebook Nov 13 2025: Community Market serving families. Volunteer page live. 30th anniversary.",
+      "source": "web_search, Facebook",
+      "group_id": "target-area-development-corporation",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Beyond Hunger",
+      "category": "Food Security",
+      "neighborhood": "Oak Park",
+      "description": "Hunger relief nonprofit in Oak Park. Food pantry, hunger awareness education, anti-hunger policy advocacy. Serves Oak Park and surrounding communities.",
+      "website": "https://www.gobeyondhunger.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website gobeyondhunger.org live with volunteer page. 501(c)(3). Full pantry services listed.",
+      "source": "fetch_url, web_search",
+      "group_id": "beyond-hunger",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [
+        "non-perishable food"
+      ],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Gage Park Latinx Council",
+      "category": "Social Justice",
+      "neighborhood": "Gage Park",
+      "description": "Queer, DACA, Latinx-led grassroots organization. Runs two cultural centers in Gage Park. Programs through art, popular education, and direct actions grounded in social justice, mutual aid, and abolition.",
+      "website": "https://www.gplxc.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Squarespace website gplxc.org live. Greater Chicago Food Depository blog feature. Mutual aid and social justice programs.",
+      "source": "fetch_url, web_search",
+      "group_id": "gage-park-latinx-council",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [
+        "art supplies"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ]
+    },
+    {
+      "name": "Belmont Cragin United",
+      "category": "Community Advocacy",
+      "neighborhood": "Belmont Cragin",
+      "description": "Community organization supporting Belmont Cragin neighborhood. Organized citywide Whistlemania ICE resistance events across 7 Chicago locations Oct 2025. Administered by Alonso Zaragoza.",
+      "website": "",
+      "social_media": "https://www.facebook.com/belmontcraginunited/ https://www.instagram.com/belmontcraginunited/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-10-15",
+      "verification_evidence": "Block Club Chicago Oct 15 2025 front-page. Facebook 58K likes, 1,553 talking. Instagram 15K followers, 10K posts.",
+      "source": "Block Club Chicago, web_search",
+      "group_id": "belmont-cragin-united",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Jefferson Park Forward",
+      "category": "Community Advocacy",
+      "neighborhood": "Jefferson Park",
+      "description": "Community and neighborhood association in Jefferson Park. Registered 501(c)(3). Community events, volunteer opportunities, neighborhood advocacy.",
+      "website": "https://www.jeffersonparkforward.org/",
+      "social_media": "https://www.facebook.com/100064601661771/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-12-02",
+      "verification_evidence": "Website with volunteer page live. Facebook Dec 2 2025 holiday mingle event.",
+      "source": "web_search, Facebook",
+      "group_id": "jefferson-park-forward",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Back of the Yards Neighborhood Council (BYNC)",
+      "category": "Community Development",
+      "neighborhood": "Back of the Yards, Brighton Park, McKinley Park, New City",
+      "description": "Founded 1939 by Saul Alinsky and Joseph Meegan \u2014 among the oldest community organizations in the US. Social services, economic development, youth programs. 4555 S Ashland Ave.",
+      "website": "https://bync.org/",
+      "social_media": "https://www.facebook.com/Back-of-the-Yards-Neighborhood-Council-133527353355697/",
+      "contact_info": "community@bync.org / (872) 281-7832",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website bync.org live. 2026 Fiesta Back of the Yards event listed. Facebook 9,273 likes, 152 talking.",
+      "source": "fetch_url, web_search",
+      "group_id": "back-of-the-yards-neighborhood-council-bync",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Northwest Center",
+      "category": "Community Development",
+      "neighborhood": "Belmont Cragin",
+      "description": "Founded 2003. Housing counseling, financial literacy programs, community organizing and activism, neighborhood-specific initiatives. Serves Belmont Cragin and surrounding communities.",
+      "website": "https://www.northwestcenterchicago.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Squarespace website northwestcenterchicago.org live. Full program listing including housing counseling and financial literacy.",
+      "source": "fetch_url, web_search",
+      "group_id": "northwest-center",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Enlace Chicago",
+      "category": "Community Development",
+      "neighborhood": "Little Village",
+      "description": "Little Village-based community organization since 2005. Violence prevention, food access, education collaborative, community gardens, quality of life planning.",
+      "website": "https://www.enlacechicago.org/",
+      "social_media": "https://www.facebook.com/enlacechicago/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-01",
+      "verification_evidence": "Facebook May 1 2026 May Day March post. 2025-2026 Chicago Community Impact Grant recipient. Volunteer page with community garden opportunities.",
+      "source": "web_search, Facebook",
+      "group_id": "enlace-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English",
+        "Spanish"
+      ]
+    },
+    {
+      "name": "Greater Auburn Gresham Development Corporation (GAGDC)",
+      "category": "Community Development",
+      "neighborhood": "Auburn Gresham",
+      "description": "Fosters revitalization through economic viability, housing availability, and social services. Free monthly produce giveaway, urban farming, after-school programs in Auburn Gresham.",
+      "website": "https://www.gagdc.org/",
+      "social_media": "https://www.facebook.com/100063585403416/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-03-10",
+      "verification_evidence": "Facebook Mar 2026 post: National Nutrition Month + Free Monthly Produce Giveaway. Chicago Cares urban farming volunteer program. Website Get Involved page.",
+      "source": "web_search, Facebook",
+      "group_id": "greater-auburn-gresham-development-corporation-gagdc",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Restoration Ministries",
+      "category": "Youth & Education",
+      "neighborhood": "Harvey",
+      "description": "After-school program, food pantry (Sat 8:30am-12:30pm), community garden, Harvey Boxing Club (IL Junior Olympic Champs), summer academic enrichment day camp. 253 E 159th St.",
+      "website": "https://restorationministries.net/",
+      "social_media": "https://www.facebook.com/restorationministriesinc/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website restorationministries.net with volunteer page. United Way vetted. GCFD partner. Facebook 2025-2026 school year post.",
+      "source": "web_search, United Way, GCFD",
+      "group_id": "restoration-ministries",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [
+        "non-perishable food"
+      ],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Youth Peace Center of Roseland",
+      "category": "Youth & Education",
+      "neighborhood": "Roseland",
+      "description": "Youth development nonprofit since 2008. Youth workshops mentoring teens, violence prevention, employment assistance for men with barriers to employment.",
+      "website": "https://www.youthpeacecenter.org/",
+      "social_media": "https://www.facebook.com/youthpeacecenterofroseland/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-05-01",
+      "verification_evidence": "DHS-funded as of May 2025. Facebook 151 likes. Website live with full program description.",
+      "source": "DHS funding database, web_search",
+      "group_id": "youth-peace-center-of-roseland",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "PeacePlayers Chicago",
+      "category": "Youth & Education",
+      "neighborhood": "Roseland, Pullman",
+      "description": "Global youth peace-building organization engaging Roseland/Pullman youth through basketball. Leadership development, conflict resolution, community building.",
+      "website": "https://peaceplayers.org/chicago/",
+      "social_media": "https://www.facebook.com/136794729682833/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-12-21",
+      "verification_evidence": "Facebook Dec 21 2025 World Basketball Day post. Active Roseland/Pullman chapter.",
+      "source": "web_search, Facebook",
+      "group_id": "peaceplayers-chicago",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Norwood Park Senior Center",
+      "category": "Senior & Elder Support",
+      "neighborhood": "Norwood Park",
+      "description": "7,000 sq ft senior center with 1,800+ members. Operated by Norwood Crossing with City of Chicago DFSS and Chicago Park District partnership. Volunteer programs via norVOLution.",
+      "website": "http://www.npseniorcenter.org/",
+      "social_media": "https://www.facebook.com/NorwoodParkSeniorCenter/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website live. Facebook active with volunteer call posts. Part of City of Chicago DFSS network.",
+      "source": "fetch_url, web_search",
+      "group_id": "norwood-park-senior-center",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Blue Island-Robbins Neighborhood Network (BIRNN)",
+      "category": "Community Development",
+      "neighborhood": "Blue Island, Robbins",
+      "description": "United Way of Metro Chicago initiative since 2015. Coalition dedicated to health, wellness, and sustainability. Empowers residents by removing barriers to well-being.",
+      "website": "https://explorebir.org/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-08-01",
+      "verification_evidence": "United Way 2025 Neighborhood Network one-sheeter PDF. Website explorebir.org live. Active coalition.",
+      "source": "web_search, United Way",
+      "group_id": "blue-island-robbins-neighborhood-network-birnn",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Little Village Solidarity Network (LVSN)",
+      "category": "Migrant & Immigrant Support",
+      "neighborhood": "Little Village",
+      "description": "Mutual support organization for workers, tenants, and migrants based in Little Village. Red de defensa y apoyo mutuo para inquilinxs, trabajadores, y migrantes.",
+      "website": "https://www.lvsolidaridad.com/",
+      "social_media": "",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website lvsolidaridad.com live. X/Twitter account active. Featured in Borderless Magazine mutual aid guide.",
+      "source": "fetch_url, web_search",
+      "group_id": "little-village-solidarity-network-lvsn",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Friends of the Chicago River",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Citywide",
+      "description": "Since 1979. Protects and improves the Chicago-Calumet River system. Hosts annual Chicago River Day with 2,800+ volunteers at 80+ sites. Restoration workdays, canoe guide program, community science.",
+      "website": "https://www.chicagoriver.org/",
+      "social_media": "https://www.facebook.com/ChicagoRiver/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-09",
+      "verification_evidence": "34th Annual Chicago River Day May 9 2026. 2025 event: 2,800+ volunteers, 92 sites. Facebook active. Emory/UChicago research partnership on antibiotic-resistant bacteria.",
+      "source": "web_search, Facebook",
+      "group_id": "friends-of-the-chicago-river",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Friends of the Parks",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Citywide",
+      "description": "Founded 1975. Community voice for Chicago's 600+ parks. Advocacy, stewardship, and volunteerism for equitable park access. New Executive Director Brian Gladstein appointed March 2025 for 50th anniversary.",
+      "website": "https://www.fotp.org/",
+      "social_media": "https://www.facebook.com/friendsoftheparks/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2025-04-15",
+      "verification_evidence": "WTTW Mar 12 2025: new executive director. WBEZ Apr 15 2025 interview. 50th anniversary. Active advocacy programming.",
+      "source": "web_search, WTTW, WBEZ",
+      "group_id": "friends-of-the-parks",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Openlands",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Citywide",
+      "description": "Founded 1963. Protects natural and open spaces across northeastern Illinois. TreeKeepers program for citizen arborists, tree planting events, community garden support, conservation advocacy.",
+      "website": "https://openlands.org/",
+      "social_media": "https://www.facebook.com/openlandschicago/",
+      "contact_info": "",
+      "verification_status": "VERIFIED",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "Website openlands.org with active CERVIS volunteer registration system. Facebook 10K likes, 134 talking. TreeKeepers program ongoing.",
+      "source": "fetch_url, web_search",
+      "group_id": "openlands",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Southside Nature Play",
+      "category": "Environmental & Green Space",
+      "neighborhood": "Woodlawn",
+      "description": "A Black woman-led environmental education collective in Woodlawn, Chicago. Playing our way to liberation, through generations. Potawatomi Land",
+      "website": "https://docs.google.com/forms/",
+      "social_media": "https://www.instagram.com/southsidenatureplay/",
+      "contact_info": "",
+      "verification_status": "LIKELY_ACTIVE",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "PDF Document",
+      "source": "ChicagoCore List of Southside Organizations",
+      "group_id": "southside-nature-play",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    },
+    {
+      "name": "Community Food Navigator",
+      "category": "Food Security",
+      "neighborhood": "Citywide",
+      "description": "The Community Food Navigator is a hub for knowledge in a growing community. Designed by and for those who grow food, our community is a space for you to connect, collaborate, and share information and resources.",
+      "website": "https://communityfoodnavigator.org",
+      "social_media": "https://www.instagram.com/communityfoodnavigator/",
+      "contact_info": "Malik",
+      "verification_status": "LIKELY_ACTIVE",
+      "last_verified_activity": "2026-05-29",
+      "verification_evidence": "PDF Document",
+      "source": "ChicagoCore List of Southside Organizations",
+      "group_id": "community-food-navigator",
+      "is_urgent": false,
+      "urgent_description": null,
+      "donation_needs": [],
+      "languages": [
+        "English"
+      ]
+    }
+  ]
+}

@@ -4,15 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chicago Corps — Mutual Aid & Community Support Directory</title>
-  <meta name="description" content="A verified directory of 77 mutual aid and community support groups in the Chicago area. Find organizations by neighborhood, category, or volunteer opportunity.">
-  <meta property="og:title" content="Chicago Corps — Chicago Mutual Aid Directory">
-  <meta property="og:description" content="Verified directory of 77 mutual aid and community support groups in Chicago.">
-  <meta property="og:url" content="https://lumpencamp.github.io/chicago-corps/">
+  <meta name="description" content="A verified directory of mutual aid and community support groups in the Chicago area. Find organizations by neighborhood, category, or volunteer opportunity.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   <style>
     :root {
       --bg: #0f0f14;
@@ -42,38 +38,25 @@
       position: relative;
       overflow: hidden;
     }
-    header::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 50% 0%, rgba(108,99,255,0.18) 0%, transparent 70%);
-      pointer-events: none;
+    .header-top {
+      max-width: 1280px; margin: 0 auto; display: flex; justify-content: flex-end; position: absolute; top: 16px; right: 24px; z-index: 10;
     }
+    .submit-btn {
+      display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 9px; color: #fff; font-size: 0.8rem; font-weight: 500; text-decoration: none; transition: all 0.2s;
+    }
+    .submit-btn:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.4); }
+
     .header-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: rgba(108,99,255,0.15);
-      border: 1px solid rgba(108,99,255,0.35);
-      color: #a78bfa;
-      padding: 4px 14px;
-      border-radius: 999px;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 18px;
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(108,99,255,0.15); border: 1px solid rgba(108,99,255,0.35);
+      color: #a78bfa; padding: 4px 14px; border-radius: 999px; font-size: 0.72rem;
+      font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 18px;
     }
     header h1 {
-      font-size: clamp(1.9rem, 5vw, 3.2rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-      margin-bottom: 14px;
-      background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: clamp(1.9rem, 5vw, 3.2rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 14px;
+      background: linear-gradient(135deg, #fff 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }
     header p { font-size: 1rem; color: var(--text-muted); max-width: 520px; margin: 0 auto 28px; }
     .stats-bar { display: flex; justify-content: center; flex-wrap: wrap; max-width: 640px; margin: 0 auto; }
@@ -85,141 +68,40 @@
     /* ── TOOLBAR ── */
     .toolbar {
       position: sticky; top: 0; z-index: 500;
-      background: rgba(15,15,20,0.94);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--border);
-      padding: 11px 20px;
+      background: rgba(15,15,20,0.94); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border); padding: 11px 20px;
     }
     .toolbar-inner { max-width: 1280px; margin: 0 auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
     .search-wrap { position: relative; flex: 1; min-width: 180px; }
-    .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--gray); pointer-events: none; font-size: 0.9rem; }
-    #search {
-      width: 100%; padding: 9px 10px 9px 34px;
-      background: var(--surface2); border: 1px solid var(--border);
-      border-radius: 9px; color: var(--text); font-size: 0.87rem;
-      font-family: inherit; transition: border-color 0.2s;
-    }
+    .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--gray); font-size: 0.9rem; pointer-events: none;}
+    #search { width: 100%; padding: 9px 10px 9px 34px; background: var(--surface2); border: 1px solid var(--border); border-radius: 9px; color: var(--text); font-size: 0.87rem; transition: border-color 0.2s; }
     #search:focus { outline: none; border-color: var(--accent); }
-    #search::placeholder { color: var(--text-faint); }
-    select {
-      padding: 9px 26px 9px 11px;
-      background: var(--surface2); border: 1px solid var(--border);
-      border-radius: 9px; color: var(--text); font-size: 0.82rem;
-      font-family: inherit; cursor: pointer; appearance: none; -webkit-appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7'%3E%3Cpath d='M1 1l4.5 4.5L10 1' stroke='%2394a3b8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-      background-repeat: no-repeat; background-position: right 8px center;
-      transition: border-color 0.2s;
-    }
+    select { padding: 9px 26px 9px 11px; background: var(--surface2); border: 1px solid var(--border); border-radius: 9px; color: var(--text); font-size: 0.82rem; cursor: pointer; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7'%3E%3Cpath d='M1 1l4.5 4.5L10 1' stroke='%2394a3b8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; }
     select:focus { outline: none; border-color: var(--accent); }
-    select option { background: #1e1e2a; }
-    .pill-btn {
-      padding: 9px 13px; border-radius: 9px; border: 1px solid var(--border);
-      background: var(--surface2); color: var(--text-muted);
-      font-size: 0.8rem; font-family: inherit; cursor: pointer;
-      transition: all 0.2s; white-space: nowrap; display: flex; align-items: center; gap: 5px;
-    }
+    .pill-btn { padding: 9px 13px; border-radius: 9px; border: 1px solid var(--border); background: var(--surface2); color: var(--text-muted); font-size: 0.8rem; cursor: pointer; transition: all 0.2s; white-space: nowrap; display: flex; align-items: center; gap: 5px; }
     .pill-btn:hover { border-color: var(--accent); color: var(--text); }
     .pill-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
     #result-count { font-size: 0.76rem; color: var(--text-faint); white-space: nowrap; padding: 0 4px; }
 
     /* ── MAP SECTION ── */
-    #map-section {
-      position: relative;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      transition: height 0.35s cubic-bezier(.4,0,.2,1);
-      overflow: hidden;
-    }
+    #map-section { position: relative; background: var(--surface); border-bottom: 1px solid var(--border); transition: height 0.35s cubic-bezier(.4,0,.2,1); overflow: hidden; }
     #map-section.collapsed { height: 0 !important; border-bottom: none; }
     #map { width: 100%; height: 420px; }
-
-    /* Map controls overlay */
-    .map-controls {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      background: linear-gradient(transparent, rgba(15,15,20,0.85));
-      padding: 16px 20px 12px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      pointer-events: none;
-      z-index: 400;
-    }
-    .map-legend {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      pointer-events: none;
-    }
-    .map-legend-item {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 0.72rem;
-      color: rgba(255,255,255,0.75);
-      background: rgba(15,15,20,0.7);
-      padding: 4px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
+    .map-controls { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(15,15,20,0.85)); padding: 16px 20px 12px; display: flex; align-items: flex-end; justify-content: space-between; pointer-events: none; z-index: 400; }
+    .map-legend { display: flex; gap: 12px; flex-wrap: wrap; pointer-events: none; }
+    .map-legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.72rem; color: rgba(255,255,255,0.75); background: rgba(15,15,20,0.7); padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); }
     .map-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-    .map-count-badge {
-      background: rgba(15,15,20,0.8);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 5px 12px;
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      pointer-events: none;
-    }
-
-    /* Toggle map button — sits on top edge of map section / grid */
-    .map-toggle-bar {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-      position: relative;
-      z-index: 410;
-    }
-    #btn-toggle-map {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 20px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-top: none;
-      border-radius: 0 0 12px 12px;
-      color: var(--text-muted);
-      font-size: 0.8rem;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all 0.2s;
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 410;
-      white-space: nowrap;
-    }
+    .map-count-badge { background: rgba(15,15,20,0.8); border: 1px solid var(--border); border-radius: 8px; padding: 5px 12px; font-size: 0.75rem; color: var(--text-muted); pointer-events: none; }
+    
+    .map-toggle-bar { display: flex; align-items: center; justify-content: center; padding: 0; position: relative; z-index: 410; }
+    #btn-toggle-map { display: flex; align-items: center; gap: 6px; padding: 8px 20px; background: var(--surface2); border: 1px solid var(--border); border-top: none; border-radius: 0 0 12px 12px; color: var(--text-muted); font-size: 0.8rem; cursor: pointer; transition: all 0.2s; position: absolute; top: 0; left: 50%; transform: translateX(-50%); z-index: 410; white-space: nowrap; }
     #btn-toggle-map:hover { color: var(--text); border-color: var(--accent); }
     #btn-toggle-map .arrow { transition: transform 0.3s; display: inline-block; }
     #btn-toggle-map.map-hidden .arrow { transform: rotate(180deg); }
 
     /* ── MAIN ── */
     .main-wrap { max-width: 1280px; margin: 0 auto; padding: 20px 20px 60px; }
-
-    /* ── HIGHLIGHTED CARD STATE ── */
-    .section-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 14px;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
+    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 10px; }
     .legend-row { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
     .legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.76rem; color: var(--text-muted); }
     .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
@@ -228,36 +110,34 @@
     .status-UNCERTAIN { background: var(--orange); }
     .status-STALE, .status-INACTIVE { background: var(--red); }
 
-    /* ── GRID ── */
     #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 13px; }
 
     /* ── CARD ── */
-    .card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 13px; padding: 17px;
-      display: flex; flex-direction: column; gap: 9px;
-      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
-      scroll-margin-top: 120px;
-    }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 13px; padding: 17px; display: flex; flex-direction: column; gap: 9px; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; scroll-margin-top: 120px; }
     .card:hover { border-color: rgba(108,99,255,0.4); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.4); }
-    .card.highlighted {
-      border-color: var(--accent) !important;
-      box-shadow: 0 0 0 2px rgba(108,99,255,0.3), 0 8px 32px rgba(108,99,255,0.25) !important;
-      transform: translateY(-2px);
-    }
+    .card.highlighted { border-color: var(--accent) !important; box-shadow: 0 0 0 2px rgba(108,99,255,0.3), 0 8px 32px rgba(108,99,255,0.25) !important; transform: translateY(-2px); }
+    
     .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
     .card-name { font-size: 0.92rem; font-weight: 600; color: #fff; line-height: 1.3; }
     .card-desc { font-size: 0.79rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    
     .card-meta { display: flex; flex-wrap: wrap; gap: 5px; }
     .tag { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border-radius: 999px; font-size: 0.69rem; font-weight: 500; background: var(--surface2); color: var(--text-muted); border: 1px solid var(--border); }
     .tag.cat { background: rgba(108,99,255,0.1); border-color: rgba(108,99,255,0.25); color: #a78bfa; }
     .tag.hood { background: rgba(74,222,128,0.08); border-color: rgba(74,222,128,0.2); color: #86efac; }
+    .tag.lang { background: rgba(250,204,21,0.1); border-color: rgba(250,204,21,0.25); color: #fde047; }
+    
+    .needs-list { margin: 4px 0; padding: 8px; background: rgba(255,107,107,0.1); border-radius: 8px; border: 1px solid rgba(255,107,107,0.2); font-size: 0.72rem; color: #ff8787; }
+    .needs-list b { color: #ffa8a8; }
+    .urgent-badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; background: #ff6b6b; color: #fff; border-radius: 999px; font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+
     .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 9px; border-top: 1px solid var(--border); }
     .status-label { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
     .status-label.VERIFIED { color: var(--green); }
     .status-label.LIKELY_ACTIVE { color: var(--yellow); }
     .status-label.UNCERTAIN { color: var(--orange); }
     .status-label.STALE, .status-label.INACTIVE { color: var(--red); }
+    
     .card-links { display: flex; gap: 6px; }
     .link-btn { display: inline-flex; align-items: center; gap: 3px; padding: 4px 9px; border-radius: 7px; font-size: 0.72rem; font-weight: 500; text-decoration: none; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface2); transition: all 0.2s; }
     .link-btn:hover { border-color: var(--accent); color: var(--text); }
@@ -278,13 +158,7 @@
     footer a:hover { color: var(--text); }
 
     /* ── LEAFLET OVERRIDES ── */
-    .leaflet-popup-content-wrapper {
-      background: #1a1a28;
-      border: 1px solid #2a2a3a;
-      border-radius: 12px;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.7);
-      color: #e2e8f0;
-    }
+    .leaflet-popup-content-wrapper { background: #1a1a28; border: 1px solid #2a2a3a; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,0.7); color: #e2e8f0; }
     .leaflet-popup-tip-container { margin-top: -1px; }
     .leaflet-popup-tip { background: #1a1a28; }
     .leaflet-popup-content { margin: 14px 16px 12px; font-family: 'Inter', sans-serif; min-width: 200px; }
@@ -310,7 +184,8 @@
       #grid { grid-template-columns: 1fr; }
       .stat-pill { padding: 9px 14px; }
       .stat-pill .num { font-size: 1.4rem; }
-      header { padding: 36px 16px 28px; }
+      header { padding: 48px 16px 28px; }
+      .header-top { justify-content: center; top: 12px; }
       .map-legend { display: none; }
       .toolbar-inner { gap: 6px; }
     }
@@ -319,6 +194,9 @@
 <body>
 
 <header>
+  <div class="header-top">
+    <a href="https://github.com/lumpencamp/chicago-corps/issues/new" target="_blank" rel="noopener" class="submit-btn">➕ Submit a Group</a>
+  </div>
   <div class="header-badge">🤝 Chicago Corps</div>
   <h1>Chicago Mutual Aid<br>Directory</h1>
   <p>A verified, living directory of mutual aid and community support groups across the Chicago area.</p>
@@ -339,11 +217,11 @@
     <select id="filter-category"><option value="">All categories</option></select>
     <select id="filter-neighborhood"><option value="">All neighborhoods</option></select>
     <button class="pill-btn" id="btn-volunteers">🙋 Volunteers</button>
+    <button class="pill-btn" id="btn-needs">🎁 Needs Donations</button>
     <span id="result-count"></span>
   </div>
 </div>
 
-<!-- MAP — visible by default -->
 <div id="map-section">
   <div id="map"></div>
   <div class="map-controls">
@@ -357,7 +235,6 @@
   </div>
 </div>
 
-<!-- Toggle strip between map and grid -->
 <div class="map-toggle-bar">
   <button id="btn-toggle-map">
     <span>Hide map</span><span class="arrow">▲</span>
@@ -385,93 +262,10 @@
 </div>
 
 <footer>
-  <p>Data last updated May 2026 · <a href="https://github.com/lumpencamp/chicago-corps" target="_blank" rel="noopener">View on GitHub</a> · <a href="https://github.com/lumpencamp/chicago-corps/issues" target="_blank" rel="noopener">Suggest an update</a></p>
-  <p style="margin-top:7px">All data sourced from public websites and directories. Community resource, not an official city directory.</p>
+  <p>Data auto-generated from GitHub · <a href="https://github.com/lumpencamp/chicago-corps" target="_blank" rel="noopener">View Source</a></p>
 </footer>
 
 <script>
-// ── Geocoordinates ──────────────────────────────────────────────────────────
-const GEO = {
-  'Cooperation Racine':             [41.7635, -87.6437],
-  'Bridgeport Alliance':            [41.8312, -87.6508],
-  'Urban Growers Collective':       [41.8320, -87.6500],
-  'Mouse Arts & Letters Social Club':[41.8366,-87.6330],
-  'Chinese Mutual Aid Association (CMAA)': [41.9733, -87.6578],
-  'Chicago Volunteer Legal Services (CVLS)': [41.8827,-87.6293],
-  'Chatham-Avalon Ministries':      [41.7460, -87.6257],
-  'Roseland Christian Ministries':  [41.7056, -87.6227],
-  'Sheldon Heights CoC Food Pantry':[41.6952, -87.6435],
-  'St. Sabina Church Food Pantry':  [41.7511, -87.6627],
-  'Garfield Park Community Council':[41.8820, -87.7188],
-  "Sarah's Inn":                    [41.8776, -87.7380],
-  'Beyond Legal Aid':               [41.8944, -87.6527],
-  'Chicago Recovery Alliance (CRA)':[41.8672, -87.7070],
-  'Chicago Artists Coalition':      [41.8896, -87.6634],
-  'Hyde Park Art Center':           [41.7977, -87.5922],
-  'Chicago Environmental Justice Network (CEJN)': [41.8359,-87.6396],
-  'After School Matters':           [41.8827, -87.6293],
-  'Chicago Youth Programs (CYP)':   [41.7800, -87.6100],
-  'Chicago Cultural Alliance':      [41.8794, -87.6370],
-  'Greater Chicago Legal Clinic (GCLC)': [41.8780,-87.6350],
-  'American Indian Center Chicago': [41.9734, -87.6580],
-  'Center on Halsted':              [41.9440, -87.6490],
-  'Market Box Chicago':             [41.7600, -87.6200],
-  'Roseland Ceasefire':             [41.6900, -87.6200],
-  'ONE Northside':                  [41.9911, -87.6547],
-  'Logan Square Mutual Aid':        [41.9217, -87.7070],
-  'Mayfair Mutual Aid':             [41.9686, -87.7538],
-  'Northwest Side Solidarity Network':[41.9600,-87.7200],
-  'The Village Chicago':            [41.9249, -87.6422],
-  'Brave Space Alliance':           [41.7600, -87.6300],
-  'UCHRP (U of Chicago Harm Reduction Project)': [41.7900,-87.5990],
-  'UIC Community Outreach Intervention Projects (COIP)': [41.8686,-87.6710],
-  'Legal Aid Chicago':              [41.8789, -87.6386],
-  'The Love Fridge Chicago':        [41.8544, -87.6623],
-  'Lakeview/Lincoln Park Mutual Aid': [41.9400, -87.6450],
-  'PO Box Collective':              [41.9983, -87.6630],
-  'Northwest Side Solidarity Network': [41.9620, -87.7220],
-  'Berwyn Cicero Mutual Aid / Ayuda Mutua': [41.8500,-87.7900],
-  'Between Friends':                [41.8700, -87.6600],
-  'Evanston Community Fridges':     [42.0450, -87.6877],
-};
-
-const HOOD_GEO = {
-  'Englewood':          [41.7730, -87.6460],
-  'Bridgeport/Armour':  [41.8312, -87.6508],
-  'Woodlawn':           [41.7747, -87.5929],
-  'Bronzeville':        [41.8220, -87.6175],
-  'Citywide':           null,
-  'Logan Square':       [41.9217, -87.7070],
-  'Mayfair':            [41.9686, -87.7538],
-  'Lakeview':           [41.9440, -87.6490],
-  'Uptown':             [41.9734, -87.6580],
-  'Uptown/Argyle':      [41.9734, -87.6580],
-  'Hyde Park':          [41.7960, -87.5960],
-  'Hyde Park / South Side': [41.7900,-87.5990],
-  'South Side':         [41.7600, -87.6200],
-  'North Side':         [41.9700, -87.6600],
-  'Rogers Park':        [41.9983, -87.6630],
-  'Pilsen':             [41.8544, -87.6623],
-  'Avondale':           [41.9426, -87.7068],
-  'Edgewater':          [41.9888, -87.6598],
-  'Irving Park':        [41.9544, -87.7261],
-  'Albany Park':        [41.9685, -87.7270],
-  'Humboldt Park':      [41.9003, -87.7215],
-  'Austin':             [41.8990, -87.7658],
-  'Garfield Park':      [41.8820, -87.7188],
-  'Roseland':           [41.6930, -87.6220],
-  'Chatham':            [41.7500, -87.6060],
-  'Auburn Gresham':     [41.7511, -87.6627],
-  'West Side':          [41.8820, -87.7400],
-  'Southwest Side':     [41.8100, -87.7000],
-  'Northwest Side':     [41.9600, -87.7200],
-  'Evanston':           [42.0450, -87.6877],
-  'Chicago Suburbs':    [41.8400, -87.9500],
-  'South Shore':        [41.7630, -87.5680],
-  'South and West Sides': [41.8200,-87.6800],
-  'Lakeview, Lincoln Park': [41.9350, -87.6450],
-};
-
 const STATUS_COLOR = {
   'VERIFIED':      '#4ade80',
   'LIKELY_ACTIVE': '#facc15',
@@ -488,35 +282,22 @@ const VOLUNTEER_NAMES = new Set([
   'MAMAS (Mothering is Radical)','Bridgeport Alliance','Chicago Recovery Alliance (CRA)',
 ]);
 
-// ── State ───────────────────────────────────────────────────────────────────
 let allGroups = [];
+let geojsonFeatures = [];
 let map = null;
 let markers = [];
 let volunteersOnly = false;
+let needsOnly = false;
 let mapVisible = true;
 let highlightedCard = null;
 
-// ── Helpers ─────────────────────────────────────────────────────────────────
 function esc(s) {
   if (!s) return '';
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 function statusLabel(s) {
   return {VERIFIED:'Verified',LIKELY_ACTIVE:'Likely active',UNCERTAIN:'Uncertain',STALE:'Stale',INACTIVE:'Inactive'}[s] || (s||'Unknown');
-}
-
-function cardId(name) {
-  return 'card-' + name.toLowerCase().replace(/[^a-z0-9]/g,'-').replace(/-+/g,'-');
-}
-
-// Use known coords or neighborhood centroid; skip purely citywide groups (return null)
-function getCoords(g) {
-  if (GEO[g.name]) return GEO[g.name];
-  const hood = (g.neighborhood || '').split(',')[0].trim();
-  if (HOOD_GEO[hood] !== undefined) return HOOD_GEO[hood];
-  if (HOOD_GEO[g.neighborhood] !== undefined) return HOOD_GEO[g.neighborhood];
-  return null; // no coords — skip from map
 }
 
 function makeIcon(status) {
@@ -534,7 +315,6 @@ function makeIcon(status) {
   });
 }
 
-// ── Filters ─────────────────────────────────────────────────────────────────
 function getFiltered() {
   const q = document.getElementById('search').value.toLowerCase();
   const cat = document.getElementById('filter-category').value;
@@ -543,6 +323,7 @@ function getFiltered() {
     if (cat && g.category !== cat) return false;
     if (hood && g.neighborhood !== hood) return false;
     if (volunteersOnly && !VOLUNTEER_NAMES.has(g.name)) return false;
+    if (needsOnly && (!g.donation_needs || g.donation_needs.length === 0) && !g.is_urgent) return false;
     if (q) {
       const hay = [g.name,g.category,g.neighborhood,g.description].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
@@ -551,7 +332,6 @@ function getFiltered() {
   });
 }
 
-// ── Render grid ──────────────────────────────────────────────────────────────
 function renderGrid(filtered) {
   const grid = document.getElementById('grid');
   const empty = document.getElementById('empty');
@@ -569,17 +349,33 @@ function renderGrid(filtered) {
     const isVol = VOLUNTEER_NAMES.has(g.name);
     const website = g.website && g.website.startsWith('http') ? g.website.split(' ')[0] : null;
     const social  = g.social_media && g.social_media.startsWith('http') ? g.social_media.split(' ')[0] : null;
-    const id = cardId(g.name);
+    
+    // Languages tags
+    const langs = g.languages || ["English"];
+    const langTags = langs.filter(l => l !== "English").map(l => `<span class="tag lang">🗣️ ${esc(l)}</span>`).join('');
+    
+    // Donation Needs
+    let needsHtml = '';
+    if (g.is_urgent) {
+      needsHtml += `<div class="urgent-badge">⚠️ Urgent Need</div>`;
+      if (g.urgent_description) needsHtml += `<p style="font-size:0.75rem;margin-top:4px;color:#ff8787">${esc(g.urgent_description)}</p>`;
+    }
+    if (g.donation_needs && g.donation_needs.length > 0) {
+      needsHtml += `<div class="needs-list"><b>Needs:</b> ${esc(g.donation_needs.join(', '))}</div>`;
+    }
+
     return `
-      <div class="card" id="${id}">
+      <div class="card" id="card-${g.group_id}">
         <div class="card-top">
           <div class="card-name">${esc(g.name)}${isVol ? ' <span title="Accepting volunteers">🙋</span>' : ''}</div>
           <div class="status-dot status-${g.verification_status||'UNCERTAIN'}" title="${statusLabel(g.verification_status)}"></div>
         </div>
+        ${needsHtml}
         <div class="card-desc">${esc(g.description)}</div>
         <div class="card-meta">
           ${g.category ? `<span class="tag cat">📂 ${esc(g.category)}</span>` : ''}
           ${g.neighborhood ? `<span class="tag hood">📍 ${esc(g.neighborhood)}</span>` : ''}
+          ${langTags}
         </div>
         <div class="card-footer">
           <span class="status-label ${g.verification_status||''}">${statusLabel(g.verification_status)}</span>
@@ -592,21 +388,25 @@ function renderGrid(filtered) {
   }).join('');
 }
 
-// ── Render map markers ───────────────────────────────────────────────────────
 function renderMarkers(filtered) {
   markers.forEach(m => map.removeLayer(m));
   markers = [];
 
+  const filteredIds = new Set(filtered.map(g => g.group_id));
   let placed = 0;
-  filtered.forEach(g => {
-    const coords = getCoords(g);
-    if (!coords) return;
+  
+  geojsonFeatures.forEach(feature => {
+    const props = feature.properties;
+    if (!filteredIds.has(props.group_id)) return;
+    
+    // Find matching group details for popup
+    const g = filtered.find(grp => grp.group_id === props.group_id);
+    if (!g) return;
 
-    const website = g.website && g.website.startsWith('http') ? g.website.split(' ')[0] : null;
-    const social  = g.social_media && g.social_media.startsWith('http') ? g.social_media.split(' ')[0] : null;
-    const link = website || social;
+    const coords = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
+    const link = (g.website && g.website.startsWith('http')) ? g.website.split(' ')[0] : 
+                 (g.social_media && g.social_media.startsWith('http')) ? g.social_media.split(' ')[0] : null;
     const isVol = VOLUNTEER_NAMES.has(g.name);
-    const id = cardId(g.name);
 
     const popupHtml = `
       <div class="popup-name">${esc(g.name)}${isVol ? ' 🙋' : ''}</div>
@@ -615,14 +415,13 @@ function renderMarkers(filtered) {
       <div class="popup-desc">${esc((g.description||'').slice(0,110))}${(g.description||'').length>110?'…':''}</div>
       <div class="popup-actions">
         ${link ? `<a class="popup-link" href="${esc(link)}" target="_blank" rel="noopener">Website ↗</a>` : ''}
-        <button class="popup-scroll" onclick="scrollToCard('${id}')">View details ↓</button>
+        <button class="popup-scroll" onclick="scrollToCard('card-${g.group_id}')">View details ↓</button>
       </div>`;
 
     const marker = L.marker(coords, { icon: makeIcon(g.verification_status) })
       .bindPopup(popupHtml, { maxWidth: 280, minWidth: 210 });
 
     marker.on('click', () => {
-      // If map is collapsed, open it first
       if (!mapVisible) toggleMap();
     });
 
@@ -637,25 +436,20 @@ function renderMarkers(filtered) {
 function scrollToCard(id) {
   const el = document.getElementById(id);
   if (!el) return;
-  // Close any open popups
   map.closePopup();
-  // Scroll to card
   el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  // Flash highlight
   if (highlightedCard) highlightedCard.classList.remove('highlighted');
   el.classList.add('highlighted');
   highlightedCard = el;
   setTimeout(() => el.classList.remove('highlighted'), 2500);
 }
 
-// ── Render all ───────────────────────────────────────────────────────────────
 function render() {
   const filtered = getFiltered();
   renderGrid(filtered);
   if (map) renderMarkers(filtered);
 }
 
-// ── Toggle map ───────────────────────────────────────────────────────────────
 function toggleMap() {
   mapVisible = !mapVisible;
   const section = document.getElementById('map-section');
@@ -672,7 +466,6 @@ function toggleMap() {
   }
 }
 
-// ── Build filters ────────────────────────────────────────────────────────────
 function buildFilters(groups) {
   const cats  = [...new Set(groups.map(g => g.category).filter(Boolean))].sort();
   const hoods = [...new Set(groups.map(g => g.neighborhood).filter(Boolean))].sort();
@@ -692,13 +485,10 @@ function updateStats(groups) {
   document.getElementById('stat-neighborhoods').textContent = hoods.size + '+';
 }
 
-// ── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
-  // Init map immediately so it renders while CSV loads
   map = L.map('map', { center: [41.8781, -87.6298], zoom: 11, zoomControl: true });
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
-    maxZoom: 19,
+    attribution: '© OpenStreetMap contributors © CARTO', maxZoom: 19,
   }).addTo(map);
 
   document.getElementById('btn-toggle-map').addEventListener('click', toggleMap);
@@ -707,15 +497,28 @@ async function init() {
     this.classList.toggle('active', volunteersOnly);
     render();
   });
+  document.getElementById('btn-needs').addEventListener('click', function() {
+    needsOnly = !needsOnly;
+    this.classList.toggle('active', needsOnly);
+    render();
+  });
   document.getElementById('search').addEventListener('input', render);
   document.getElementById('filter-category').addEventListener('change', render);
   document.getElementById('filter-neighborhood').addEventListener('change', render);
 
   try {
-    const res = await fetch('chicago_mutual_aid_groups.csv');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const { data } = Papa.parse(await res.text(), { header: true, skipEmptyLines: true });
-    allGroups = data;
+    const [apiRes, geoRes] = await Promise.all([
+        fetch('_data/api.json'),
+        fetch('_data/locations.geojson')
+    ]);
+    
+    if (!apiRes.ok || !geoRes.ok) throw new Error("Could not load API data");
+    
+    const apiData = await apiRes.json();
+    const geoData = await geoRes.json();
+    
+    allGroups = apiData.groups;
+    geojsonFeatures = geoData.features;
 
     document.getElementById('loading').style.display = 'none';
     document.getElementById('main-content').style.display = 'block';
@@ -726,8 +529,8 @@ async function init() {
   } catch (err) {
     document.getElementById('loading').innerHTML = `
       <div style="color:var(--red);padding:40px">
-        <p style="font-size:1.1rem">⚠️ Failed to load directory data</p>
-        <p style="margin-top:8px;color:var(--text-muted)">${err.message}</p>
+        <p style="font-size:1.1rem">⚠️ Build process running or failed to load data</p>
+        <p style="margin-top:8px;color:var(--text-muted)">Please wait a moment and refresh. ${err.message}</p>
       </div>`;
   }
 }
