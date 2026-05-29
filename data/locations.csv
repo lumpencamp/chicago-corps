@@ -1,0 +1,23 @@
+group_id,location_id,location_name,street_address,city,zip_code,community_area,community_area_number,latitude,longitude,location_type,is_primary,last_updated
+cooperation-racine,cooperation-racine-hq,,1201 W 71st St,Chicago,60636,Englewood,68,,,headquarters,TRUE,2026-05-29
+mouse-arts-letters,mouse-arts-letters-hq,,555 W 31st St,Chicago,60616,Bridgeport,60,,,office,TRUE,2026-05-29
+bridgeport-alliance,bridgeport-alliance-hq,,1200 W 35th St,Chicago,60609,Bridgeport,60,,,office,TRUE,2026-05-29
+chatham-avalon-ministries,chatham-avalon-pantry,,8601 S State St,Chicago,60619,Chatham,44,,,pantry,TRUE,2026-05-29
+roseland-christian-ministries,roseland-christian-ministries-pantry,,10858 S Michigan Ave,Chicago,60628,Roseland,49,,,pantry,TRUE,2026-05-29
+sheldon-heights-pantry,sheldon-heights-pantry,,11325 S Halsted St,Chicago,60628,Roseland,49,,,pantry,TRUE,2026-05-29
+st-sabina-pantry,st-sabina-pantry,,1120 W 79th St,Chicago,60620,Auburn Gresham,71,,,pantry,TRUE,2026-05-29
+chinese-mutual-aid,chinese-mutual-aid-hq,,1016 W Argyle St,Chicago,60640,Uptown,3,,,office,TRUE,2026-05-29
+cvls,cvls-hq,,33 N Dearborn St,Chicago,60602,Loop,32,,,office,TRUE,2026-05-29
+sarahs-inn,sarahs-inn-hq,,,Chicago,,,,,office,TRUE,2026-05-29
+garfield-park-cc,gpcc-hq,,300 N Central Park Ave,Chicago,60624,East Garfield Park,26,,,office,TRUE,2026-05-29
+love-fridge-chicago,lf-bridgeport,The Fridge on Marz,3630 S Iron St,Chicago,60609,Bridgeport,60,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-east-side,The Kindness Korner,11201 S Ave G,Chicago,60617,East Side,52,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-little-village,The Love Shack,2751 W 21st St,Chicago,60623,South Lawndale (Little Village),30,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-palmer-square,BInk Food Bank,3206 W Armitage Ave,Chicago,60647,Logan Square,22,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-pilsen,Comida Para el Pueblo,1855 S Blue Island Ave,Chicago,60608,Lower West Side (Pilsen),31,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-englewood,Getting Grown Collective,6344 S Morgan St,Chicago,60621,Englewood,68,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-west-lawn,Good Neighbor Love Fridge,6601 S Pulaski Rd,Chicago,60629,West Lawn,65,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-bronzeville,Sacred Keepers Love Fridge,4445 S King Dr,Chicago,60653,Grand Boulevard (Bronzeville),38,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-south-shore,South Shore Love Fridge,2465 E 74th St,Chicago,60649,South Shore,43,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-back-of-yards,Star Farm Love Fridge,5155 S Wolcott Ave,Chicago,60609,New City (Back of the Yards),61,,,fridge,FALSE,2026-05-29
+love-fridge-chicago,lf-north-lawndale,Stone Temple Fridge,3622 W Douglas Blvd,Chicago,60623,North Lawndale,29,,,fridge,FALSE,2026-05-29

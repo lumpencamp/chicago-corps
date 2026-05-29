@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chicago Corps — Dashboard</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root { --bg:#1a1a2e; --card:#16213e; --text:#e0e0e0; --green:#4caf50;
+          --yellow:#ff9800; --red:#f44336; --gray:#666; --accent:#0f3460; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); padding:20px; }
+  h1 { font-size:1.5rem; margin-bottom:20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px; margin-bottom:20px; }
+  .card { background:var(--card); border-radius:8px; padding:16px; border:1px solid var(--accent); }
+  .card h2 { font-size:1rem; margin-bottom:12px; color:#aaa; text-transform:uppercase; letter-spacing:0.5px; }
+  .stat { font-size:2rem; font-weight:bold; }
+  .stat-label { font-size:0.8rem; color:#aaa; margin-top:4px; }
+  .map-container { height:400px; border-radius:8px; overflow:hidden; }
+  #map { height:100%; }
+  table { width:100%; border-collapse:collapse; font-size:0.85rem; }
+  th, td { text-align:left; padding:8px; border-bottom:1px solid var(--accent); }
+  th { color:#aaa; font-weight:600; }
+  .badge { padding:2px 8px; border-radius:12px; font-size:0.75rem; font-weight:600; }
+  .badge-green { background:var(--green); color:#000; }
+  .badge-yellow { background:var(--yellow); color:#000; }
+  .badge-red { background:var(--red); color:#fff; }
+  .badge-gray { background:var(--gray); color:#fff; }
+</style>
+</head>
+<body>
+
+<h1>Chicago Corps — Dashboard</h1>
+
+<div class="grid" id="stats-grid"></div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Coverage Map</h2>
+    <div class="map-container"><div id="map"></div></div>
+  </div>
+  <div class="card">
+    <h2>Verification Status</h2>
+    <canvas id="status-chart"></canvas>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Stale Entries (>6 months)</h2>
+    <div id="stale-list">Loading...</div>
+  </div>
+  <div class="card">
+    <h2>Category Breakdown</h2>
+    <div id="category-list">Loading...</div>
+  </div>
+</div>
+
+<script>
+async function loadCSV(filename) {
+  const res = await fetch(`data/${filename}`);
+  const text = await res.text();
+  return Papa.parse(text, { header: true, skipEmptyLines: true }).data;
+}
+
+async function init() {
+  const [groups, contacts, needs] = await Promise.all([
+    loadCSV('groups.csv'), loadCSV('contacts.csv'),
+    loadCSV('volunteer_needs.csv')
+  ]);
+
+  // Stats
+  const emails = contacts.filter(c => c.email?.trim()).length;
+  const phones = contacts.filter(c => c.phone?.trim()).length;
+  const accepting = needs.filter(n =>
+    n.accepting_volunteers?.toUpperCase() === 'TRUE'
+  ).length;
+  const verified = groups.filter(g => g.verification_status === 'VERIFIED').length;
+  const stale = groups.filter(g => {
+    if (!g.last_verified_date || g.last_verified_date === '2025-10-01') return false;
+    return (Date.now() - new Date(g.last_verified_date)) > 180 * 86400000;
+  }).length;
+
+  document.getElementById('stats-grid').innerHTML = `
+    <div class="card"><h2>Total Groups</h2><div class="stat">${groups.length}</div></div>
+    <div class="card"><h2>Verified</h2><div class="stat">${verified}</div><div class="stat-label">${Math.round(verified/groups.length*100)}% of total</div></div>
+    <div class="card"><h2>Contact Ready</h2><div class="stat">${emails + phones}</div><div class="stat-label">${emails} emails · ${phones} phones</div></div>
+    <div class="card"><h2>Accepting Volunteers</h2><div class="stat">${accepting}</div></div>
+    <div class="card"><h2>Stale</h2><div class="stat" style="color:${stale>5?'var(--red)':'var(--yellow)'}">${stale}</div><div class="stat-label">unverified >6 months</div></div>
+  `;
+
+  // Status chart
+  const statuses = {};
+  groups.forEach(g => { const s = g.verification_status || 'UNKNOWN'; statuses[s] = (statuses[s] || 0) + 1; });
+  new Chart(document.getElementById('status-chart'), {
+    type: 'doughnut',
+    data: {
+      labels: Object.keys(statuses),
+      datasets: [{ data: Object.values(statuses), backgroundColor: ['#4caf50','#ff9800','#f44336','#666','#2196f3'] }]
+    },
+    options: { plugins: { legend: { labels: { color: '#e0e0e0' } } } }
+  });
+
+  // Map
+  const map = L.map('map').setView([41.8781, -87.6298], 11);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }).addTo(map);
+
+  // Category list
+  const cats = {};
+  groups.forEach(g => { const c = g.category || 'Uncategorized'; cats[c] = (cats[c] || 0) + 1; });
+  document.getElementById('category-list').innerHTML =
+    '<table>' + Object.entries(cats).sort((a,b) => b[1]-a[1]).map(([k,v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('') + '</table>';
+
+  // Stale list
+  const staleGroups = groups.filter(g => {
+    if (!g.last_verified_date || g.last_verified_date === '2025-10-01') return false;
+    return (Date.now() - new Date(g.last_verified_date)) > 180 * 86400000;
+  });
+  document.getElementById('stale-list').innerHTML = staleGroups.length
+    ? '<table><tr><th>Group</th><th>Last Verified</th></tr>' +
+      staleGroups.map(g => `<tr><td>${g.name}</td><td>${g.last_verified_date}</td></tr>`).join('') + '</table>'
+    : '<p style="color:var(--green)">All groups verified within 6 months</p>';
+}
+
+init();
+</script>
+</body>
+</html>

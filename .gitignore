@@ -1,0 +1,38 @@
+# Jekyll / build output
+_site/
+_data/
+.jekyll-cache/
+.jekyll-metadata
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / local config
+.env
+*.local
+config.local.toml
+
+# Large artifacts (PDFs fetched during research)
+*.pdf
+!ChicagoCore*.pdf
+
+# OS generated files
+Thumbs.db
+ehthumbs.db

@@ -1,0 +1,4 @@
+verification_id,group_id,verification_date,status_after,evidence_type,evidence_url,evidence_date,evidence_summary,verification_method
+cooperation-racine-2026-05-29,cooperation-racine,2026-05-29,VERIFIED,social_media_post,https://www.instagram.com/p/DSlDKTbkpxZ/,2025-12-22,"Instagram post Dec 22 2025: multidisciplinary art workshops recap, 122 likes",web_search
+bridgeport-alliance-2026-05-29,bridgeport-alliance,2026-05-29,VERIFIED,directory_listing,https://actionnetwork.org/groups/bridgeport-alliance,2025-11-01,"Action Network page live. Linktree with current content. Monthly meetings advertised.",fetch_url
+love-fridge-chicago-2026-05-29,love-fridge-chicago,2026-05-29,VERIFIED,social_media_post,https://www.facebook.com/thelovefridge/,2026-03-17,"Facebook post Mar 17 2026: community fridge video series, 20+ likes",web_search
