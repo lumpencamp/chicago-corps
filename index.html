@@ -10,6 +10,8 @@
   <meta property="og:url" content="https://lumpencamp.github.io/chicago-corps/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   <style>
     :root {
@@ -18,7 +20,6 @@
       --surface2: #1e1e2a;
       --border: #2a2a3a;
       --accent: #6c63ff;
-      --accent2: #ff6b6b;
       --green: #4ade80;
       --yellow: #facc15;
       --orange: #fb923c;
@@ -28,20 +29,11 @@
       --text-muted: #94a3b8;
       --text-faint: #64748b;
     }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; line-height: 1.6; }
 
-    body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      line-height: 1.6;
-    }
-
-    /* ─── HEADER ─────────────────────────────────── */
+    /* ── HEADER ── */
     header {
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
       border-bottom: 1px solid var(--border);
@@ -50,7 +42,6 @@
       position: relative;
       overflow: hidden;
     }
-
     header::before {
       content: '';
       position: absolute;
@@ -58,7 +49,6 @@
       background: radial-gradient(ellipse at 50% 0%, rgba(108,99,255,0.15) 0%, transparent 70%);
       pointer-events: none;
     }
-
     .header-badge {
       display: inline-flex;
       align-items: center;
@@ -74,7 +64,6 @@
       text-transform: uppercase;
       margin-bottom: 20px;
     }
-
     header h1 {
       font-size: clamp(2rem, 5vw, 3.5rem);
       font-weight: 700;
@@ -86,595 +75,589 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+    header p { font-size: 1.1rem; color: var(--text-muted); max-width: 560px; margin: 0 auto 32px; }
 
-    header p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      max-width: 560px;
-      margin: 0 auto 32px;
-    }
-
-    /* ─── STATS BAR ───────────────────────────────── */
-    .stats-bar {
-      display: flex;
-      justify-content: center;
-      gap: 0;
-      flex-wrap: wrap;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .stat-pill {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 12px 24px;
-      border-right: 1px solid rgba(255,255,255,0.1);
-    }
+    /* ── STATS ── */
+    .stats-bar { display: flex; justify-content: center; flex-wrap: wrap; max-width: 700px; margin: 0 auto; }
+    .stat-pill { display: flex; flex-direction: column; align-items: center; padding: 12px 24px; border-right: 1px solid rgba(255,255,255,0.1); }
     .stat-pill:last-child { border-right: none; }
+    .stat-pill .num { font-size: 1.8rem; font-weight: 700; color: #fff; line-height: 1; }
+    .stat-pill .lbl { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
 
-    .stat-pill .num {
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1;
-    }
-    .stat-pill .lbl {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-top: 4px;
-    }
-
-    /* ─── TOOLBAR ─────────────────────────────────── */
+    /* ── TOOLBAR ── */
     .toolbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(15,15,20,0.9);
+      position: sticky; top: 0; z-index: 500;
+      background: rgba(15,15,20,0.92);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 14px 24px;
+      padding: 12px 24px;
     }
-
-    .toolbar-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      gap: 12px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .search-wrap {
-      position: relative;
-      flex: 1;
-      min-width: 220px;
-    }
-
-    .search-icon {
-      position: absolute;
-      left: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--gray);
-      pointer-events: none;
-      font-size: 1rem;
-    }
-
+    .toolbar-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .search-wrap { position: relative; flex: 1; min-width: 200px; }
+    .search-icon { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--gray); pointer-events: none; }
     #search {
-      width: 100%;
-      padding: 10px 12px 10px 38px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      color: var(--text);
-      font-size: 0.9rem;
-      font-family: inherit;
-      transition: border-color 0.2s;
+      width: 100%; padding: 9px 10px 9px 36px;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 10px; color: var(--text); font-size: 0.88rem;
+      font-family: inherit; transition: border-color 0.2s;
     }
     #search:focus { outline: none; border-color: var(--accent); }
     #search::placeholder { color: var(--text-faint); }
-
     select {
-      padding: 10px 14px;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      color: var(--text);
-      font-size: 0.85rem;
-      font-family: inherit;
-      cursor: pointer;
-      transition: border-color 0.2s;
-      appearance: none;
-      -webkit-appearance: none;
+      padding: 9px 28px 9px 12px;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 10px; color: var(--text); font-size: 0.83rem;
+      font-family: inherit; cursor: pointer; appearance: none; -webkit-appearance: none;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2394a3b8' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 10px center;
-      padding-right: 30px;
+      background-repeat: no-repeat; background-position: right 9px center;
     }
     select:focus { outline: none; border-color: var(--accent); }
-    select option { background: var(--surface2); }
-
+    select option { background: #1e1e2a; }
     .filter-btn {
-      padding: 10px 16px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--surface2);
-      color: var(--text-muted);
-      font-size: 0.82rem;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all 0.2s;
-      white-space: nowrap;
+      padding: 9px 14px; border-radius: 10px; border: 1px solid var(--border);
+      background: var(--surface2); color: var(--text-muted);
+      font-size: 0.8rem; font-family: inherit; cursor: pointer;
+      transition: all 0.2s; white-space: nowrap;
     }
     .filter-btn:hover { border-color: var(--accent); color: var(--text); }
     .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    #result-count { font-size: 0.78rem; color: var(--text-faint); white-space: nowrap; }
 
-    #result-count {
-      font-size: 0.8rem;
-      color: var(--text-faint);
-      white-space: nowrap;
+    /* ── TAB BAR ── */
+    .tab-bar {
+      max-width: 1200px; margin: 20px auto 0; padding: 0 24px;
+      display: flex; gap: 4px;
     }
-
-    /* ─── MAIN LAYOUT ─────────────────────────────── */
-    main {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 28px 24px 60px;
+    .tab {
+      padding: 8px 20px; border-radius: 10px 10px 0 0;
+      border: 1px solid var(--border); border-bottom: none;
+      background: var(--surface2); color: var(--text-muted);
+      font-size: 0.85rem; font-family: inherit; cursor: pointer;
+      transition: all 0.2s;
     }
+    .tab.active { background: var(--surface); color: var(--text); border-color: var(--border); }
 
-    /* ─── GRID ────────────────────────────────────── */
-    #grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 16px;
-    }
+    /* ── MAIN ── */
+    main { max-width: 1200px; margin: 0 auto; padding: 0 24px 60px; }
 
-    /* ─── CARD ────────────────────────────────────── */
-    .card {
+    /* ── MAP PANEL ── */
+    #map-panel {
+      display: none;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
-      cursor: default;
-    }
-    .card:hover {
-      border-color: rgba(108,99,255,0.4);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-    }
-
-    .card-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 10px;
-    }
-
-    .card-name {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #fff;
-      line-height: 1.3;
-    }
-
-    .status-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      flex-shrink: 0;
-      margin-top: 5px;
-    }
-    .status-VERIFIED { background: var(--green); box-shadow: 0 0 8px var(--green); }
-    .status-LIKELY_ACTIVE { background: var(--yellow); box-shadow: 0 0 8px var(--yellow); }
-    .status-UNCERTAIN { background: var(--orange); box-shadow: 0 0 8px var(--orange); }
-    .status-STALE, .status-INACTIVE { background: var(--red); }
-
-    .card-desc {
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
+      border-radius: 0 12px 12px 12px;
       overflow: hidden;
+      margin-bottom: 28px;
+    }
+    #map-panel.visible { display: block; }
+    #map {
+      height: 520px;
+      width: 100%;
+    }
+    .map-note {
+      padding: 10px 16px;
+      font-size: 0.75rem;
+      color: var(--text-faint);
+      background: var(--surface2);
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .map-legend-item { display: flex; align-items: center; gap: 5px; }
+    .map-dot {
+      width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
     }
 
-    .card-meta {
+    /* ── GRID PANEL ── */
+    #grid-panel { display: none; }
+    #grid-panel.visible { display: block; }
+
+    .panel-header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0 12px 12px 12px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 2px;
-    }
-
-    .tag {
-      display: inline-flex;
+      gap: 16px;
       align-items: center;
-      gap: 4px;
-      padding: 3px 9px;
-      border-radius: 999px;
-      font-size: 0.72rem;
-      font-weight: 500;
-      background: var(--surface2);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
     }
-    .tag.category {
-      background: rgba(108,99,255,0.1);
-      border-color: rgba(108,99,255,0.25);
-      color: #a78bfa;
-    }
-    .tag.neighborhood {
-      background: rgba(74,222,128,0.08);
-      border-color: rgba(74,222,128,0.2);
-      color: #86efac;
-    }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--text-muted); }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .status-VERIFIED { background: var(--green); box-shadow: 0 0 6px var(--green); }
+    .status-LIKELY_ACTIVE { background: var(--yellow); box-shadow: 0 0 6px var(--yellow); }
+    .status-UNCERTAIN { background: var(--orange); }
+    .status-STALE, .status-INACTIVE { background: var(--red); }
 
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      margin-top: auto;
-      padding-top: 10px;
-      border-top: 1px solid var(--border);
-    }
+    #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
 
-    .status-label {
-      font-size: 0.72rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+    /* ── CARD ── */
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 18px;
+      display: flex; flex-direction: column; gap: 10px;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
     }
+    .card:hover { border-color: rgba(108,99,255,0.4); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.4); }
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .card-name { font-size: 0.93rem; font-weight: 600; color: #fff; line-height: 1.3; }
+    .card-desc { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-meta { display: flex; flex-wrap: wrap; gap: 5px; }
+    .tag { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border-radius: 999px; font-size: 0.7rem; font-weight: 500; background: var(--surface2); color: var(--text-muted); border: 1px solid var(--border); }
+    .tag.cat { background: rgba(108,99,255,0.1); border-color: rgba(108,99,255,0.25); color: #a78bfa; }
+    .tag.hood { background: rgba(74,222,128,0.08); border-color: rgba(74,222,128,0.2); color: #86efac; }
+    .card-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 10px; border-top: 1px solid var(--border); }
+    .status-label { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
     .status-label.VERIFIED { color: var(--green); }
     .status-label.LIKELY_ACTIVE { color: var(--yellow); }
     .status-label.UNCERTAIN { color: var(--orange); }
     .status-label.STALE, .status-label.INACTIVE { color: var(--red); }
+    .card-links { display: flex; gap: 6px; }
+    .link-btn { display: inline-flex; align-items: center; gap: 3px; padding: 4px 10px; border-radius: 7px; font-size: 0.73rem; font-weight: 500; text-decoration: none; border: 1px solid var(--border); color: var(--text-muted); background: var(--surface2); transition: all 0.2s; }
+    .link-btn:hover { border-color: var(--accent); color: var(--text); }
+    .link-btn.primary { background: rgba(108,99,255,0.15); border-color: rgba(108,99,255,0.3); color: #a78bfa; }
+    .link-btn.primary:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
 
-    .card-links {
-      display: flex;
-      gap: 8px;
-    }
-
-    .link-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 5px 10px;
-      border-radius: 8px;
-      font-size: 0.75rem;
-      font-weight: 500;
-      text-decoration: none;
-      border: 1px solid var(--border);
-      color: var(--text-muted);
-      background: var(--surface2);
-      transition: all 0.2s;
-    }
-    .link-btn:hover {
-      border-color: var(--accent);
-      color: var(--text);
-    }
-    .link-btn.primary {
-      background: rgba(108,99,255,0.15);
-      border-color: rgba(108,99,255,0.3);
-      color: #a78bfa;
-    }
-    .link-btn.primary:hover {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
-
-    /* ─── EMPTY STATE ─────────────────────────────── */
-    #empty {
-      display: none;
-      text-align: center;
-      padding: 80px 20px;
-      color: var(--text-faint);
-    }
+    /* ── EMPTY / LOADING ── */
+    #empty { display: none; text-align: center; padding: 70px 20px; color: var(--text-faint); }
     #empty .emoji { font-size: 3rem; margin-bottom: 16px; }
     #empty h3 { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 8px; }
-
-    /* ─── LOADING ─────────────────────────────────── */
-    #loading {
-      text-align: center;
-      padding: 80px 20px;
-      color: var(--text-muted);
-    }
-    .spinner {
-      width: 36px;
-      height: 36px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-      margin: 0 auto 16px;
-    }
+    #loading { text-align: center; padding: 80px 20px; color: var(--text-muted); }
+    .spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ─── FOOTER ──────────────────────────────────── */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 32px 24px;
-      text-align: center;
-      color: var(--text-faint);
-      font-size: 0.8rem;
-    }
+    /* ── FOOTER ── */
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; color: var(--text-faint); font-size: 0.8rem; }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
 
-    /* ─── LEGEND ──────────────────────────────────── */
-    .legend {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 24px;
-      padding: 12px 16px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
+    /* ── LEAFLET POPUP OVERRIDE ── */
+    .leaflet-popup-content-wrapper {
+      background: #1e1e2a;
+      border: 1px solid #2a2a3a;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+      color: #e2e8f0;
     }
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.78rem;
-      color: var(--text-muted);
-    }
+    .leaflet-popup-tip { background: #1e1e2a; }
+    .leaflet-popup-content { margin: 12px 16px; font-family: 'Inter', sans-serif; }
+    .popup-name { font-size: 0.9rem; font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .popup-cat { font-size: 0.75rem; color: #a78bfa; margin-bottom: 6px; }
+    .popup-desc { font-size: 0.78rem; color: #94a3b8; line-height: 1.4; margin-bottom: 8px; }
+    .popup-link { display: inline-block; padding: 4px 10px; background: rgba(108,99,255,0.2); border: 1px solid rgba(108,99,255,0.4); border-radius: 6px; color: #a78bfa; font-size: 0.74rem; text-decoration: none; }
+    .popup-link:hover { background: #6c63ff; color: #fff; }
+    .leaflet-container { background: #0f0f14; }
 
     @media (max-width: 600px) {
       #grid { grid-template-columns: 1fr; }
       .stat-pill { padding: 10px 14px; }
       .stat-pill .num { font-size: 1.4rem; }
       header { padding: 40px 16px 32px; }
+      #map { height: 380px; }
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <div class="header-badge">🤝 Chicago Corps</div>
-    <h1>Chicago Mutual Aid<br>Directory</h1>
-    <p>A verified, living directory of mutual aid and community support groups across the Chicago area. Find organizations near you or volunteer your time.</p>
+<header>
+  <div class="header-badge">🤝 Chicago Corps</div>
+  <h1>Chicago Mutual Aid<br>Directory</h1>
+  <p>A verified, living directory of mutual aid and community support groups across the Chicago area. Find organizations near you or volunteer your time.</p>
+  <div class="stats-bar">
+    <div class="stat-pill"><div class="num" id="stat-total">—</div><div class="lbl">Groups</div></div>
+    <div class="stat-pill"><div class="num" id="stat-verified">—</div><div class="lbl">Verified</div></div>
+    <div class="stat-pill"><div class="num" id="stat-categories">—</div><div class="lbl">Categories</div></div>
+    <div class="stat-pill"><div class="num" id="stat-neighborhoods">—</div><div class="lbl">Neighborhoods</div></div>
+  </div>
+</header>
 
-    <div class="stats-bar" id="stats-bar">
-      <div class="stat-pill"><div class="num" id="stat-total">—</div><div class="lbl">Groups</div></div>
-      <div class="stat-pill"><div class="num" id="stat-verified">—</div><div class="lbl">Verified</div></div>
-      <div class="stat-pill"><div class="num" id="stat-categories">—</div><div class="lbl">Categories</div></div>
-      <div class="stat-pill"><div class="num" id="stat-neighborhoods">—</div><div class="lbl">Neighborhoods</div></div>
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="search" id="search" placeholder="Search groups, neighborhoods, categories…" autocomplete="off">
     </div>
-  </header>
+    <select id="filter-category"><option value="">All categories</option></select>
+    <select id="filter-neighborhood"><option value="">All neighborhoods</option></select>
+    <button class="filter-btn" id="btn-volunteers">🙋 Volunteers</button>
+    <span id="result-count"></span>
+  </div>
+</div>
 
-  <div class="toolbar">
-    <div class="toolbar-inner">
-      <div class="search-wrap">
-        <span class="search-icon">🔍</span>
-        <input type="search" id="search" placeholder="Search groups, neighborhoods, categories…" autocomplete="off">
-      </div>
-      <select id="filter-category">
-        <option value="">All categories</option>
-      </select>
-      <select id="filter-neighborhood">
-        <option value="">All neighborhoods</option>
-      </select>
-      <button class="filter-btn" id="btn-volunteers" title="Show only groups accepting volunteers">🙋 Volunteers</button>
-      <span id="result-count"></span>
+<div class="tab-bar">
+  <button class="tab active" id="tab-list" onclick="switchTab('list')">📋 Directory</button>
+  <button class="tab" id="tab-map" onclick="switchTab('map')">🗺️ Map</button>
+</div>
+
+<main>
+  <div id="loading"><div class="spinner"></div><p>Loading directory…</p></div>
+
+  <!-- MAP PANEL -->
+  <div id="map-panel">
+    <div id="map"></div>
+    <div class="map-note">
+      <span>📍 Showing groups with known addresses or neighborhood locations</span>
+      <span class="map-legend-item"><span class="map-dot" style="background:#4ade80;box-shadow:0 0 6px #4ade80"></span> Verified</span>
+      <span class="map-legend-item"><span class="map-dot" style="background:#facc15"></span> Likely active</span>
+      <span class="map-legend-item"><span class="map-dot" style="background:#fb923c"></span> Uncertain</span>
+      <span class="map-legend-item"><span class="map-dot" style="background:#f87171"></span> Stale</span>
     </div>
   </div>
 
-  <main>
-    <div class="legend">
+  <!-- GRID PANEL -->
+  <div id="grid-panel">
+    <div class="panel-header">
       <div class="legend-item"><span class="status-dot status-VERIFIED"></span> Verified active</div>
       <div class="legend-item"><span class="status-dot status-LIKELY_ACTIVE"></span> Likely active</div>
       <div class="legend-item"><span class="status-dot status-UNCERTAIN"></span> Uncertain</div>
       <div class="legend-item"><span class="status-dot status-STALE"></span> Stale / inactive</div>
     </div>
-
-    <div id="loading">
-      <div class="spinner"></div>
-      <p>Loading directory…</p>
-    </div>
-
     <div id="grid"></div>
     <div id="empty">
       <div class="emoji">🔎</div>
       <h3>No groups found</h3>
       <p>Try adjusting your search or filters.</p>
     </div>
-  </main>
+  </div>
+</main>
 
-  <footer>
-    <p>
-      Data last updated May 2026 · 
-      <a href="https://github.com/lumpencamp/chicago-corps" target="_blank" rel="noopener">View on GitHub</a> ·
-      <a href="https://github.com/lumpencamp/chicago-corps/issues" target="_blank" rel="noopener">Suggest an update</a>
-    </p>
-    <p style="margin-top:8px">All data sourced from public websites and directories. This is a community resource, not an official city directory.</p>
-  </footer>
+<footer>
+  <p>
+    Data last updated May 2026 ·
+    <a href="https://github.com/lumpencamp/chicago-corps" target="_blank" rel="noopener">View on GitHub</a> ·
+    <a href="https://github.com/lumpencamp/chicago-corps/issues" target="_blank" rel="noopener">Suggest an update</a>
+  </p>
+  <p style="margin-top:8px">All data sourced from public websites and directories. Community resource, not an official city directory.</p>
+</footer>
 
-  <script>
-    const CSV_URL = 'chicago_mutual_aid_groups.csv';
+<script>
+// ── Geocoordinates: known addresses + neighborhood centroids as fallback ──
+const GEO = {
+  // By name (exact match from CSV)
+  'Cooperation Racine':             [41.7635, -87.6437], // 1201 W 71st St
+  'Bridgeport Alliance':            [41.8312, -87.6508], // 1200 W 35th St
+  'Urban Growers Collective':       [41.8320, -87.6500], // Bridgeport farms
+  'Mouse Arts & Letters Social Club':[41.8366,-87.6330], // 555 W 31st St
+  'Chinese Mutual Aid Association (CMAA)': [41.9733, -87.6578], // 1016 W Argyle
+  'Chicago Volunteer Legal Services (CVLS)': [41.8827,-87.6293], // 33 N Dearborn
+  'Chatham-Avalon Ministries':      [41.7460, -87.6257], // 8601 S State St
+  'Roseland Christian Ministries':  [41.7056, -87.6227], // 10858 S Michigan
+  'Sheldon Heights CoC Food Pantry':[41.6952, -87.6435], // 11325 S Halsted
+  'St. Sabina Church Food Pantry':  [41.7511, -87.6627], // 1120 W 79th St
+  'Garfield Park Community Council':[41.8820, -87.7188], // 300 N Central Park
+  'Sarah\'s Inn':                   [41.8776, -87.7380], // West Side
+  'Beyond Legal Aid':               [41.8944, -87.6527], // Citywide
+  'Chicago Recovery Alliance (CRA)':[41.8672, -87.7070], // 3110 W Taylor
+  'Chicago Artists Coalition':      [41.8896, -87.6634], // 1431 W Hubbard
+  'Hyde Park Art Center':           [41.7977, -87.5922], // 5020 S Cornell
+  'Chicago Environmental Justice Network (CEJN)': [41.8359,-87.6396], // 3700 S Iron
+  'Between Friends':                [41.8781, -87.6298], // citywide
+  'After School Matters':           [41.8827, -87.6293], // 66 E Randolph
+  'Chicago Youth Programs (CYP)':   [41.7800, -87.6100], // South Side
+  'Chicago Cultural Alliance':      [41.8794, -87.6370], // 600 W Jackson
+  'Greater Chicago Legal Clinic (GCLC)': [41.8827,-87.6293],
+  'American Indian Center Chicago': [41.9734, -87.6580], // Uptown
+  'Center on Halsted':              [41.9440, -87.6490], // Lakeview
+  'The Love Fridge Chicago':        [41.8781, -87.6298], // citywide
+  'Market Box Chicago':             [41.7600, -87.6200], // South Side
+  'Roseland Ceasefire':             [41.6900, -87.6200], // Roseland
+  'ONE Northside':                  [41.9911, -87.6547], // Rogers Park
+  'Logan Square Mutual Aid':        [41.9217, -87.7070], // Logan Square
+  'Mayfair Mutual Aid':             [41.9686, -87.7538], // Mayfair
+  'Northwest Side Solidarity Network': [41.9600,-87.7200],
+  'WINGS Program':                  [41.8781, -87.6298],
+  'The Village Chicago':            [41.9249, -87.6422], // Lincoln Park
+  'MAMAS (Mothering is Radical)':   [41.8781, -87.6298],
+  'Chicago United Solidarity Project (CUSP)': [41.7600,-87.6400],
+  'Chicago Tenants Movement':       [41.8781, -87.6298],
+  'Chicago Housing Justice Coalition': [41.8781,-87.6298],
+  'Chicago Coalition to End Homelessness': [41.8781,-87.6298],
+  'ICIRR (Illinois Coalition for Immigrant and Refugee Rights)': [41.8781,-87.6298],
+  'MIRA Chicago (Middle Eastern Immigrant and Refugee Alliance)': [41.8781,-87.6298],
+  '350 Chicago':                    [41.8781, -87.6298],
+  'CAARP':                          [41.8781, -87.6298],
+  'Let Us Breathe Collective':      [41.8781, -87.6298],
+  'Brave Space Alliance':           [41.7600, -87.6300],
+  'Chicago Abortion Fund':          [41.8781, -87.6298],
+  'Chicago Action Medical':         [41.8781, -87.6298],
+  'AIDS Foundation Chicago':        [41.8781, -87.6298],
+  'Support Ho(s)e':                 [41.8781, -87.6298],
+  'Critical Resistance Chicago':    [41.8781, -87.6298],
+  'UCHRP (U of Chicago Harm Reduction Project)': [41.7900,-87.5990],
+  'UIC Community Outreach Intervention Projects (COIP)': [41.8686,-87.6710],
+  'FGC Mobile Harm Reduction':      [41.8781, -87.6298],
+  'Legal Aid Chicago':              [41.8789, -87.6386],
+  'Chicago American Indian Community Collaborative (CAICC)': [41.8781,-87.6298],
+};
 
-    // Groups that accept volunteers (from volunteer_needs.csv)
-    const VOLUNTEER_IDS = new Set([
-      'urban-growers-collective', 'love-fridge-chicago', 'logan-square-mutual-aid',
-      'mayfair-mutual-aid', 'sarahs-inn', 'center-on-halsted', 'american-indian-center',
-      'chinese-mutual-aid', 'chicago-youth-programs', '350-chicago', 'beyond-legal-aid',
-      'roseland-christian-ministries', 'chicago-tenants-movement', 'mamas',
-      'bridgeport-alliance', 'chicago-recovery-alliance'
-    ]);
+// Neighborhood centroid fallbacks
+const HOOD_GEO = {
+  'Englewood':        [41.7730, -87.6460],
+  'Bridgeport/Armour':[41.8312, -87.6508],
+  'Woodlawn':         [41.7747, -87.5929],
+  'Bronzeville':      [41.8220, -87.6175],
+  'Citywide':         [41.8781, -87.6298],
+  'Logan Square':     [41.9217, -87.7070],
+  'Mayfair':          [41.9686, -87.7538],
+  'Lakeview':         [41.9440, -87.6490],
+  'Uptown':           [41.9734, -87.6580],
+  'Uptown/Argyle':    [41.9734, -87.6580],
+  'Hyde Park':        [41.7960, -87.5960],
+  'South Side':       [41.7600, -87.6200],
+  'North Side':       [41.9700, -87.6600],
+  'Rogers Park':      [41.9983, -87.6630],
+  'Pilsen':           [41.8544, -87.6623],
+  'Avondale':         [41.9426, -87.7068],
+  'Edgewater':        [41.9888, -87.6598],
+  'Irving Park':      [41.9544, -87.7261],
+  'Albany Park':      [41.9685, -87.7270],
+  'Humboldt Park':    [41.9003, -87.7215],
+  'Austin':           [41.8990, -87.7658],
+  'Garfield Park':    [41.8820, -87.7188],
+  'Roseland':         [41.6930, -87.6220],
+  'Chatham':          [41.7500, -87.6060],
+  'Auburn Gresham':   [41.7511, -87.6627],
+  'West Side':        [41.8820, -87.7400],
+  'Southwest Side':   [41.8100, -87.7000],
+  'Northwest Side':   [41.9600, -87.7200],
+  'Evanston':         [42.0450, -87.6877],
+  'Chicago Suburbs':  [41.8400, -87.9500],
+  'Berwyn, Cicero':   [41.8500, -87.7900],
+  'South Shore':      [41.7630, -87.5680],
+  'Citywide (25+ locations)': [41.8781, -87.6298],
+  'Statewide/Chicago':[41.8781, -87.6298],
+};
 
-    let allGroups = [];
-    let volunteersOnly = false;
+// Status colors for markers
+const STATUS_COLOR = {
+  'VERIFIED':     '#4ade80',
+  'LIKELY_ACTIVE':'#facc15',
+  'UNCERTAIN':    '#fb923c',
+  'STALE':        '#f87171',
+  'INACTIVE':     '#f87171',
+};
 
-    // Build a slug from a name (same logic as data IDs)
-    function slugify(name) {
-      return name.toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .trim()
-        .replace(/\s+/g, '-');
+function makeMarkerIcon(status) {
+  const color = STATUS_COLOR[status] || '#94a3b8';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <circle cx="11" cy="11" r="7" fill="${color}" stroke="#0f0f14" stroke-width="2.5"/>
+    <circle cx="11" cy="11" r="3" fill="#0f0f14" opacity="0.5"/>
+  </svg>`;
+  return L.divIcon({
+    html: svg,
+    className: '',
+    iconSize: [22, 22],
+    iconAnchor: [11, 11],
+    popupAnchor: [0, -14],
+  });
+}
+
+// ── App State ──
+const CSV_URL = 'chicago_mutual_aid_groups.csv';
+const VOLUNTEER_NAMES = new Set([
+  'Urban Growers Collective','The Love Fridge Chicago','Logan Square Mutual Aid',
+  'Mayfair Mutual Aid',"Sarah's Inn",'Center on Halsted','American Indian Center Chicago',
+  'Chinese Mutual Aid Association (CMAA)','Chicago Youth Programs (CYP)','350 Chicago',
+  'Beyond Legal Aid','Roseland Christian Ministries','Chicago Tenants Movement',
+  'MAMAS (Mothering is Radical)','Bridgeport Alliance','Chicago Recovery Alliance (CRA)',
+]);
+
+let allGroups = [];
+let map = null;
+let markers = [];
+let volunteersOnly = false;
+let activeTab = 'list';
+
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function statusLabel(s) {
+  return {VERIFIED:'Verified',LIKELY_ACTIVE:'Likely active',UNCERTAIN:'Uncertain',STALE:'Stale',INACTIVE:'Inactive'}[s] || (s||'');
+}
+
+function getCoords(g) {
+  // 1. Exact name lookup
+  if (GEO[g.name]) return GEO[g.name];
+  // 2. Neighborhood centroid (try first part of comma-separated neighborhood)
+  const hood = (g.neighborhood || '').split(',')[0].trim();
+  if (HOOD_GEO[hood]) return HOOD_GEO[hood];
+  if (HOOD_GEO[g.neighborhood]) return HOOD_GEO[g.neighborhood];
+  // 3. Citywide fallback with small jitter so markers don't stack
+  return [41.8781 + (Math.random()-0.5)*0.08, -87.6298 + (Math.random()-0.5)*0.08];
+}
+
+function getFiltered() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const cat = document.getElementById('filter-category').value;
+  const hood = document.getElementById('filter-neighborhood').value;
+  return allGroups.filter(g => {
+    if (cat && g.category !== cat) return false;
+    if (hood && g.neighborhood !== hood) return false;
+    if (volunteersOnly && !VOLUNTEER_NAMES.has(g.name)) return false;
+    if (q) {
+      const hay = [g.name, g.category, g.neighborhood, g.description].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
     }
+    return true;
+  });
+}
 
-    function statusLabel(s) {
-      const map = {
-        'VERIFIED': 'Verified',
-        'LIKELY_ACTIVE': 'Likely active',
-        'UNCERTAIN': 'Uncertain',
-        'STALE': 'Stale',
-        'INACTIVE': 'Inactive'
-      };
-      return map[s] || s;
-    }
-
-    function renderCard(g) {
-      const slug = slugify(g.name);
-      const isVolunteer = VOLUNTEER_IDS.has(slug);
-      const hasWebsite = g.website && g.website.startsWith('http');
-      const hasSocial = g.social_media && g.social_media.startsWith('http');
-      const website = hasWebsite ? g.website.split(' ')[0] : null; // take first URL if multiple
-
-      return `
-        <div class="card">
-          <div class="card-top">
-            <div class="card-name">${escHtml(g.name)}${isVolunteer ? ' <span title="Accepting volunteers" style="font-size:0.8em">🙋</span>' : ''}</div>
-            <div class="status-dot status-${g.verification_status || 'UNCERTAIN'}" title="${statusLabel(g.verification_status)}"></div>
-          </div>
-          <div class="card-desc">${escHtml(g.description)}</div>
-          <div class="card-meta">
-            ${g.category ? `<span class="tag category">📂 ${escHtml(g.category)}</span>` : ''}
-            ${g.neighborhood ? `<span class="tag neighborhood">📍 ${escHtml(g.neighborhood)}</span>` : ''}
-          </div>
-          <div class="card-footer">
-            <span class="status-label ${g.verification_status}">${statusLabel(g.verification_status)}</span>
-            <div class="card-links">
-              ${website ? `<a class="link-btn primary" href="${escHtml(website)}" target="_blank" rel="noopener">Website ↗</a>` : ''}
-              ${hasSocial && !hasWebsite ? `<a class="link-btn" href="${escHtml(g.social_media.split(' ')[0])}" target="_blank" rel="noopener">Social ↗</a>` : ''}
-            </div>
-          </div>
+function renderCard(g) {
+  const isVol = VOLUNTEER_NAMES.has(g.name);
+  const website = g.website && g.website.startsWith('http') ? g.website.split(' ')[0] : null;
+  const social = g.social_media && g.social_media.startsWith('http') ? g.social_media.split(' ')[0] : null;
+  return `
+    <div class="card">
+      <div class="card-top">
+        <div class="card-name">${escHtml(g.name)}${isVol ? ' <span title="Accepting volunteers">🙋</span>' : ''}</div>
+        <div class="status-dot status-${g.verification_status||'UNCERTAIN'}" title="${statusLabel(g.verification_status)}"></div>
+      </div>
+      <div class="card-desc">${escHtml(g.description)}</div>
+      <div class="card-meta">
+        ${g.category ? `<span class="tag cat">📂 ${escHtml(g.category)}</span>` : ''}
+        ${g.neighborhood ? `<span class="tag hood">📍 ${escHtml(g.neighborhood)}</span>` : ''}
+      </div>
+      <div class="card-footer">
+        <span class="status-label ${g.verification_status||''}">${statusLabel(g.verification_status)}</span>
+        <div class="card-links">
+          ${website ? `<a class="link-btn primary" href="${escHtml(website)}" target="_blank" rel="noopener">Website ↗</a>` : ''}
+          ${social && !website ? `<a class="link-btn" href="${escHtml(social)}" target="_blank" rel="noopener">Social ↗</a>` : ''}
         </div>
-      `;
-    }
+      </div>
+    </div>`;
+}
 
-    function escHtml(str) {
-      if (!str) return '';
-      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-    }
+function renderGrid(filtered) {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+    grid.innerHTML = filtered.map(renderCard).join('');
+  }
+}
 
-    function getFiltered() {
-      const q = document.getElementById('search').value.toLowerCase();
-      const cat = document.getElementById('filter-category').value;
-      const hood = document.getElementById('filter-neighborhood').value;
+function renderMap(filtered) {
+  if (!map) initMap();
+  // Clear old markers
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
 
-      return allGroups.filter(g => {
-        if (cat && g.category !== cat) return false;
-        if (hood && g.neighborhood !== hood) return false;
-        if (volunteersOnly && !VOLUNTEER_IDS.has(slugify(g.name))) return false;
-        if (q) {
-          const haystack = [g.name, g.category, g.neighborhood, g.description].join(' ').toLowerCase();
-          if (!haystack.includes(q)) return false;
-        }
-        return true;
-      });
-    }
+  filtered.forEach(g => {
+    const coords = getCoords(g);
+    const website = g.website && g.website.startsWith('http') ? g.website.split(' ')[0] : null;
+    const social = g.social_media && g.social_media.startsWith('http') ? g.social_media.split(' ')[0] : null;
+    const link = website || social;
+    const isVol = VOLUNTEER_NAMES.has(g.name);
 
-    function render() {
-      const filtered = getFiltered();
-      const grid = document.getElementById('grid');
-      const empty = document.getElementById('empty');
-      const count = document.getElementById('result-count');
+    const popup = `
+      <div class="popup-name">${escHtml(g.name)}${isVol ? ' 🙋' : ''}</div>
+      <div class="popup-cat">${escHtml(g.category||'')} · <span style="color:${STATUS_COLOR[g.verification_status]||'#94a3b8'}">${statusLabel(g.verification_status)}</span></div>
+      <div class="popup-desc">${escHtml((g.description||'').slice(0, 120))}${g.description && g.description.length > 120 ? '…' : ''}</div>
+      ${link ? `<a class="popup-link" href="${escHtml(link)}" target="_blank" rel="noopener">Visit website ↗</a>` : ''}
+    `;
 
-      if (filtered.length === 0) {
-        grid.innerHTML = '';
-        empty.style.display = 'block';
-      } else {
-        empty.style.display = 'none';
-        grid.innerHTML = filtered.map(renderCard).join('');
-      }
-      count.textContent = `${filtered.length} of ${allGroups.length} groups`;
-    }
+    const marker = L.marker(coords, { icon: makeMarkerIcon(g.verification_status) })
+      .bindPopup(popup, { maxWidth: 260, minWidth: 200 });
+    marker.addTo(map);
+    markers.push(marker);
+  });
+}
 
-    function buildFilters(groups) {
-      const cats = [...new Set(groups.map(g => g.category).filter(Boolean))].sort();
-      const hoods = [...new Set(groups.map(g => g.neighborhood).filter(Boolean))].sort();
+function render() {
+  const filtered = getFiltered();
+  document.getElementById('result-count').textContent = `${filtered.length} of ${allGroups.length} groups`;
+  if (activeTab === 'list') renderGrid(filtered);
+  else renderMap(filtered);
+}
 
-      const catSel = document.getElementById('filter-category');
-      cats.forEach(c => {
-        const o = document.createElement('option');
-        o.value = c; o.textContent = c;
-        catSel.appendChild(o);
-      });
+function initMap() {
+  map = L.map('map', {
+    center: [41.8781, -87.6298],
+    zoom: 11,
+    zoomControl: true,
+  });
 
-      const hoodSel = document.getElementById('filter-neighborhood');
-      hoods.forEach(h => {
-        const o = document.createElement('option');
-        o.value = h; o.textContent = h;
-        hoodSel.appendChild(o);
-      });
-    }
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
+    maxZoom: 19,
+  }).addTo(map);
+}
 
-    function updateStats(groups) {
-      const verified = groups.filter(g => g.verification_status === 'VERIFIED').length;
-      const cats = new Set(groups.map(g => g.category).filter(Boolean));
-      const hoods = new Set(
-        groups.map(g => g.neighborhood).filter(h => h && h !== 'Citywide' && !h.includes('Statewide'))
-      );
+function switchTab(tab) {
+  activeTab = tab;
+  document.getElementById('tab-list').classList.toggle('active', tab === 'list');
+  document.getElementById('tab-map').classList.toggle('active', tab === 'map');
+  document.getElementById('grid-panel').classList.toggle('visible', tab === 'list');
+  document.getElementById('map-panel').classList.toggle('visible', tab === 'map');
+  if (tab === 'map') {
+    // Invalidate size after display:block kicks in
+    setTimeout(() => { if (map) map.invalidateSize(); }, 50);
+  }
+  render();
+}
 
-      document.getElementById('stat-total').textContent = groups.length;
-      document.getElementById('stat-verified').textContent = verified;
-      document.getElementById('stat-categories').textContent = cats.size;
-      document.getElementById('stat-neighborhoods').textContent = hoods.size + '+';
-    }
+function buildFilters(groups) {
+  const cats = [...new Set(groups.map(g => g.category).filter(Boolean))].sort();
+  const hoods = [...new Set(groups.map(g => g.neighborhood).filter(Boolean))].sort();
+  const catSel = document.getElementById('filter-category');
+  const hoodSel = document.getElementById('filter-neighborhood');
+  cats.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; catSel.appendChild(o); });
+  hoods.forEach(h => { const o = document.createElement('option'); o.value = h; o.textContent = h; hoodSel.appendChild(o); });
+}
 
-    async function init() {
-      try {
-        const res = await fetch(CSV_URL);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const text = await res.text();
+function updateStats(groups) {
+  const verified = groups.filter(g => g.verification_status === 'VERIFIED').length;
+  const cats = new Set(groups.map(g => g.category).filter(Boolean));
+  const hoods = new Set(groups.map(g => g.neighborhood).filter(h => h && h !== 'Citywide' && !h.includes('Statewide')));
+  document.getElementById('stat-total').textContent = groups.length;
+  document.getElementById('stat-verified').textContent = verified;
+  document.getElementById('stat-categories').textContent = cats.size;
+  document.getElementById('stat-neighborhoods').textContent = hoods.size + '+';
+}
 
-        const { data } = Papa.parse(text, {
-          header: true,
-          skipEmptyLines: true
-        });
+async function init() {
+  try {
+    const res = await fetch(CSV_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const text = await res.text();
+    const { data } = Papa.parse(text, { header: true, skipEmptyLines: true });
+    allGroups = data;
 
-        allGroups = data;
+    document.getElementById('loading').style.display = 'none';
+    buildFilters(allGroups);
+    updateStats(allGroups);
 
-        document.getElementById('loading').style.display = 'none';
-        buildFilters(allGroups);
-        updateStats(allGroups);
-        render();
+    // Default: show directory tab
+    document.getElementById('grid-panel').classList.add('visible');
+    render();
 
-        // Event listeners
-        document.getElementById('search').addEventListener('input', render);
-        document.getElementById('filter-category').addEventListener('change', render);
-        document.getElementById('filter-neighborhood').addEventListener('change', render);
+    document.getElementById('search').addEventListener('input', render);
+    document.getElementById('filter-category').addEventListener('change', render);
+    document.getElementById('filter-neighborhood').addEventListener('change', render);
+    document.getElementById('btn-volunteers').addEventListener('click', function() {
+      volunteersOnly = !volunteersOnly;
+      this.classList.toggle('active', volunteersOnly);
+      render();
+    });
+  } catch (err) {
+    document.getElementById('loading').innerHTML = `
+      <div style="color:var(--red);padding:40px">
+        <p style="font-size:1.2rem">⚠️ Failed to load directory data</p>
+        <p style="margin-top:8px;color:var(--text-muted)">${err.message}</p>
+      </div>`;
+    console.error('Load error:', err);
+  }
+}
 
-        document.getElementById('btn-volunteers').addEventListener('click', function() {
-          volunteersOnly = !volunteersOnly;
-          this.classList.toggle('active', volunteersOnly);
-          render();
-        });
-
-      } catch (err) {
-        document.getElementById('loading').innerHTML = `
-          <div style="color:var(--red);padding:40px">
-            <p style="font-size:1.2rem">⚠️ Failed to load directory data</p>
-            <p style="margin-top:8px;color:var(--text-muted)">${err.message}</p>
-          </div>
-        `;
-        console.error('Load error:', err);
-      }
-    }
-
-    init();
-  </script>
+init();
+</script>
 </body>
 </html>
