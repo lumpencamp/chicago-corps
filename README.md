@@ -1,96 +1,120 @@
 # Chicago Corps
 
-A verified directory of mutual aid and community support groups in the Chicago area. Built to match volunteers with organizations that need them.
+> A verified, living directory of mutual aid and community support groups across the Chicago area.
 
-**77 groups** across **20 categories** covering North, South, West, Southwest sides + suburbs.  
-**38 groups** have verified contact information. **16 groups** are confirmed accepting volunteers.
+**77 groups** · **21 categories** · **40+ neighborhoods** · **72 verified active**
 
-🌐 **[View the directory →](https://lumpencamp.github.io/chicago-corps/)**
+🌐 **[lumpencamp.github.io/chicago-corps](https://lumpencamp.github.io/chicago-corps/)**
 
 ---
 
-## Quick Start
+## What is this?
 
-### Browse the data
+Chicago Corps is an open-data directory built to make it easier to find and connect with mutual aid organizations, community support groups, food pantries, legal aid clinics, harm reduction programs, and solidarity networks in and around Chicago.
 
-Open `chicago_mutual_aid_groups.csv` in any spreadsheet app. Filter by `neighborhood` to find groups near you, or by `category` to find groups doing work you care about.
+Every entry has a `verification_status` backed by evidence — a live website check, recent social media activity, news coverage, or direct outreach. No stale lists from 2020.
 
-### Run the dashboard
+---
+
+## Features
+
+- 🔍 **Live search** — filter by name, neighborhood, category, or keyword
+- 🗂️ **Category filter** — 21 categories from Food Security to Prison Abolition
+- 📍 **Neighborhood filter** — 40+ Chicago neighborhoods and suburbs
+- 🙋 **Volunteer filter** — shows the 16 groups confirmed to be accepting volunteers
+- 🗺️ **Interactive map** — all groups plotted on a dark map with color-coded verification status markers
+- 📊 **Verification status** — every group rated VERIFIED / LIKELY_ACTIVE / UNCERTAIN / STALE
+
+---
+
+## Data
+
+The core dataset is [`chicago_mutual_aid_groups.csv`](chicago_mutual_aid_groups.csv) — open it in any spreadsheet app to browse, filter, and sort.
+
+| File | Description |
+|------|-------------|
+| `chicago_mutual_aid_groups.csv` | 77 groups — name, category, neighborhood, description, website, social, verification status |
+| `data/contacts.csv` | Email, phone, contact forms — 38 entries |
+| `data/locations.csv` | Street addresses + community areas — 22 locations |
+| `data/volunteer_needs.csv` | 16 groups confirmed accepting volunteers with roles and requirements |
+| `data/verification_log.csv` | Evidence trail for each verification decision |
+| `data/outreach_log.csv` | Direct contact attempts log |
+| `data/coalitions.csv` | Coalition and umbrella organization relationships |
+
+### Verification statuses
+
+| Status | Meaning |
+|--------|---------|
+| `VERIFIED` | Active within 6 months, confirmed by direct evidence |
+| `LIKELY_ACTIVE` | Website or social present, no recent direct confirmation |
+| `UNCERTAIN` | Referenced in directories but hard to verify independently |
+| `STALE` | No activity found in 6+ months |
+| `INACTIVE` | Confirmed dissolved or inactive |
+
+---
+
+## Contributing
+
+### Add or update a group
+
+1. Open a [GitHub Issue](https://github.com/lumpencamp/chicago-corps/issues) with the group name and any links
+2. Or fork the repo, edit `chicago_mutual_aid_groups.csv`, and open a pull request
+
+### Validate data locally
+
+```bash
+python build.py
+```
+
+Checks required fields, validates status/category values, and flags stale entries (>180 days since last verification).
+
+### Run the site locally
+
+The site is a single self-contained `index.html` — no build step needed:
 
 ```bash
 open index.html
+# or: python -m http.server 8000
 ```
-
-A self-contained HTML page that reads the CSV files and displays live stats, a coverage map, stale data alerts, and category breakdowns. No server required.
-
-### Build the site
-
-```bash
-python build.py       # Validate CSVs + generate JSON + stats + GeoJSON
-jekyll serve           # Run locally at http://localhost:4000
-```
-
-### Contribute
-
-See `schema.md` for the data model. To add a group:
-
-1. Add a row to `data/groups.csv` with a unique `group_id`
-2. Add contact info to `data/contacts.csv` using the same `group_id`
-3. Add location data to `data/locations.csv`
-4. Add a verification event to `data/verification_log.csv`
-5. Run `python build.py` to validate
 
 ---
 
 ## Project Structure
 
 ```
-├── _config.yml                # Jekyll config for GitHub Pages
-├── build.py                   # CSV validation + JSON conversion + stats
-├── dashboard.html             # Internal pipeline dashboard
+chicago-corps/
+├── index.html                     # The live directory site
+├── chicago_mutual_aid_groups.csv  # Core dataset — 77 groups
+├── build.py                       # CSV validation + stats + GeoJSON generator
+├── .nojekyll                      # Tells GitHub Pages to serve static HTML directly
 ├── data/
-│   ├── groups.csv             # Core directory — 77 groups
-│   ├── contacts.csv           # Email, phone, contact forms — 38 entries
-│   ├── locations.csv          # Addresses + community areas — 22 locations
-│   ├── volunteer_needs.csv    # Groups accepting volunteers — 16 confirmed
-│   ├── volunteers.csv         # Volunteer intake schema
-│   ├── outreach_log.csv       # Contact tracking
-│   ├── verification_log.csv   # Evidence trail
-│   └── coalitions.csv         # Parent/child relationships
-├── coverage/gaps.md           # Neighborhood gap analysis
-└── sources/sources.md         # Source inventory
+│   ├── contacts.csv
+│   ├── locations.csv
+│   ├── volunteer_needs.csv
+│   ├── outreach_log.csv
+│   ├── verification_log.csv
+│   └── coalitions.csv
+├── schema.md                      # Full data schema documentation
+├── taxonomy.md                    # Category and tag taxonomy
+├── sources/sources.md             # Source inventory
+└── coverage/gaps.md               # Neighborhood gap analysis
 ```
-
----
-
-## Data Freshness
-
-Every group has a `verification_status` and `last_verified_date`. Groups unverified for 6+ months are flagged as STALE and hidden from volunteer matching. The `build.py` script surfaces stale entries automatically.
-
----
-
-## License
-
-This project shares publicly available information about community organizations. All data is sourced from public websites, directories, and news coverage. If you represent a listed organization and would like your information updated or removed, please open an issue or contact us.
 
 ---
 
 ## Deployment
 
-This site is designed for **GitHub Pages** with Jekyll:
+Hosted on GitHub Pages as a static site (no Jekyll, no build step):
 
-```bash
-# First time
-git init
-git add .
-git commit -m "Initial commit: Chicago Corps directory"
-git branch -M main
-git remote add origin git@github.com:USERNAME/chicago-corps.git
-git push -u origin main
+- Push to `main` → GitHub Actions automatically deploys
+- Live at: `https://lumpencamp.github.io/chicago-corps/`
 
-# Enable GitHub Pages in repo Settings → Pages → Source: GitHub Actions (Jekyll)
-```
+To use a custom domain, add a `CNAME` file with the domain and configure DNS with your provider.
 
-The site will be live at `https://lumpencamp.github.io/chicago-corps/`.
+---
 
-To use a custom domain (e.g. chicagocorps.org), add a `CNAME` file containing the domain name and configure DNS with your provider.
+## License
+
+Data in this repository is sourced from public websites, directories, and news coverage. It is shared for community use under the spirit of mutual aid — freely available, freely improvable.
+
+If you represent a listed organization and would like your information updated or removed, please [open an issue](https://github.com/lumpencamp/chicago-corps/issues) and we'll take care of it promptly.
