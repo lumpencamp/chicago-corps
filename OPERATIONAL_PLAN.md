@@ -2,7 +2,7 @@
 
 How to move from a 77-group dataset to active volunteer-to-group matching. Covers the end-to-end workflow: finding volunteers, qualifying groups, making connections, and displaying the information publicly.
 
-**Status:** Phase 5 — Outreach & Display Design  
+**Status:** Phase 6 — Directory Expansion & Tooling  
 **Last updated:** 2026-05-29
 
 ---

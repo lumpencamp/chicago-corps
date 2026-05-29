@@ -178,7 +178,7 @@ Each category has a definition, inclusion criteria, and examples. A group must m
 
 **Excludes:** Environmental policy organizations (see Environmental Justice)
 
-**Count:** 2
+**Count:** 5 (expanded from 2 with Friends of the Chicago River, Friends of the Parks, Openlands)
 
 ---
 

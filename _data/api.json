@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T19:59:54.124644",
+  "generated_at": "2026-05-29T15:05:53.906333",
   "groups": [
     {
       "name": "Cooperation Racine",
@@ -1634,9 +1634,11 @@
       "verification_evidence": "Daily Northwestern Nov 11 2025: $24,999 city commitment. Evanston Roundtable Jan 24 2026: confirmed continued 2026 operations.",
       "source": "web_search",
       "group_id": "evanston-community-cares",
-      "is_urgent": false,
-      "urgent_description": null,
-      "donation_needs": [],
+      "is_urgent": true,
+      "urgent_description": "Continued food drive and mutual aid operations in 2026",
+      "donation_needs": [
+        "non-perishable food"
+      ],
       "languages": [
         "English"
       ]
@@ -1736,7 +1738,9 @@
       "group_id": "beyond-hunger",
       "is_urgent": false,
       "urgent_description": null,
-      "donation_needs": [],
+      "donation_needs": [
+        "non-perishable food"
+      ],
       "languages": [
         "English"
       ]
@@ -1756,9 +1760,12 @@
       "group_id": "gage-park-latinx-council",
       "is_urgent": false,
       "urgent_description": null,
-      "donation_needs": [],
+      "donation_needs": [
+        "art supplies"
+      ],
       "languages": [
-        "English"
+        "English",
+        "Spanish"
       ]
     },
     {
@@ -1858,7 +1865,8 @@
       "urgent_description": null,
       "donation_needs": [],
       "languages": [
-        "English"
+        "English",
+        "Spanish"
       ]
     },
     {
@@ -1896,7 +1904,9 @@
       "group_id": "restoration-ministries",
       "is_urgent": false,
       "urgent_description": null,
-      "donation_needs": [],
+      "donation_needs": [
+        "non-perishable food"
+      ],
       "languages": [
         "English"
       ]

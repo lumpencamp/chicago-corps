@@ -2,73 +2,72 @@
 
 Which Chicago neighborhoods and suburbs have zero groups in the dataset, and what that means for the project.
 
+**Last updated: 2026-05-29** — after 26-group expansion (77 → 103)
+
 ---
 
 ## Methodology
 
-Groups were assigned to neighborhoods based on their `neighborhood` field in `groups.csv`. Groups marked "Citywide" (23) were counted separately and not assigned to a specific neighborhood. For the purposes of this analysis, a neighborhood is "covered" if at least one group lists it as its primary service area.
+Groups were assigned to neighborhoods based on their `neighborhood` field. Groups marked "Citywide" were counted separately and not assigned to a specific neighborhood. A neighborhood is "covered" if at least one group lists it as its primary service area.
 
 ---
 
 ## Chicago Community Areas — 77 Total
 
-### Covered (at least one group): ~30 community areas
+### Now Covered (~43 of 77, up from ~30)
 
-**North Side (7 of ~12):** Rogers Park, Edgewater, Uptown, Lakeview, Lincoln Park, North Center, Avondale
+**Newly covered in this expansion:**
 
-**Northwest Side (7 of ~12):** Albany Park, Irving Park, Mayfair, Logan Square, Humboldt Park, West Town, Ukrainian Village (subset)
+| Neighborhood | New Group(s) | Priority gap |
+|---|---|---|
+| **Belmont Cragin** | Belmont Cragin Mutual Aid, Northwest Center, Belmont Cragin United | Tier 1 → Filled |
+| **Gage Park** | Gage Park Latinx Council | Tier 1 → Filled |
+| **Auburn Gresham** | GAGDC, Target Area Development Corp (+ existing St. Sabina) | Tier 1 → Filled |
+| **Roseland / West Pullman** | GRWP Food Network, Youth Peace Center, PeacePlayers (+ existing 3 groups) | Tier 1 → Filled |
+| **Portage Park / Jefferson Park** | Portage Park Mutual Aid, Jefferson Park Forward | Tier 2 → Filled |
+| **Little Village** | LVSN, Enlace Chicago | Previously sparse → Filled |
+| **McKinley Park** | McKinley Park MA, BYNC (serves area) | Tier 3 → Filled |
+| **Back of the Yards / Brighton Park / New City** | BYNC | Previously uncovered → Filled |
+| **Norwood Park** | Norwood Park Senior Center | Tier 3 → Partial |
 
-**West Side (5 of ~12):** Austin, East Garfield Park, West Garfield Park, North Lawndale, Pilsen
+**Suburban fill:**
 
-**South Side (7 of ~20):** Englewood, Woodlawn, Bronzeville, Bridgeport, Hyde Park, South Shore, Chatham
+| Suburb | New Group(s) | Previous status |
+|---|---|---|
+| **Skokie** | Humans At Help Foundation, Evanston/Skokie MA | Tier 2 → Filled |
+| **Oak Park** | Beyond Hunger | Tier 3 → Filled |
+| **Harvey** | Restoration Ministries | Tier 2 → Filled |
+| **Blue Island / Robbins** | BIRNN | Tier 2 → Filled |
+| **Dolton** | Free-N-Deed Market | Tier 2 → Partial |
+| **South Suburbs (general)** | South Suburban Mutual Aid | Previously sparse → Filled |
 
-**Southwest Side (4 of ~10):** Mount Greenwood, Morgan Park, Beverly, West Lawn
-
-**Central:** Near North Side, Loop, Near South Side (covered by citywide orgs)
-
-### Uncovered (zero groups): ~30 community areas
-
-#### Far North Side
-- **Edison Park** (CA #9) — Far northwest, low density, more suburban character
-- **Norwood Park** (CA #10) — Similar to Edison Park
-- **Jefferson Park** (CA #11) — Major transit hub, diverse population
-- **Forest Glen** (CA #12) — Residential, higher income
-- **North Park** (CA #13) — Diverse, home to North Park University
+### Still Uncovered (~19 community areas)
 
 #### Far Northwest Side
-- **Portage Park** (CA #15) — Large, family-oriented, diverse
-- **Dunning** (CA #17) — Includes former state hospital grounds
-- **Montclare** (CA #18) — Small, residential
-- **Belmont Cragin** (CA #19) — Large, predominantly Latino, working class
-- **Hermosa** (CA #20) — Industrial/residential mix (Westside CDC covers this but not as primary)
-
-#### West Side
-- **Humboldt Park** (CA #23) — Covered by HP Solidarity Network, but only one group for large area
-- **West Garfield Park** (CA #26) — Covered by Westside Mutual Aid (multi-neighborhood)
-- **Near West Side** (CA #28) — Includes UIC area, medical district
+- **Edison Park / Forest Glen** — Low density, suburban character
+- **Dunning / Montclare** — Residential, limited organizations found
 
 #### Southwest Side
-- **Archer Heights** (CA #57) — Working class, predominantly Latino
-- **Garfield Ridge** (CA #56) — Residential, near Midway Airport
-- **Clearing** (CA #64) — Residential, near Midway
-- **West Elsdon** (CA #62) — Residential
-- **Gage Park** (CA #60) — Working class, predominantly Latino
-- **Chicago Lawn** (CA #63) — Includes Marquette Park area
-- **Ashburn** (CA #70) — Large, diverse middle-class area
-- **Auburn Gresham** (CA #71) — Predominantly Black, active community organizations likely exist
+- **Archer Heights** — Near Midway Airport. Church pantries exist but no standalone community orgs found
+- **Garfield Ridge** — Similar to Archer Heights
+- **Clearing** — Near Midway Airport
+- **West Elsdon** — Small residential area
 
 #### Far South Side
-- **Roseland** (CA #49) — Large, predominantly Black, significant need
-- **Pullman** (CA #50) — Historic district, mixed-income
-- **South Deering** (CA #51) — Includes industrial areas
-- **East Side** (CA #52) — Predominantly Latino, near Indiana border
-- **West Pullman** (CA #53) — Large, predominantly Black
-- **Riverdale** (CA #54) — Includes Altgeld Gardens, significant need
-- **Hegewisch** (CA #55) — Isolated, working class
-- **Washington Heights** (CA #73) — Predominantly Black
-- **Morgan Park** (CA #75) — Covered by 19th Ward MA
-- **Beverly** (CA #72) — Covered by 19th Ward MA
-- **Mount Greenwood** (CA #74) — Covered by 19th Ward MA
+- **South Deering** — Industrial area, limited organizations
+- **East Side** — Near Indiana border, predominantly Latino
+- **Hegewisch** — Isolated, working class
+- **Riverdale** — Includes Altgeld Gardens. Food pantry network coverage exists via GRWP but no standalone orgs
+- **Pullman** — Partially covered by PeacePlayers; National Monument area
+- **Washington Heights** — GRWP serves area but no standalone org
+
+#### Southwest Side
+- **Chicago Lawn / Marquette Park** — Large area, no standalone orgs found
+- **Ashburn** — Large, diverse middle-class area
+
+#### Other
+- **Hermosa** — Partially covered by Westside Community Development Collaboration
+- **Near West Side** — UIC area, medical district. Westside Mutual Aid serves parts
 
 ---
 
@@ -76,50 +75,49 @@ Groups were assigned to neighborhoods based on their `neighborhood` field in `gr
 
 | Suburb | Population | Status | Notes |
 |---|---|---|---|
-| Evanston | ~78,000 | Covered | Evanston Community Fridges |
-| Berwyn | ~56,000 | Covered | Berwyn Cicero Mutual Aid |
+| Evanston | ~78,000 | Covered | Evanston Community Fridges + Evanston Community Cares |
+| Skokie | ~64,000 | **Now covered** | Humans At Help + Evanston/Skokie MA |
 | Cicero | ~83,000 | Covered | Berwyn Cicero Mutual Aid |
+| Berwyn | ~56,000 | Covered | Berwyn Cicero Mutual Aid |
+| Oak Park | ~52,000 | **Now covered** | Beyond Hunger |
+| Harvey | ~20,000 | **Now covered** | Restoration Ministries |
+| Blue Island | ~23,000 | **Now covered** | BIRNN |
+| Robbins | ~5,000 | **Now covered** | BIRNN |
+| Glenwood | ~9,000 | **Now covered** | South Suburban Mutual Aid |
+| Dolton | ~23,000 | **Now partially covered** | Free-N-Deed Market |
 | Elgin | ~114,000 | Covered | Elgin in Solidarity with BLM |
-| Oak Park | ~52,000 | **Uncovered** | No direct group found. CEDA serves area. |
-| Skokie | ~64,000 | **Uncovered** | Large, diverse suburb |
-| Des Plaines | ~60,000 | **Uncovered** | No groups found |
-| Harvey | ~20,000 | **Uncovered** | Significant need, South Suburbs |
-| Blue Island | ~23,000 | **Uncovered** | Working class, South Suburbs |
-| Calumet City | ~36,000 | **Uncovered** | South Suburbs |
-| Dolton | ~23,000 | **Uncovered** | South Suburbs |
-| Maywood | ~23,000 | **Uncovered** | Near West Suburbs |
-| Bellwood | ~19,000 | **Uncovered** | Near West Suburbs |
+| Des Plaines | ~60,000 | Uncovered | No groups found |
+| Calumet City | ~36,000 | Uncovered | Near SSMA service area but no direct group |
+| Maywood | ~23,000 | Uncovered | Near West Suburbs |
+| Bellwood | ~19,000 | Uncovered | Near West Suburbs |
 
 ---
 
-## Priority Gaps for Phase 4 Fill
+## Remaining Priority Gaps
 
-### Tier 1 — High Need, No Coverage
-These are areas with significant socioeconomic need and zero groups in the dataset.
+### High Need, No Coverage
+1. **Chicago Lawn / Marquette Park** — Large area. Working-class, predominantly Black and Latino. Critical gap.
+2. **Archer Heights / Garfield Ridge** — Near Midway. Working-class. Food pantries exist but no mutual aid found.
+3. **Riverdale (Altgeld Gardens)** — One of Chicago's most isolated and underserved communities.
 
-1. **Roseland / West Pullman / Riverdale** — Far South Side. High poverty, food deserts, Altgeld Gardens. Critical gap.
-2. **Auburn Gresham** — South Side. Active community organizations known to exist but not yet discovered.
-3. **Belmont Cragin** — Northwest Side. Large, working-class Latino community.
-4. **Gage Park / Chicago Lawn** — Southwest Side. Working-class, predominantly Latino.
+### Moderate Need
+4. **Hegewisch / East Side / South Deering** — Far South Side industrial/lakeside. Very sparse.
+5. **Ashburn** — Large, diverse middle-class area with no identified community orgs.
+6. **Calumet City** — South suburb with need, near existing coverage footprint.
+7. **Maywood / Bellwood** — Near West suburbs.
 
-### Tier 2 — Moderate Need, No Coverage
-5. **Portage Park / Jefferson Park** — Far Northwest. Large population, aging demographic.
-6. **Archer Heights / Garfield Ridge** — Southwest. Near Midway Airport.
-7. **Harvey / Dolton / Calumet City** — South Suburbs. High need, active community organizations likely exist.
-8. **Skokie** — North Suburb. Large, diverse. Likely has groups not yet discovered.
-
-### Tier 3 — Lower Need or Adjacent to Coverage
-9. **Edison Park / Norwood Park** — Far Northwest. Higher income, lower density. Adjacent to suburban groups.
-10. **Oak Park** — Near West. Higher income but progressive community. Adjacent to Austin and Berwyn groups.
+### Lower Priority
+8. **Edison Park / Forest Glen** — Far Northwest, higher income, low density.
+9. **Dunning / Montclare** — Residential, adjacent to Portage Park coverage.
 
 ---
 
-## Recommended Search Strategy for Gap Fill
+## Recommended Search Strategy for Remaining Gaps
 
-For each uncovered area, search:
-- `"[neighborhood name]" mutual aid Chicago`
-- `"[neighborhood name]" food pantry Chicago`
-- `"[neighborhood name]" community organization Chicago`
-- Check the Greater Chicago Food Depository locator for pantries in each ZIP code
-- Check Organize Directory and Sixty Inches From Center for neighborhood-specific entries
-- Search Facebook groups for `"[neighborhood]" mutual aid`
+For each uncovered area:
+- Search: `"[neighborhood name]" food pantry Chicago 2025`
+- Search: `"[neighborhood name]" community center Chicago`
+- Search: `"[neighborhood name]" church outreach Chicago`
+- Check GCFD food pantry locator for each ZIP code
+- Search Facebook for neighborhood-specific groups
+- Check Chicago Cares and VolunteerMatch for location-anchored opportunities
