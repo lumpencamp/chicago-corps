@@ -1,25 +1,25 @@
 group_id,location_id,location_name,street_address,city,zip_code,community_area,community_area_number,latitude,longitude,location_type,is_primary,last_updated
 cooperation-racine,cooperation-racine-hq,,1201 W 71st St,Chicago,60636,Englewood,68,41.7649710,-87.6542780,headquarters,TRUE,2026-05-29
-mouse-arts-letters,mouse-arts-letters-hq,,555 W 31st St,Chicago,60616,Bridgeport,60,41.8378541,-87.6411518,office,TRUE,2026-05-29
+mouse-arts-letters-social-club,mouse-arts-letters-hq,,555 W 31st St,Chicago,60616,Bridgeport,60,41.8378541,-87.6411518,office,TRUE,2026-05-29
 bridgeport-alliance,bridgeport-alliance-hq,,1200 W 35th St,Chicago,60609,Bridgeport,60,41.8309771,-87.6565482,office,TRUE,2026-05-29
 chatham-avalon-ministries,chatham-avalon-pantry,,8601 S State St,Chicago,60619,Chatham,44,41.7378107,-87.6238726,pantry,TRUE,2026-05-29
 roseland-christian-ministries,roseland-christian-ministries-pantry,,10858 S Michigan Ave,Chicago,60628,Roseland,49,41.6964894,-87.6211704,pantry,TRUE,2026-05-29
-sheldon-heights-pantry,sheldon-heights-pantry,,11325 S Halsted St,Chicago,60628,Roseland,49,41.6879100,-87.6418495,pantry,TRUE,2026-05-29
-st-sabina-pantry,st-sabina-pantry,,1120 W 79th St,Chicago,60620,Auburn Gresham,71,41.7507436,-87.6519522,pantry,TRUE,2026-05-29
-chinese-mutual-aid,chinese-mutual-aid-hq,,1016 W Argyle St,Chicago,60640,Uptown,3,41.9734314,-87.6557256,office,TRUE,2026-05-29
-cvls,cvls-hq,,33 N Dearborn St,Chicago,60602,Loop,32,41.8829338,-87.6291299,office,TRUE,2026-05-29
-sarahs-inn,sarahs-inn-hq,,,Chicago,,,,,,office,TRUE,2026-05-29
-garfield-park-cc,gpcc-hq,,300 N Central Park Ave,Chicago,60624,East Garfield Park,26,41.8876470,-87.7163170,office,TRUE,2026-05-29
-love-fridge-chicago,lf-bridgeport,The Fridge on Marz,3630 S Iron St,Chicago,60609,Bridgeport,60,41.8277727,-87.6595159,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-east-side,The Kindness Korner,11201 S Ave G,Chicago,60617,East Side,52,41.6916639,-87.5313533,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-little-village,The Love Shack,2751 W 21st St,Chicago,60623,South Lawndale (Little Village),30,41.8536568,-87.6946065,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-palmer-square,BInk Food Bank,3206 W Armitage Ave,Chicago,60647,Logan Square,22,41.9174776,-87.7074257,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-pilsen,Comida Para el Pueblo,1855 S Blue Island Ave,Chicago,60608,Lower West Side (Pilsen),31,41.8562604,-87.6620178,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-englewood,Getting Grown Collective,6344 S Morgan St,Chicago,60621,Englewood,68,41.7785766,-87.6497246,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-west-lawn,Good Neighbor Love Fridge,6601 S Pulaski Rd,Chicago,60629,West Lawn,65,41.7730604,-87.7222975,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-bronzeville,Sacred Keepers Love Fridge,4445 S King Dr,Chicago,60653,Grand Boulevard (Bronzeville),38,41.7741182,-87.6154826,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-south-shore,South Shore Love Fridge,2465 E 74th St,Chicago,60649,South Shore,43,41.7606293,-87.5640400,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-back-of-yards,Star Farm Love Fridge,5155 S Wolcott Ave,Chicago,60609,New City (Back of the Yards),61,41.8000647,-87.6719365,fridge,FALSE,2026-05-29
-love-fridge-chicago,lf-north-lawndale,Stone Temple Fridge,3622 W Douglas Blvd,Chicago,60623,North Lawndale,29,41.8629262,-87.7161716,fridge,FALSE,2026-05-29
-setf,setf-hq,SETF Office,13300 S Baltimore Ave,Chicago,60633,Hegewisch,55,41.6535568,-87.5474445,office,TRUE,2026-05-29
+sheldon-heights-coc-food-pantry,sheldon-heights-pantry,,11325 S Halsted St,Chicago,60628,Roseland,49,41.6879100,-87.6418495,pantry,TRUE,2026-05-29
+st-sabina-church-food-pantry,st-sabina-pantry,,1120 W 79th St,Chicago,60620,Auburn Gresham,71,41.7507436,-87.6519522,pantry,TRUE,2026-05-29
+chinese-mutual-aid-association-cmaa,chinese-mutual-aid-hq,,1016 W Argyle St,Chicago,60640,Uptown,3,41.9734314,-87.6557256,office,TRUE,2026-05-29
+chicago-volunteer-legal-services-cvls,cvls-hq,,33 N Dearborn St,Chicago,60602,Loop,32,41.8829338,-87.6291299,office,TRUE,2026-05-29
+sarah-s-inn,sarahs-inn-hq,,,Chicago,,,,,,office,TRUE,2026-05-29
+garfield-park-community-council,gpcc-hq,,300 N Central Park Ave,Chicago,60624,East Garfield Park,26,41.8876470,-87.7163170,office,TRUE,2026-05-29
+the-love-fridge-chicago,lf-bridgeport,The Fridge on Marz,3630 S Iron St,Chicago,60609,Bridgeport,60,41.8277727,-87.6595159,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-east-side,The Kindness Korner,11201 S Ave G,Chicago,60617,East Side,52,41.6916639,-87.5313533,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-little-village,The Love Shack,2751 W 21st St,Chicago,60623,South Lawndale (Little Village),30,41.8536568,-87.6946065,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-palmer-square,BInk Food Bank,3206 W Armitage Ave,Chicago,60647,Logan Square,22,41.9174776,-87.7074257,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-pilsen,Comida Para el Pueblo,1855 S Blue Island Ave,Chicago,60608,Lower West Side (Pilsen),31,41.8562604,-87.6620178,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-englewood,Getting Grown Collective,6344 S Morgan St,Chicago,60621,Englewood,68,41.7785766,-87.6497246,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-west-lawn,Good Neighbor Love Fridge,6601 S Pulaski Rd,Chicago,60629,West Lawn,65,41.7730604,-87.7222975,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-bronzeville,Sacred Keepers Love Fridge,4445 S King Dr,Chicago,60653,Grand Boulevard (Bronzeville),38,41.7741182,-87.6154826,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-south-shore,South Shore Love Fridge,2465 E 74th St,Chicago,60649,South Shore,43,41.7606293,-87.5640400,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-back-of-yards,Star Farm Love Fridge,5155 S Wolcott Ave,Chicago,60609,New City (Back of the Yards),61,41.8000647,-87.6719365,fridge,FALSE,2026-05-29
+the-love-fridge-chicago,lf-north-lawndale,Stone Temple Fridge,3622 W Douglas Blvd,Chicago,60623,North Lawndale,29,41.8629262,-87.7161716,fridge,FALSE,2026-05-29
+southeast-environmental-task-force-setf,setf-hq,SETF Office,13300 S Baltimore Ave,Chicago,60633,Hegewisch,55,41.6535568,-87.5474445,office,TRUE,2026-05-29
 tca-health,tca-health-clinic,TCA Health Clinic,1029 E 130th St,Chicago,60628,Riverdale,54,41.6598664,-87.5944291,clinic,TRUE,2026-05-29

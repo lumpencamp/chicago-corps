@@ -29,12 +29,12 @@
         ]
       },
       "properties": {
-        "group_id": "mouse-arts-letters",
-        "name": "mouse-arts-letters",
+        "group_id": "mouse-arts-letters-social-club",
+        "name": "Mouse Arts & Letters Social Club",
         "location_name": "",
         "address": "555 W 31st St",
         "verification_status": "UNCERTAIN",
-        "category": ""
+        "category": "Arts & Culture"
       }
     },
     {
@@ -101,12 +101,12 @@
         ]
       },
       "properties": {
-        "group_id": "sheldon-heights-pantry",
-        "name": "sheldon-heights-pantry",
+        "group_id": "sheldon-heights-coc-food-pantry",
+        "name": "Sheldon Heights CoC Food Pantry",
         "location_name": "",
         "address": "11325 S Halsted St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -119,12 +119,12 @@
         ]
       },
       "properties": {
-        "group_id": "st-sabina-pantry",
-        "name": "st-sabina-pantry",
+        "group_id": "st-sabina-church-food-pantry",
+        "name": "St. Sabina Church Food Pantry",
         "location_name": "",
         "address": "1120 W 79th St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -137,12 +137,12 @@
         ]
       },
       "properties": {
-        "group_id": "chinese-mutual-aid",
-        "name": "chinese-mutual-aid",
+        "group_id": "chinese-mutual-aid-association-cmaa",
+        "name": "Chinese Mutual Aid Association (CMAA)",
         "location_name": "",
         "address": "1016 W Argyle St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Migrant & Immigrant Support"
       }
     },
     {
@@ -155,12 +155,12 @@
         ]
       },
       "properties": {
-        "group_id": "cvls",
-        "name": "cvls",
+        "group_id": "chicago-volunteer-legal-services-cvls",
+        "name": "Chicago Volunteer Legal Services (CVLS)",
         "location_name": "",
         "address": "33 N Dearborn St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Legal Aid & Community Law"
       }
     },
     {
@@ -173,12 +173,12 @@
         ]
       },
       "properties": {
-        "group_id": "garfield-park-cc",
-        "name": "garfield-park-cc",
+        "group_id": "garfield-park-community-council",
+        "name": "Garfield Park Community Council",
         "location_name": "",
         "address": "300 N Central Park Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security / Community Development"
       }
     },
     {
@@ -191,12 +191,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "The Fridge on Marz",
         "address": "3630 S Iron St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -209,12 +209,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "The Kindness Korner",
         "address": "11201 S Ave G",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -227,12 +227,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "The Love Shack",
         "address": "2751 W 21st St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -245,12 +245,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "BInk Food Bank",
         "address": "3206 W Armitage Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -263,12 +263,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Comida Para el Pueblo",
         "address": "1855 S Blue Island Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -281,12 +281,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Getting Grown Collective",
         "address": "6344 S Morgan St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -299,12 +299,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Good Neighbor Love Fridge",
         "address": "6601 S Pulaski Rd",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -317,12 +317,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Sacred Keepers Love Fridge",
         "address": "4445 S King Dr",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -335,12 +335,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "South Shore Love Fridge",
         "address": "2465 E 74th St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -353,12 +353,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Star Farm Love Fridge",
         "address": "5155 S Wolcott Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -371,12 +371,12 @@
         ]
       },
       "properties": {
-        "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "group_id": "the-love-fridge-chicago",
+        "name": "The Love Fridge Chicago",
         "location_name": "Stone Temple Fridge",
         "address": "3622 W Douglas Blvd",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Food Security"
       }
     },
     {
@@ -389,12 +389,12 @@
         ]
       },
       "properties": {
-        "group_id": "setf",
-        "name": "setf",
+        "group_id": "southeast-environmental-task-force-setf",
+        "name": "Southeast Environmental Task Force (SETF)",
         "location_name": "SETF Office",
         "address": "13300 S Baltimore Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Environmental Justice"
       }
     },
     {
@@ -420,8 +420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.64885883937811,
-          41.833370347951885
+          -87.65113051019947,
+          41.829064237746344
         ]
       },
       "properties": {
@@ -438,8 +438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59412107743579,
-          41.77612927597611
+          -87.59097453828674,
+          41.77285166931661
         ]
       },
       "properties": {
@@ -456,8 +456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61764042730069,
-          41.8233645358683
+          -87.61728250800557,
+          41.824037492318986
         ]
       },
       "properties": {
@@ -474,26 +474,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61961299604043,
-          41.822097799279
-        ]
-      },
-      "properties": {
-        "group_id": "mouse-arts-letters-social-club",
-        "name": "Mouse Arts & Letters Social Club",
-        "location_name": "Neighbourhood Centroid",
-        "address": "Bronzeville",
-        "verification_status": "UNCERTAIN",
-        "category": "Arts & Culture"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.70788924829246,
-          41.944156277271446
+          -87.70835437000237,
+          41.94495064282126
         ]
       },
       "properties": {
@@ -510,8 +492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65984012634883,
-          41.9886993239747
+          -87.66167588341592,
+          41.9899390824784
         ]
       },
       "properties": {
@@ -528,8 +510,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68640825580854,
-          42.043405948940034
+          -87.68788757454166,
+          42.04611258882518
         ]
       },
       "properties": {
@@ -546,8 +528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.70621339664882,
-          41.92147864932955
+          -87.70585756533787,
+          41.9195844197926
         ]
       },
       "properties": {
@@ -564,8 +546,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6603174270359,
-          41.855488906484304
+          -87.66396144338553,
+          41.8567286416424
         ]
       },
       "properties": {
@@ -582,8 +564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.76644510064017,
-          41.8991477928976
+          -87.76772723213553,
+          41.901045819435254
         ]
       },
       "properties": {
@@ -600,8 +582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72797177285415,
-          41.96602388293135
+          -87.72862432726292,
+          41.969901206707135
         ]
       },
       "properties": {
@@ -618,8 +600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72397667342065,
-          41.90145923614306
+          -87.71930817028598,
+          41.901265812107695
         ]
       },
       "properties": {
@@ -636,8 +618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72778258097028,
-          41.954542164630865
+          -87.72470227816204,
+          41.956518843380366
         ]
       },
       "properties": {
@@ -654,8 +636,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.75256866223812,
-          41.97015979157492
+          -87.75561396608192,
+          41.96854140893441
         ]
       },
       "properties": {
@@ -672,8 +654,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66239451040732,
-          41.99990703126298
+          -87.6650386111997,
+          41.9982240620271
         ]
       },
       "properties": {
@@ -690,8 +672,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62022514603055,
-          41.75911793698465
+          -87.61943600783076,
+          41.75830734806019
         ]
       },
       "properties": {
@@ -708,8 +690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74171794648858,
-          41.881427990276514
+          -87.74180603473764,
+          41.8840298612282
         ]
       },
       "properties": {
@@ -726,8 +708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.620683393059,
-          41.75784971490899
+          -87.61943067754316,
+          41.760244941118515
         ]
       },
       "properties": {
@@ -744,8 +726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6192543370447,
-          41.761251366822094
+          -87.61876931377677,
+          41.75834790829722
         ]
       },
       "properties": {
@@ -762,26 +744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65883375748079,
-          41.97513820972122
-        ]
-      },
-      "properties": {
-        "group_id": "chinese-mutual-aid-association-cmaa",
-        "name": "Chinese Mutual Aid Association (CMAA)",
-        "location_name": "Neighbourhood Centroid",
-        "address": "Uptown/Argyle",
-        "verification_status": "VERIFIED",
-        "category": "Migrant & Immigrant Support"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.61942625253555,
-          41.761378815422866
+          -87.62021169335321,
+          41.762041787278925
         ]
       },
       "properties": {
@@ -798,8 +762,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.64850316265046,
-          41.94319331123056
+          -87.64791567370754,
+          41.944402665739176
         ]
       },
       "properties": {
@@ -816,8 +780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74018458274061,
-          41.880992071939886
+          -87.73975454563627,
+          41.882575513094984
         ]
       },
       "properties": {
@@ -834,8 +798,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66092691415317,
-          42.000079868116394
+          -87.66448360274461,
+          41.998886552935886
         ]
       },
       "properties": {
@@ -852,26 +816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7192105954952,
-          41.883560775800774
-        ]
-      },
-      "properties": {
-        "group_id": "garfield-park-community-council",
-        "name": "Garfield Park Community Council",
-        "location_name": "Neighbourhood Centroid",
-        "address": "Garfield Park",
-        "verification_status": "VERIFIED",
-        "category": "Food Security / Community Development"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.74166338553698,
-          41.881492496592834
+          -87.73913467823192,
+          41.882967965338956
         ]
       },
       "properties": {
@@ -888,8 +834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65003040291658,
-          41.94526966686581
+          -87.6514365482707,
+          41.94151433573225
         ]
       },
       "properties": {
@@ -906,8 +852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.73812511030087,
-          41.87951054679286
+          -87.73774868177567,
+          41.881429547133486
         ]
       },
       "properties": {
@@ -924,8 +870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.73989113813028,
-          41.881411872136205
+          -87.74067885559447,
+          41.882460811570375
         ]
       },
       "properties": {
@@ -942,8 +888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7642754660509,
-          41.89865322910125
+          -87.76724660940013,
+          41.89990868406851
         ]
       },
       "properties": {
@@ -960,8 +906,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59635810127706,
-          41.79412638061171
+          -87.59806879607589,
+          41.797378046049786
         ]
       },
       "properties": {
@@ -978,8 +924,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65815123329732,
-          41.973251651365764
+          -87.66018812213353,
+          41.9719952212773
         ]
       },
       "properties": {
@@ -996,8 +942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.5951481474522,
-          41.79380654864663
+          -87.59638773687408,
+          41.79641514799795
         ]
       },
       "properties": {
@@ -1014,8 +960,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62190800965998,
-          41.69313863848144
+          -87.62407814768741,
+          41.69097191996169
         ]
       },
       "properties": {
@@ -1032,44 +978,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6218797953909,
-          41.69098666285587
-        ]
-      },
-      "properties": {
-        "group_id": "sheldon-heights-coc-food-pantry",
-        "name": "Sheldon Heights CoC Food Pantry",
-        "location_name": "Neighbourhood Centroid",
-        "address": "Roseland",
-        "verification_status": "VERIFIED",
-        "category": "Food Security"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.66297502049257,
-          41.751942189245035
-        ]
-      },
-      "properties": {
-        "group_id": "st-sabina-church-food-pantry",
-        "name": "St. Sabina Church Food Pantry",
-        "location_name": "Neighbourhood Centroid",
-        "address": "Auburn Gresham",
-        "verification_status": "VERIFIED",
-        "category": "Food Security"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.68574766959033,
-          42.04474854039373
+          -87.68583439169595,
+          42.04572889714862
         ]
       },
       "properties": {
@@ -1086,8 +996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68823279239199,
-          42.0473731886889
+          -87.68785865737685,
+          42.04371432046019
         ]
       },
       "properties": {
@@ -1104,8 +1014,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62436806199987,
-          41.693110338528534
+          -87.6203858343658,
+          41.69501817722791
         ]
       },
       "properties": {
@@ -1122,8 +1032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6612331619729,
-          41.74974480948147
+          -87.66387425191243,
+          41.751730168040446
         ]
       },
       "properties": {
@@ -1140,8 +1050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66255202772375,
-          41.75262133806355
+          -87.66092516391709,
+          41.75213965856469
         ]
       },
       "properties": {
@@ -1158,8 +1068,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62387426649651,
-          41.69174876665441
+          -87.62425955468645,
+          41.69147416139656
         ]
       },
       "properties": {
@@ -1176,8 +1086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62018622237846,
-          41.69166756679997
+          -87.61981504972456,
+          41.69088297271935
         ]
       },
       "properties": {
