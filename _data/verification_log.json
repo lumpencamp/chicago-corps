@@ -1,0 +1,35 @@
+[
+  {
+    "verification_id": "cooperation-racine-2026-05-29",
+    "group_id": "cooperation-racine",
+    "verification_date": "2026-05-29",
+    "status_after": "VERIFIED",
+    "evidence_type": "social_media_post",
+    "evidence_url": "https://www.instagram.com/p/DSlDKTbkpxZ/",
+    "evidence_date": "2025-12-22",
+    "evidence_summary": "Instagram post Dec 22 2025: multidisciplinary art workshops recap, 122 likes",
+    "verification_method": "web_search"
+  },
+  {
+    "verification_id": "bridgeport-alliance-2026-05-29",
+    "group_id": "bridgeport-alliance",
+    "verification_date": "2026-05-29",
+    "status_after": "VERIFIED",
+    "evidence_type": "directory_listing",
+    "evidence_url": "https://actionnetwork.org/groups/bridgeport-alliance",
+    "evidence_date": "2025-11-01",
+    "evidence_summary": "Action Network page live. Linktree with current content. Monthly meetings advertised.",
+    "verification_method": "fetch_url"
+  },
+  {
+    "verification_id": "love-fridge-chicago-2026-05-29",
+    "group_id": "love-fridge-chicago",
+    "verification_date": "2026-05-29",
+    "status_after": "VERIFIED",
+    "evidence_type": "social_media_post",
+    "evidence_url": "https://www.facebook.com/thelovefridge/",
+    "evidence_date": "2026-03-17",
+    "evidence_summary": "Facebook post Mar 17 2026: community fridge video series, 20+ likes",
+    "verification_method": "web_search"
+  }
+]

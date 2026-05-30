@@ -1,0 +1,492 @@
+[
+  {
+    "group_id": "cooperation-racine",
+    "email": "info@cooperationracine.com",
+    "phone": "",
+    "contact_form_url": "https://cooperationracine.com/contact",
+    "contact_name": "Andrea Yarbrough",
+    "contact_role": "Co-founder",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "bridgeport-alliance",
+    "email": "bridgeportalliance@gmail.com",
+    "phone": "",
+    "contact_form_url": "https://actionnetwork.org/groups/bridgeport-alliance",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "urban-growers-collective",
+    "email": "info@urbangrowerscollective.org",
+    "phone": "",
+    "contact_form_url": "https://www.urbangrowerscollective.org/tour-and-volunteer",
+    "contact_name": "Malik",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "lake-meadows-pac",
+    "email": "lakemeadowspac@gmail.com",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "logan-square-mutual-aid",
+    "email": "lsmutualaid@gmail.com",
+    "phone": "",
+    "contact_form_url": "https://logansquaremutualaid.org/get-involved/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "mayfair-mutual-aid",
+    "email": "mayfairmutualaid@gmail.com",
+    "phone": "773.359.3137",
+    "contact_form_url": "https://www.mayfairmutualaid.com/contact-us",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "beyond-legal-aid",
+    "email": "info@beyondlegalaid.org",
+    "phone": "(872) 267-2252",
+    "contact_form_url": "https://www.beyondlegalaid.org/contact",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "sarahs-inn",
+    "email": "info@sarahsinn.org",
+    "phone": "(708) 386-4225",
+    "contact_form_url": "https://sarahsinn.org/contact",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "center-on-halsted",
+    "email": "volunteer@centeronhalsted.org",
+    "phone": "",
+    "contact_form_url": "https://www.centeronhalsted.org/contact-us",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "american-indian-center",
+    "email": "info@chicagoaic.org",
+    "phone": "773-275-5871",
+    "contact_form_url": "https://aicchicago.org/contact/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "garfield-park-community-council",
+    "email": "",
+    "phone": "773-948-8989",
+    "contact_form_url": "https://www.gpcommunitycouncil.org/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "phone",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "after-school-matters",
+    "email": "",
+    "phone": "312-768-5200",
+    "contact_form_url": "https://afterschoolmatters.org/contact/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "phone",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-homeless-coalition",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://chicagohomeless.org/contact/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "mamas",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://www.motheringisradical.com/get-involved",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-tenants-movement",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "community-food-navigator",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "cusp-chicago",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://www.cuspchicago.org/contact",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chinese-mutual-aid",
+    "email": "info@chinesemutualaid.org",
+    "phone": "773-784-2900",
+    "contact_form_url": "https://www.chinesemutualaid.org/contact-us",
+    "contact_name": "1016 W Argyle St Chicago IL 60640",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "cvls",
+    "email": "",
+    "phone": "312-332-1624",
+    "contact_form_url": "https://www.cvls.org/contact/",
+    "contact_name": "33 N Dearborn St Chicago IL 60602",
+    "contact_role": "",
+    "preferred_method": "phone",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "legal-aid-chicago",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://legalaidchicago.org/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-recovery-alliance",
+    "email": "info@anypositivechange.org",
+    "phone": "(773) 367-3771",
+    "contact_form_url": "https://anypositivechange.org/contact/",
+    "contact_name": "3110 W Taylor St Chicago",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "caaicc",
+    "email": "info@chicagoaicc.org",
+    "phone": "",
+    "contact_form_url": "https://chicagoaicc.com/contact-us/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-artists-coalition",
+    "email": "contact@chicagoartistscoalition.org",
+    "phone": "",
+    "contact_form_url": "https://www.chicagoartistscoalition.org/contact/",
+    "contact_name": "1431 W Hubbard St Chicago IL 60642",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "hyde-park-art-center",
+    "email": "generalinfo@hydeparkart.org",
+    "phone": "773-324-5520",
+    "contact_form_url": "https://www.hydeparkart.org/",
+    "contact_name": "5020 S Cornell Ave Chicago IL 60615",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-environmental-justice",
+    "email": "contact@chicagoejn.org",
+    "phone": "773-475-7732",
+    "contact_form_url": "https://www.chicagoejn.org/contact",
+    "contact_name": "3700 S Iron St Suite 4 Chicago IL",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "between-friends",
+    "email": "",
+    "phone": "800-603-4357",
+    "contact_form_url": "https://betweenfriendschicago.org/contact-us/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "phone",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "wings-program",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://wingsprogram.com/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "village-chicago",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://thevillagechicago.org/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-youth-programs",
+    "email": "info@ChicagoYouthPrograms.org",
+    "phone": "773-924-0220",
+    "contact_form_url": "https://chicagoyouthprograms.org/contact/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-cultural-alliance",
+    "email": "info@chicagoculturalalliance.org",
+    "phone": "312-846-6814",
+    "contact_form_url": "https://www.chicagoculturalalliance.org/",
+    "contact_name": "600 W Jackson Blvd Suite 100 Chicago IL 60661",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "wcdc",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://wcdconline.com/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "gclc",
+    "email": "development@gclclaw.org",
+    "phone": "",
+    "contact_form_url": "https://www.gclclaw.org/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "john-walt-foundation",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "https://www.johnwaltfoundation.org/",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "contact_form",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "pilsen-solidarity-network",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "mutual-aid-dawning",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "one-northside",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "mouse-arts-letters",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "setf",
+    "email": "setf@setaskforce.org",
+    "phone": "(773) 646-0436",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "tca-health",
+    "email": "",
+    "phone": "(773) 995-6300",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "phone",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "night-ministry",
+    "email": "tedd@thenightministry.org",
+    "phone": "(773) 506-6011",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "email",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "howard-brown-health",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "chicago-house",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "swop",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "ase",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "gada",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "metropolitan-family-services",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "iwca",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "lbfe-chicago",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "group_id": "community-kitchen-chicago",
+    "email": "",
+    "phone": "",
+    "contact_form_url": "",
+    "contact_name": "",
+    "contact_role": "",
+    "preferred_method": "unknown",
+    "last_updated": "2026-05-29"
+  }
+]

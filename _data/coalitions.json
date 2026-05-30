@@ -1,0 +1,20 @@
+[
+  {
+    "parent_group_id": "chicago-housing-justice-coalition",
+    "child_group_id": "chicago-tenants-movement",
+    "relationship_type": "coalition_member",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "parent_group_id": "caaicc",
+    "child_group_id": "american-indian-center",
+    "relationship_type": "coalition_member",
+    "last_updated": "2026-05-29"
+  },
+  {
+    "parent_group_id": "icirr",
+    "child_group_id": "chinese-mutual-aid",
+    "relationship_type": "network_partner",
+    "last_updated": "2026-05-29"
+  }
+]
