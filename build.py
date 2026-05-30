@@ -207,7 +207,7 @@ def inject_into_html(groups, geojson):
         f"  generated_at: '{datetime.now().isoformat()}',\n"
         f"  groups: {json.dumps(groups, ensure_ascii=False)},\n"
         f"  geojson: {json.dumps(geojson, ensure_ascii=False)}\n"
-        "}};\n"
+        "};\n"
         "/* DATA_INJECTION_END */\n"
         "</script>\n"
     )
