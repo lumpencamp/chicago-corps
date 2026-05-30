@@ -31,4 +31,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated build: update api.json and locations.geojson"
-          file_pattern: "_data/* data/locations.csv"
+          file_pattern: "_data/* data/locations.csv index.html"
