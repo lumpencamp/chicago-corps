@@ -192,11 +192,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "The Fridge on Marz",
         "address": "3630 S Iron St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -210,11 +210,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "The Kindness Korner",
         "address": "11201 S Ave G",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -228,11 +228,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "The Love Shack",
         "address": "2751 W 21st St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -246,11 +246,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "BInk Food Bank",
         "address": "3206 W Armitage Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -264,11 +264,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Comida Para el Pueblo",
         "address": "1855 S Blue Island Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -282,11 +282,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Getting Grown Collective",
         "address": "6344 S Morgan St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -300,11 +300,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Good Neighbor Love Fridge",
         "address": "6601 S Pulaski Rd",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -318,11 +318,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Sacred Keepers Love Fridge",
         "address": "4445 S King Dr",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -336,11 +336,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "South Shore Love Fridge",
         "address": "2465 E 74th St",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -354,11 +354,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Star Farm Love Fridge",
         "address": "5155 S Wolcott Ave",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -372,11 +372,11 @@
       },
       "properties": {
         "group_id": "love-fridge-chicago",
-        "name": "love-fridge-chicago",
+        "name": "Love Fridge Chicago",
         "location_name": "Stone Temple Fridge",
         "address": "3622 W Douglas Blvd",
-        "verification_status": "UNCERTAIN",
-        "category": ""
+        "verification_status": "VERIFIED",
+        "category": "Mutual Aid / Community Fridges"
       }
     },
     {
@@ -384,8 +384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65168898374051,
-          41.83060551135083
+          -87.65203902263217,
+          41.82959340375077
         ]
       },
       "properties": {
@@ -402,8 +402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59129002701923,
-          41.77547274917525
+          -87.59047400797459,
+          41.776265221030464
         ]
       },
       "properties": {
@@ -420,8 +420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61733559942087,
-          41.82391978862465
+          -87.61939173822068,
+          41.82363951399507
         ]
       },
       "properties": {
@@ -438,8 +438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61905172105952,
-          41.82320794657826
+          -87.61620707971242,
+          41.82075653154517
         ]
       },
       "properties": {
@@ -456,8 +456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.70913803460928,
-          41.942589477104356
+          -87.7063115559932,
+          41.94399655699379
         ]
       },
       "properties": {
@@ -474,8 +474,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65817072570675,
-          41.98992343331554
+          -87.66154482674641,
+          41.986568319957975
         ]
       },
       "properties": {
@@ -492,8 +492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.69007437199788,
-          42.044935821951675
+          -87.68853455594464,
+          42.0456012969911
         ]
       },
       "properties": {
@@ -510,8 +510,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7069312232917,
-          41.9238239390995
+          -87.7061676046783,
+          41.91997138716593
         ]
       },
       "properties": {
@@ -528,8 +528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.663283815134,
-          41.855379353807166
+          -87.66161129612993,
+          41.855773069837696
         ]
       },
       "properties": {
@@ -546,8 +546,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.76392556702733,
-          41.8970757767006
+          -87.76631599805096,
+          41.89857463072333
         ]
       },
       "properties": {
@@ -564,8 +564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72545296524216,
-          41.96888315083808
+          -87.72902675058621,
+          41.97085014923955
         ]
       },
       "properties": {
@@ -582,8 +582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.71969815147736,
-          41.90110923874823
+          -87.72302299630866,
+          41.90091302194357
         ]
       },
       "properties": {
@@ -600,8 +600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72401783995906,
-          41.95234627037406
+          -87.72752440830672,
+          41.95421432173488
         ]
       },
       "properties": {
@@ -618,8 +618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.75251837756169,
-          41.970016037037375
+          -87.75163855164733,
+          41.96842521726625
         ]
       },
       "properties": {
@@ -636,8 +636,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66472004118152,
-          41.997926457588775
+          -87.66153002619595,
+          41.99724560748593
         ]
       },
       "properties": {
@@ -654,8 +654,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62013911234708,
-          41.75802944215786
+          -87.61766031045298,
+          41.7579399906298
         ]
       },
       "properties": {
@@ -672,8 +672,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.73773777288862,
-          41.882825858743686
+          -87.74000038593884,
+          41.88316724469655
         ]
       },
       "properties": {
@@ -690,8 +690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6221928406085,
-          41.76058045312751
+          -87.62011205209186,
+          41.76029428605608
         ]
       },
       "properties": {
@@ -708,8 +708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.61996373931984,
-          41.761714536951494
+          -87.61805892053178,
+          41.76091078026185
         ]
       },
       "properties": {
@@ -726,8 +726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65657748166856,
-          41.97128252230033
+          -87.65802851177865,
+          41.97186166129612
         ]
       },
       "properties": {
@@ -744,8 +744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62039280540178,
-          41.761909531499114
+          -87.61997010061255,
+          41.76109445918329
         ]
       },
       "properties": {
@@ -762,8 +762,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.64704960384582,
-          41.946004152966005
+          -87.65137561674082,
+          41.941612635237426
         ]
       },
       "properties": {
@@ -780,8 +780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7392440368021,
-          41.880678577210396
+          -87.74191872329259,
+          41.880929284994195
         ]
       },
       "properties": {
@@ -798,8 +798,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.6622822816934,
-          41.99588915243039
+          -87.66541390337076,
+          41.99981033365079
         ]
       },
       "properties": {
@@ -816,8 +816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.72050704173276,
-          41.88150571159216
+          -87.71679790745543,
+          41.88163819071645
         ]
       },
       "properties": {
@@ -834,8 +834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.7382870865658,
-          41.88384197419195
+          -87.74036706799424,
+          41.882722961561
         ]
       },
       "properties": {
@@ -852,8 +852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.64910769172037,
-          41.94415268508302
+          -87.64870712679647,
+          41.944188931018765
         ]
       },
       "properties": {
@@ -870,8 +870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74033672280873,
-          41.8804097713909
+          -87.74041496533904,
+          41.879711249187594
         ]
       },
       "properties": {
@@ -888,8 +888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.74153143098549,
-          41.88141437808095
+          -87.74198891187079,
+          41.88147362027999
         ]
       },
       "properties": {
@@ -906,8 +906,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.76579781715877,
-          41.8966358877977
+          -87.76529137058728,
+          41.8980125190583
         ]
       },
       "properties": {
@@ -924,8 +924,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59495306534123,
-          41.795632086268846
+          -87.59809529674193,
+          41.79786364540033
         ]
       },
       "properties": {
@@ -942,8 +942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.65868281744063,
-          41.97264915052867
+          -87.65981847083168,
+          41.97287717772249
         ]
       },
       "properties": {
@@ -960,8 +960,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59763382082292,
-          41.79543458417293
+          -87.59620905771939,
+          41.79810659862128
         ]
       },
       "properties": {
@@ -978,8 +978,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62248061855564,
-          41.693476202406565
+          -87.62070861812289,
+          41.691111880342426
         ]
       },
       "properties": {
@@ -996,8 +996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62089653711537,
-          41.69408999827021
+          -87.61954221570541,
+          41.693493380120934
         ]
       },
       "properties": {
@@ -1014,8 +1014,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66173243534465,
-          41.74948342740983
+          -87.66133076910086,
+          41.75286920286369
         ]
       },
       "properties": {
@@ -1032,8 +1032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68981540590983,
-          42.04614940473574
+          -87.68524086991472,
+          42.04519284858119
         ]
       },
       "properties": {
@@ -1050,8 +1050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.68721131595733,
-          42.04669523269412
+          -87.6879217055344,
+          42.04462101355678
         ]
       },
       "properties": {
@@ -1068,8 +1068,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62372117672145,
-          41.6931123947864
+          -87.62365416116683,
+          41.692161020283265
         ]
       },
       "properties": {
@@ -1086,8 +1086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66511993176638,
-          41.74945277464497
+          -87.66109347569252,
+          41.75115792429121
         ]
       },
       "properties": {
@@ -1104,8 +1104,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.66405260677705,
-          41.74972168013901
+          -87.66511409997409,
+          41.74883885317916
         ]
       },
       "properties": {
@@ -1122,8 +1122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62006490180897,
-          41.691601706487425
+          -87.62332269750925,
+          41.69080340718801
         ]
       },
       "properties": {
@@ -1140,8 +1140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.62208171185897,
-          41.69170686360951
+          -87.6205605563067,
+          41.693744711591094
         ]
       },
       "properties": {
@@ -1158,8 +1158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.59190444865371,
-          41.7762699153765
+          -87.59094725295257,
+          41.774493796443586
         ]
       },
       "properties": {
@@ -1169,6 +1169,3390 @@
         "address": "Woodlawn",
         "verification_status": "LIKELY_ACTIVE",
         "category": "Environmental & Green Space"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66137128102389,
+          41.990300016427526
+        ]
+      },
+      "properties": {
+        "group_id": "edgewater-mutual-aid-group",
+        "name": "Edgewater Mutual Aid Group",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Edgewater",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "General Mutual Aid / Food & Essentials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7082750433788,
+          41.923107833219
+        ]
+      },
+      "properties": {
+        "group_id": "el-rbol",
+        "name": "El \u00c1rbol",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Logan Square",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Migrant Support / Free Store"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66092092706852,
+          41.85620722833604
+        ]
+      },
+      "properties": {
+        "group_id": "femme-defensa",
+        "name": "Femme Defensa",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Little Village",
+        "verification_status": "VERIFIED",
+        "category": "Gender-Based Violence / Food & Housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66429286732863,
+          41.9968907291551
+        ]
+      },
+      "properties": {
+        "group_id": "food-not-bombs-chicago-rogers-park",
+        "name": "Food Not Bombs Chicago \u2013 Rogers Park",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Food Recovery / Distribution"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64788036162975,
+          41.77350107980257
+        ]
+      },
+      "properties": {
+        "group_id": "getting-grown-collective-food-farm-familias",
+        "name": "Getting Grown Collective \u2013 Food, Farm, Familias",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Little Village / Englewood / South Chicago",
+        "verification_status": "VERIFIED",
+        "category": "Food Justice / Urban Agriculture"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72229529974541,
+          41.90006090092548
+        ]
+      },
+      "properties": {
+        "group_id": "humboldt-park-solidarity-network",
+        "name": "Humboldt Park Solidarity Network",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Humboldt Park",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "General Mutual Aid / Food & Essentials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64827290274808,
+          41.94523773702871
+        ]
+      },
+      "properties": {
+        "group_id": "lakeview-lincoln-park-mutual-aid-network",
+        "name": "Lakeview / Lincoln Park Mutual Aid Network",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview / Lincoln Park",
+        "verification_status": "UNCERTAIN",
+        "category": "General Mutual Aid / Food & Essentials"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74131865961239,
+          41.883006716386795
+        ]
+      },
+      "properties": {
+        "group_id": "lil-miracles-mutual-aid-360-nation",
+        "name": "Lil' Miracles Mutual Aid (360 Nation)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "General Mutual Aid / Youth & Family"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72386657356374,
+          41.89828631239483
+        ]
+      },
+      "properties": {
+        "group_id": "lolitas-bodega",
+        "name": "Lolitas Bodega",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Humboldt Park",
+        "verification_status": "VERIFIED",
+        "category": "Food & Essentials / Community Care"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59227571218426,
+          41.77679197358139
+        ]
+      },
+      "properties": {
+        "group_id": "market-box",
+        "name": "Market Box",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn / South Side",
+        "verification_status": "VERIFIED",
+        "category": "Food Justice / Farm Share Distribution"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66134410903616,
+          41.85382370301445
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-social-health-initiative",
+        "name": "Pilsen Social Health Initiative",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "General Mutual Aid / Food & Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72755419721459,
+          41.9679947311137
+        ]
+      },
+      "properties": {
+        "group_id": "pueblo-unido-albany-park",
+        "name": "Pueblo Unido Albany Park",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Immigrant Support / General Mutual Aid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64357956816002,
+          41.7740894602085
+        ]
+      },
+      "properties": {
+        "group_id": "resident-association-of-greater-englewood-r-a-g-e",
+        "name": "Resident Association of Greater Englewood (R.A.G.E.)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Mutual Aid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66141189468483,
+          41.99710163424525
+        ]
+      },
+      "properties": {
+        "group_id": "rogers-park-free-store",
+        "name": "Rogers Park Free Store",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Free Store / Basic Needs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62012588669343,
+          41.76120527039376
+        ]
+      },
+      "properties": {
+        "group_id": "adler-planetarium",
+        "name": "Adler Planetarium",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near South Side (Museum Campus)",
+        "verification_status": "VERIFIED",
+        "category": "Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61963809491698,
+          41.76248826444632
+        ]
+      },
+      "properties": {
+        "group_id": "field-museum",
+        "name": "Field Museum",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near South Side (Museum Campus)",
+        "verification_status": "VERIFIED",
+        "category": "Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65979311312978,
+          41.969960698876115
+        ]
+      },
+      "properties": {
+        "group_id": "museum-of-contemporary-art-mca-chicago",
+        "name": "Museum of Contemporary Art (MCA) Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side / Streeterville",
+        "verification_status": "VERIFIED",
+        "category": "Museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61984873968676,
+          41.75818896369076
+        ]
+      },
+      "properties": {
+        "group_id": "shedd-aquarium",
+        "name": "Shedd Aquarium",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near South Side (Museum Campus)",
+        "verification_status": "VERIFIED",
+        "category": "Museum / Aquarium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64713395093466,
+          41.94377518500195
+        ]
+      },
+      "properties": {
+        "group_id": "stage-773",
+        "name": "Stage 773",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview",
+        "verification_status": "INACTIVE",
+        "category": "Theater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66168839716327,
+          41.999003000872705
+        ]
+      },
+      "properties": {
+        "group_id": "american-indian-association-of-illinois-aiai",
+        "name": "American Indian Association of Illinois (AIAI)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Education & Youth Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7251124965418,
+          41.96713517703513
+        ]
+      },
+      "properties": {
+        "group_id": "american-indian-center-of-chicago-aic",
+        "name": "American Indian Center of Chicago (AIC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "VERIFIED",
+        "category": "Cultural Center & Community Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72532637214395,
+          41.96698294343762
+        ]
+      },
+      "properties": {
+        "group_id": "american-indian-health-service-of-chicago-aihsc",
+        "name": "American Indian Health Service of Chicago (AIHSC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "VERIFIED",
+        "category": "Indigenous Healthcare & Behavioral Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72641923242959,
+          41.96640199381663
+        ]
+      },
+      "properties": {
+        "group_id": "chi-nations-youth-council-cnyc",
+        "name": "Chi-Nations Youth Council (CNYC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Youth Activism & Cultural Preservation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72545148716985,
+          41.967691833309686
+        ]
+      },
+      "properties": {
+        "group_id": "first-nations-garden",
+        "name": "First Nations Garden",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "VERIFIED",
+        "category": "Land Stewardship & Environmental Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.68913683816488,
+          42.0426394984079
+        ]
+      },
+      "properties": {
+        "group_id": "gichigamiin-indigenous-nations-museum",
+        "name": "Gichigamiin Indigenous Nations Museum",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Evanston (Chicago Metro)",
+        "verification_status": "VERIFIED",
+        "category": "Museum & Cultural Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66117444832425,
+          41.969458668195855
+        ]
+      },
+      "properties": {
+        "group_id": "indigenous-chicago",
+        "name": "Indigenous Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side (c/o Newberry Library)",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Public Education & Community Mapping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6622217961587,
+          41.972174658348045
+        ]
+      },
+      "properties": {
+        "group_id": "newberry-library-d-arcy-mcnickle-center",
+        "name": "Newberry Library \u2014 D'Arcy McNickle Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side (Gold Coast)",
+        "verification_status": "VERIFIED",
+        "category": "Research & Cultural Archives"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64950937418644,
+          41.94322443777667
+        ]
+      },
+      "properties": {
+        "group_id": "saint-kateri-center-of-chicago",
+        "name": "Saint Kateri Center of Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview / North Center",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Spiritual Community & Cultural Preservation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74050955873878,
+          41.882052341306746
+        ]
+      },
+      "properties": {
+        "group_id": "big-brothers-big-sisters-of-metropolitan-chicago",
+        "name": "Big Brothers Big Sisters of Metropolitan Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side (citywide programs)",
+        "verification_status": "VERIFIED",
+        "category": "Youth Mentoring"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65277198261168,
+          41.833426689686334
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-arts-partnerships-in-education-cape",
+        "name": "Chicago Arts Partnerships in Education (CAPE)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Bridgeport / Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "Arts-Integrated Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64419813407596,
+          41.77090484591187
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-hopes-for-kids",
+        "name": "Chicago HOPES for Kids",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood / South Side",
+        "verification_status": "VERIFIED",
+        "category": "Youth Education & Tutoring / Homeless Youth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66248352246288,
+          41.96969160640016
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-lights-tutoring",
+        "name": "Chicago Lights Tutoring",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Gold Coast / Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Youth Tutoring & Mentorship"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59458294317156,
+          41.77391034820436
+        ]
+      },
+      "properties": {
+        "group_id": "project-exploration",
+        "name": "Project Exploration",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn / South Side",
+        "verification_status": "VERIFIED",
+        "category": "STEM Science Education / Youth Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64910864020777,
+          41.83203601585518
+        ]
+      },
+      "properties": {
+        "group_id": "project-vision",
+        "name": "Project: VISION",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Chinatown / Bridgeport",
+        "verification_status": "VERIFIED",
+        "category": "Youth Education & Leadership / API Community"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64972538164612,
+          41.94590507585438
+        ]
+      },
+      "properties": {
+        "group_id": "sitstayread",
+        "name": "SitStayRead",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview (HQ; programs citywide)",
+        "verification_status": "VERIFIED",
+        "category": "Canine-Assisted Youth Literacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.71681768987075,
+          41.88008637731298
+        ]
+      },
+      "properties": {
+        "group_id": "garfield-park-conservatory-alliance",
+        "name": "Garfield Park Conservatory Alliance",
+        "location_name": "Neighbourhood Centroid",
+        "address": "East Garfield Park",
+        "verification_status": "VERIFIED",
+        "category": "Botanical Garden/Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59157164413314,
+          41.7730684166329
+        ]
+      },
+      "properties": {
+        "group_id": "phoenix-sustainability-initiative",
+        "name": "Phoenix Sustainability Initiative",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Hyde Park / Woodlawn",
+        "verification_status": "VERIFIED",
+        "category": "Community Garden & Environmental Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66189379345256,
+          41.98698192521468
+        ]
+      },
+      "properties": {
+        "group_id": "peterson-garden-project",
+        "name": "Peterson Garden Project",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Edgewater / Citywide",
+        "verification_status": "STALE",
+        "category": "Community/Victory Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6456999951365,
+          41.77089585269706
+        ]
+      },
+      "properties": {
+        "group_id": "growing-home",
+        "name": "Growing Home",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Urban Agriculture/Job Training"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66232209845644,
+          42.00022756910348
+        ]
+      },
+      "properties": {
+        "group_id": "cje-seniorlife",
+        "name": "CJE SeniorLife",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Senior Meal Delivery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66153031090852,
+          41.99995638976845
+        ]
+      },
+      "properties": {
+        "group_id": "care-for-real",
+        "name": "Care for Real",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.60497269962767,
+          41.74781709574406
+        ]
+      },
+      "properties": {
+        "group_id": "chatham-avalon-ministries-inc",
+        "name": "Chatham-Avalon Ministries Inc.",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Chatham",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66492061515642,
+          41.996849013584665
+        ]
+      },
+      "properties": {
+        "group_id": "ezra-multi-service-center",
+        "name": "EZRA Multi-Service Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry / Social Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72521851873738,
+          41.97072250940413
+        ]
+      },
+      "properties": {
+        "group_id": "friendship-center-chicago",
+        "name": "Friendship Center Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park / Northwest Side",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry / Soup Kitchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65056016013904,
+          41.94478405901317
+        ]
+      },
+      "properties": {
+        "group_id": "lakeview-pantry-nourishing-hope",
+        "name": "Lakeview Pantry / Nourishing Hope",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview / Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry / Social Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73891044434689,
+          41.88158768994005
+        ]
+      },
+      "properties": {
+        "group_id": "marillac-house-food-pantry",
+        "name": "Marillac House Food Pantry",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66054863581846,
+          41.85410233697284
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-food-pantry",
+        "name": "Pilsen Food Pantry",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66031725772702,
+          41.85639770221768
+        ]
+      },
+      "properties": {
+        "group_id": "providence-soup-kitchen-daughters-of-st-mary-of-providence",
+        "name": "Providence Soup Kitchen (Daughters of St. Mary of Providence)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Soup Kitchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65872645888112,
+          41.968131614982354
+        ]
+      },
+      "properties": {
+        "group_id": "ronald-mcdonald-house-charities-of-chicagoland-nw-indiana",
+        "name": "Ronald McDonald House Charities of Chicagoland & NW Indiana",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Streeterville / Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Meal Preparation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61753002260474,
+          41.758313887863984
+        ]
+      },
+      "properties": {
+        "group_id": "st-cyprian-food-pantry",
+        "name": "St. Cyprian Food Pantry",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76806860278377,
+          41.897391176775756
+        ]
+      },
+      "properties": {
+        "group_id": "the-boulevard-the-road-to-health-and-home",
+        "name": "The Boulevard: The Road to Health and Home",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Food / Social Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62026799182887,
+          41.75837340169734
+        ]
+      },
+      "properties": {
+        "group_id": "affinity-community-services",
+        "name": "Affinity Community Services",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Douglas/Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "LGBTQ+ Social Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.647972459865,
+          41.943215600410674
+        ]
+      },
+      "properties": {
+        "group_id": "broadway-youth-center-howard-brown-health",
+        "name": "Broadway Youth Center (Howard Brown Health)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview",
+        "verification_status": "VERIFIED",
+        "category": "LGBTQ+ Youth Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62201306490451,
+          41.76130193056544
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-house",
+        "name": "Chicago House",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "HIV/AIDS Services / LGBTQ+ Housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73960440778406,
+          41.88225178367212
+        ]
+      },
+      "properties": {
+        "group_id": "covenant-house-illinois",
+        "name": "Covenant House Illinois",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side",
+        "verification_status": "VERIFIED",
+        "category": "LGBTQ+ Youth Services / Homeless Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66440251692488,
+          41.99774211754536
+        ]
+      },
+      "properties": {
+        "group_id": "circles-ciphers",
+        "name": "Circles & Ciphers",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Restorative Justice / Youth Arts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65789554091417,
+          41.96962777977769
+        ]
+      },
+      "properties": {
+        "group_id": "john-howard-association-of-illinois-jha",
+        "name": "John Howard Association of Illinois (JHA)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Prison Monitoring & Reform"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62177010982204,
+          41.76045005665753
+        ]
+      },
+      "properties": {
+        "group_id": "moms-united-against-violence-and-incarceration-muavi",
+        "name": "Moms United Against Violence and Incarceration (MUAVI)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Caregiver / Family Support"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64817739349182,
+          41.773840141807916
+        ]
+      },
+      "properties": {
+        "group_id": "precious-blood-ministry-of-reconciliation-pbmr",
+        "name": "Precious Blood Ministry of Reconciliation (PBMR)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Back of the Yards / Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Restorative Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65790121136473,
+          41.9715221094364
+        ]
+      },
+      "properties": {
+        "group_id": "prison-neighborhood-arts-education-project-pnap",
+        "name": "Prison + Neighborhood Arts/Education Project (PNAP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Books & Arts in Prison"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7403594538508,
+          41.884286296301795
+        ]
+      },
+      "properties": {
+        "group_id": "safer-foundation",
+        "name": "Safer Foundation",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side / Southwest Side",
+        "verification_status": "VERIFIED",
+        "category": "Reentry Support"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65751683486926,
+          41.97384926543101
+        ]
+      },
+      "properties": {
+        "group_id": "transformative-justice-law-project-of-illinois-tjlp",
+        "name": "Transformative Justice Law Project of Illinois (TJLP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Legal Advocacy / Abolitionist"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72051460297672,
+          41.88377875467493
+        ]
+      },
+      "properties": {
+        "group_id": "transforming-reentry-services-mwipm",
+        "name": "Transforming Reentry Services / MWIPM",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Douglas / East Garfield Park",
+        "verification_status": "VERIFIED",
+        "category": "Reentry Support"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72840124799119,
+          41.969299793901904
+        ]
+      },
+      "properties": {
+        "group_id": "catholic-charities-of-chicago-immigrant-services",
+        "name": "Catholic Charities of Chicago \u2014 Immigrant Services",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "VERIFIED",
+        "category": "Refugee Resettlement / Immigrant Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66136541000422,
+          41.98838662735226
+        ]
+      },
+      "properties": {
+        "group_id": "centro-romero",
+        "name": "Centro Romero",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Edgewater",
+        "verification_status": "VERIFIED",
+        "category": "Immigrant Community Services / Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65899531784343,
+          41.97116746649027
+        ]
+      },
+      "properties": {
+        "group_id": "ethiopian-community-association-of-chicago-ecac",
+        "name": "Ethiopian Community Association of Chicago (ECAC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "East African Immigrant Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66089717581215,
+          41.96916921590879
+        ]
+      },
+      "properties": {
+        "group_id": "mira-chicago-middle-eastern-immigrant-refugee-alliance",
+        "name": "MIRA Chicago (Middle Eastern Immigrant & Refugee Alliance)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side / Lincolnwood",
+        "verification_status": "VERIFIED",
+        "category": "Middle Eastern Refugee & Immigrant Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66201251543657,
+          41.996325257091165
+        ]
+      },
+      "properties": {
+        "group_id": "refugeeone",
+        "name": "RefugeeOne",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Refugee Resettlement / Integration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66172626670962,
+          41.855762649486024
+        ]
+      },
+      "properties": {
+        "group_id": "the-resurrection-project-trp-immigrant-justice",
+        "name": "The Resurrection Project / TRP Immigrant Justice",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Immigrant Legal Services / Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72504392779929,
+          41.96922639045462
+        ]
+      },
+      "properties": {
+        "group_id": "world-relief-chicagoland",
+        "name": "World Relief Chicagoland",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park",
+        "verification_status": "VERIFIED",
+        "category": "Refugee Resettlement / ESL / Employment"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62031244744345,
+          41.75826847759879
+        ]
+      },
+      "properties": {
+        "group_id": "young-center-for-immigrant-children-s-rights",
+        "name": "Young Center for Immigrant Children's Rights",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "Unaccompanied Immigrant Children / Child Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64379440276706,
+          41.77444256608088
+        ]
+      },
+      "properties": {
+        "group_id": "growing-home-inc",
+        "name": "Growing Home Inc.",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Urban Agriculture / Workforce Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72021664233108,
+          41.883310691350545
+        ]
+      },
+      "properties": {
+        "group_id": "deborah-s-place",
+        "name": "Deborah's Place",
+        "location_name": "Neighbourhood Centroid",
+        "address": "East Garfield Park / Citywide",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Supportive Housing (Women)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65822587280032,
+          41.97519803267862
+        ]
+      },
+      "properties": {
+        "group_id": "northside-housing-support-services-nshss",
+        "name": "Northside Housing & Support Services (NSHSS)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park / Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Homeless Services / Emergency Shelter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66166120216147,
+          41.85359762915925
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-alliance",
+        "name": "Pilsen Alliance",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Lower West Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Anti-Displacement"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65839751977366,
+          41.97318979435613
+        ]
+      },
+      "properties": {
+        "group_id": "sarah-s-circle",
+        "name": "Sarah's Circle",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Homeless Services (Women)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.595404620844,
+          41.79674307376225
+        ]
+      },
+      "properties": {
+        "group_id": "mandel-legal-aid-clinic-uchicago-law",
+        "name": "Mandel Legal Aid Clinic (UChicago Law)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Hyde Park",
+        "verification_status": "VERIFIED",
+        "category": "Law School Legal Clinic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66046671552152,
+          41.97214605694182
+        ]
+      },
+      "properties": {
+        "group_id": "uptown-people-s-law-center",
+        "name": "Uptown People's Law Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Housing & Prisoner Rights Legal Aid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76576812372689,
+          41.89773848443536
+        ]
+      },
+      "properties": {
+        "group_id": "austin-coming-together-act",
+        "name": "Austin Coming Together (ACT)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Collective Impact / Neighborhood Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6157047541393,
+          41.823490628572394
+        ]
+      },
+      "properties": {
+        "group_id": "bronzeville-community-development-partnership-bcdp",
+        "name": "Bronzeville Community Development Partnership (BCDP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Bronzeville",
+        "verification_status": "VERIFIED",
+        "category": "Community / Economic Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76590259180016,
+          41.8984489548121
+        ]
+      },
+      "properties": {
+        "group_id": "build-chicago-broader-urban-involvement-leadership-development",
+        "name": "BUILD Chicago (Broader Urban Involvement & Leadership Development)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Youth Development / Community Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61996187280187,
+          41.69351277511613
+        ]
+      },
+      "properties": {
+        "group_id": "developing-communities-project-dcp",
+        "name": "Developing Communities Project (DCP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Southeast Chicago (Roseland / Pullman)",
+        "verification_status": "UNCERTAIN",
+        "category": "Faith-Based / Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61858935616709,
+          41.76073845209371
+        ]
+      },
+      "properties": {
+        "group_id": "far-south-community-development-corporation-far-south-cdc",
+        "name": "Far South Community Development Corporation (Far South CDC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Far South Side (Roseland",
+        "verification_status": "VERIFIED",
+        "category": "Community / Economic Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64718409241374,
+          41.77414294886608
+        ]
+      },
+      "properties": {
+        "group_id": "good-kids-mad-city-gkmc-englewood",
+        "name": "Good Kids Mad City (GKMC) \u2013 Englewood",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood / West Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Youth Advocacy / Peace Building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.60557886764478,
+          41.750108939034256
+        ]
+      },
+      "properties": {
+        "group_id": "greater-chatham-initiative-gci",
+        "name": "Greater Chatham Initiative (GCI)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Chatham / Greater Grand Crossing / Avalon Park / Auburn Gresham",
+        "verification_status": "VERIFIED",
+        "category": "Community / Economic Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.70528982695541,
+          41.92079376614995
+        ]
+      },
+      "properties": {
+        "group_id": "logan-square-neighborhood-association-palenque-lsna",
+        "name": "Logan Square Neighborhood Association / Palenque LSNA",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Logan Square / Avondale / Hermosa",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Education & Housing Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74048021883026,
+          41.88040448700075
+        ]
+      },
+      "properties": {
+        "group_id": "north-lawndale-community-coordinating-council-nlccc",
+        "name": "North Lawndale Community Coordinating Council (NLCCC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Lawndale / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Planning / Neighborhood Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72470880304552,
+          41.9545329347518
+        ]
+      },
+      "properties": {
+        "group_id": "northwest-side-housing-center-nwshc",
+        "name": "Northwest Side Housing Center (NWSHC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Northwest Side (Belmont Cragin / Portage Park / Irving Park)",
+        "verification_status": "VERIFIED",
+        "category": "Housing Advocacy / Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64652077919897,
+          41.94487973666014
+        ]
+      },
+      "properties": {
+        "group_id": "one-northside-organizing-neighborhoods-for-equality",
+        "name": "ONE Northside (Organizing Neighborhoods for Equality)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park / Edgewater / Uptown / Lakeview / North Center / Lincoln Park",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Neighborhood Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66260371787243,
+          41.85626986538999
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-neighbors-community-council-pncc",
+        "name": "Pilsen Neighbors Community Council (PNCC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Lower West Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73920349981869,
+          41.8844877420394
+        ]
+      },
+      "properties": {
+        "group_id": "southwest-organizing-project-swop",
+        "name": "Southwest Organizing Project (SWOP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Southwest Side (West Elsdon / West Lawn / Gage Park / Chicago Lawn / Ashburn)",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Neighborhood Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76828805572933,
+          41.898950013233
+        ]
+      },
+      "properties": {
+        "group_id": "westside-health-authority-wha",
+        "name": "Westside Health Authority (WHA)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Health / Neighborhood Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72378659368792,
+          41.90151460866762
+        ]
+      },
+      "properties": {
+        "group_id": "humboldt-park-solidarity-network-casa-hernandez",
+        "name": "Humboldt Park Solidarity Network (Casa Hernandez)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Humboldt Park",
+        "verification_status": "VERIFIED",
+        "category": "Neighborhood Mutual Aid / Free Store"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6468977613227,
+          41.94495556929234
+        ]
+      },
+      "properties": {
+        "group_id": "lakeview-lincoln-park-mutual-aid-network-llma",
+        "name": "Lakeview / Lincoln Park Mutual Aid Network (LLMA)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview / Lincoln Park",
+        "verification_status": "VERIFIED",
+        "category": "Neighborhood Mutual Aid Network"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64982744125587,
+          41.944128598258615
+        ]
+      },
+      "properties": {
+        "group_id": "howard-brown-health",
+        "name": "Howard Brown Health",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Multiple (Lakeview",
+        "verification_status": "VERIFIED",
+        "category": "LGBTQ+ Healthcare"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65665192807651,
+          41.975878682109276
+        ]
+      },
+      "properties": {
+        "group_id": "test-positive-aware-network-tpan",
+        "name": "Test Positive Aware Network (TPAN)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "HIV/AIDS Support / Harm Reduction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74125793232318,
+          41.87955128390594
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-lighthouse",
+        "name": "Chicago Lighthouse",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Disability / Vision Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72504303329275,
+          41.95255322116396
+        ]
+      },
+      "properties": {
+        "group_id": "communityhealth",
+        "name": "CommunityHealth",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Ukrainian Village / Irving Park",
+        "verification_status": "VERIFIED",
+        "category": "Free Clinic / Primary Care"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.71915159717899,
+          41.89977168852348
+        ]
+      },
+      "properties": {
+        "group_id": "connections-for-abused-women-and-their-children-cawc",
+        "name": "Connections for Abused Women and Their Children (CAWC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Humboldt Park",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence / Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65856732523345,
+          41.97129490796134
+        ]
+      },
+      "properties": {
+        "group_id": "heartland-health-outreach",
+        "name": "Heartland Health Outreach",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Community Health Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65585827534458,
+          41.971593785537955
+        ]
+      },
+      "properties": {
+        "group_id": "nami-chicago",
+        "name": "NAMI Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Mental Health"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74139198601702,
+          41.881928282664816
+        ]
+      },
+      "properties": {
+        "group_id": "rush-university-medical-center",
+        "name": "Rush University Medical Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Hospital / Health System"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6647741724069,
+          41.8557201375635
+        ]
+      },
+      "properties": {
+        "group_id": "saint-anthony-hospital",
+        "name": "Saint Anthony Hospital",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side / Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Hospital / Health System"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.719826599691,
+          41.89883512295907
+        ]
+      },
+      "properties": {
+        "group_id": "sinai-chicago-mount-sinai-hospital",
+        "name": "Sinai Chicago (Mount Sinai Hospital)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Lawndale / Humboldt Park",
+        "verification_status": "VERIFIED",
+        "category": "Hospital / Health System"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59779099138923,
+          41.79621862857796
+        ]
+      },
+      "properties": {
+        "group_id": "uchicago-medicine-comer-children-s-hospital",
+        "name": "UChicago Medicine / Comer Children's Hospital",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Hyde Park",
+        "verification_status": "VERIFIED",
+        "category": "Hospital / Health System"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73908893823489,
+          41.88019054271376
+        ]
+      },
+      "properties": {
+        "group_id": "ui-health-university-of-illinois-hospital",
+        "name": "UI Health (University of Illinois Hospital)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side / Medical District",
+        "verification_status": "VERIFIED",
+        "category": "Hospital / Health System"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.71640555569557,
+          41.879986374426814
+        ]
+      },
+      "properties": {
+        "group_id": "bethel-new-life",
+        "name": "Bethel New Life",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Garfield Park",
+        "verification_status": "VERIFIED",
+        "category": "Community Development/Housing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74032019513486,
+          41.88318597311286
+        ]
+      },
+      "properties": {
+        "group_id": "greater-southwest-development-corporation-gsdc",
+        "name": "Greater Southwest Development Corporation (GSDC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Chicago Lawn / Southwest Side",
+        "verification_status": "VERIFIED",
+        "category": "Commercial & Economic Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61807458754409,
+          41.75760241843107
+        ]
+      },
+      "properties": {
+        "group_id": "far-south-community-development-corporation",
+        "name": "Far South Community Development Corporation",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Far South Side / South Suburbs",
+        "verification_status": "VERIFIED",
+        "category": "Economic & Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73905338268641,
+          41.880698665194686
+        ]
+      },
+      "properties": {
+        "group_id": "near-west-side-community-development-corporation-nwscdc",
+        "name": "Near West Side Community Development Corporation (NWSCDC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Development/Social Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66393132058313,
+          41.75264134931014
+        ]
+      },
+      "properties": {
+        "group_id": "neighborhood-housing-services-of-chicago-nhs",
+        "name": "Neighborhood Housing Services of Chicago (NHS)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Citywide (Auburn Gresham",
+        "verification_status": "VERIFIED",
+        "category": "Housing/Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6603600956119,
+          41.7490197867503
+        ]
+      },
+      "properties": {
+        "group_id": "greater-auburn-gresham-development-corporation-gadc",
+        "name": "Greater Auburn-Gresham Development Corporation (GADC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Auburn Gresham",
+        "verification_status": "VERIFIED",
+        "category": "Economic & Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66320025001852,
+          41.853531788167004
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-neighbors-community-council",
+        "name": "Pilsen Neighbors Community Council",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Community Development/Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66004042734998,
+          41.855616390135694
+        ]
+      },
+      "properties": {
+        "group_id": "the-resurrection-project",
+        "name": "The Resurrection Project",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Little Village / Back of the Yards",
+        "verification_status": "VERIFIED",
+        "category": "Affordable Housing & Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64444302849367,
+          41.77319892525015
+        ]
+      },
+      "properties": {
+        "group_id": "greater-englewood-community-development-corporation-gecdc",
+        "name": "Greater Englewood Community Development Corporation (GECDC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Economic & Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61774097624645,
+          41.82285972720681
+        ]
+      },
+      "properties": {
+        "group_id": "quad-communities-development-corporation-qcdc",
+        "name": "Quad Communities Development Corporation (QCDC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Bronzeville / Douglas / Grand Boulevard / Oakland",
+        "verification_status": "VERIFIED",
+        "category": "Community Development/Planning"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7660381328902,
+          41.90029834567638
+        ]
+      },
+      "properties": {
+        "group_id": "westside-health-authority",
+        "name": "Westside Health Authority",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin",
+        "verification_status": "VERIFIED",
+        "category": "Health & Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64882117719185,
+          41.83106430483764
+        ]
+      },
+      "properties": {
+        "group_id": "coalition-for-a-better-chinese-american-community-cbcac",
+        "name": "Coalition for a Better Chinese American Community (CBCAC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Chinatown / Bridgeport",
+        "verification_status": "VERIFIED",
+        "category": "Community Development/Advocacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72094534738913,
+          41.89850892715238
+        ]
+      },
+      "properties": {
+        "group_id": "spanish-coalition-for-housing",
+        "name": "Spanish Coalition for Housing",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Humboldt Park / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Affordable Housing/Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76372406325838,
+          41.89835313387327
+        ]
+      },
+      "properties": {
+        "group_id": "south-austin-coalition-community-council",
+        "name": "South Austin Coalition Community Council",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Community Organizing/Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62025304160545,
+          41.759567050151205
+        ]
+      },
+      "properties": {
+        "group_id": "people-for-community-recovery-pcr",
+        "name": "People for Community Recovery (PCR)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Altgeld Gardens / Far South Side",
+        "verification_status": "VERIFIED",
+        "category": "Environmental Justice/Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66066898448831,
+          41.85314075070286
+        ]
+      },
+      "properties": {
+        "group_id": "pilsen-environmental-rights-and-reform-organization-perro",
+        "name": "Pilsen Environmental Rights and Reform Organization (PERRO)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Environmental Justice/Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74195011110017,
+          41.879571819181535
+        ]
+      },
+      "properties": {
+        "group_id": "neighbors-for-environmental-justice-n4ej",
+        "name": "Neighbors For Environmental Justice (N4EJ)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Southwest Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Environmental Justice/Community Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62036759635588,
+          41.76053260780634
+        ]
+      },
+      "properties": {
+        "group_id": "community-awareness-response-encouraging-sustainability-cares",
+        "name": "Community Awareness Response Encouraging Sustainability (CARES)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side",
+        "verification_status": "UNCERTAIN",
+        "category": "Environmental Justice/Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66185915921213,
+          41.85190353498238
+        ]
+      },
+      "properties": {
+        "group_id": "centro-comunitario-juan-diego",
+        "name": "Centro Comunitario Juan Diego",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Environmental Justice/Community Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61948339797735,
+          41.76222754042647
+        ]
+      },
+      "properties": {
+        "group_id": "chifresh-kitchen",
+        "name": "ChiFresh Kitchen",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Greater Grand Crossing / South Side",
+        "verification_status": "VERIFIED",
+        "category": "Worker Cooperative / Food Service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.76427251030597,
+          41.900585601816914
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-tool-library",
+        "name": "Chicago Tool Library",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Austin / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Sharing Economy / Community Cooperative"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64492518067142,
+          41.77119736319162
+        ]
+      },
+      "properties": {
+        "group_id": "grow-greater-englewood-gge",
+        "name": "Grow Greater Englewood (GGE)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Englewood",
+        "verification_status": "VERIFIED",
+        "category": "Food Justice / Urban Agriculture / Economic Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65874752958631,
+          41.97043699319741
+        ]
+      },
+      "properties": {
+        "group_id": "new-era-windows-cooperative",
+        "name": "New Era Windows Cooperative",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Goose Island / Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Worker Cooperative / Manufacturing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59458187260262,
+          41.77293783480538
+        ]
+      },
+      "properties": {
+        "group_id": "southside-together-organizing-for-power-stop",
+        "name": "Southside Together Organizing for Power (STOP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn / South Side",
+        "verification_status": "VERIFIED",
+        "category": "Community Organizing / Economic Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61823841810447,
+          41.75799103676509
+        ]
+      },
+      "properties": {
+        "group_id": "ujamaa-community-land-trust",
+        "name": "Ujamaa Community Land Trust",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Community Land Trust / Economic Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73784387894204,
+          41.88254861596716
+        ]
+      },
+      "properties": {
+        "group_id": "warehouse-workers-for-justice-wwj",
+        "name": "Warehouse Workers for Justice (WWJ)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Southwest Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Labor Justice / Worker Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66415721839446,
+          41.998777277601036
+        ]
+      },
+      "properties": {
+        "group_id": "wild-onion-market",
+        "name": "Wild Onion Market",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Consumer Cooperative / Food Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62172605220536,
+          41.758984384432225
+        ]
+      },
+      "properties": {
+        "group_id": "family-rescue",
+        "name": "Family Rescue",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side (Stony Island Ave)",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Shelter & Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66058467689398,
+          41.972021169079675
+        ]
+      },
+      "properties": {
+        "group_id": "apna-ghar",
+        "name": "Apna Ghar",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side (Edgewater)",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Shelter (Immigrant/Refugee Focus)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61965423574583,
+          41.76092326868417
+        ]
+      },
+      "properties": {
+        "group_id": "mujeres-latinas-en-acci-n",
+        "name": "Mujeres Latinas en Acci\u00f3n",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "Domestic & Sexual Violence Services (Latina-Focused)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66052623096304,
+          41.97124425130737
+        ]
+      },
+      "properties": {
+        "group_id": "kan-win",
+        "name": "KAN-WIN",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side & NW Suburbs",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Domestic Violence Services (Asian-American Focus)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65837088186689,
+          41.97223644498214
+        ]
+      },
+      "properties": {
+        "group_id": "house-of-the-good-shepherd",
+        "name": "House of the Good Shepherd",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Shelter & Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66199513016231,
+          41.85339256780875
+        ]
+      },
+      "properties": {
+        "group_id": "hope-family-services",
+        "name": "Hope Family Services",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65898644314802,
+          41.97009771491841
+        ]
+      },
+      "properties": {
+        "group_id": "shalva",
+        "name": "SHALVA",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Domestic Violence Services (Jewish Community Focus)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73852482020024,
+          41.88287692438924
+        ]
+      },
+      "properties": {
+        "group_id": "arab-american-family-services-aafs",
+        "name": "Arab American Family Services (AAFS)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Southwest Side (Bridgeview)",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Services (Arab-American Focus)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7389428957276,
+          41.88229764944263
+        ]
+      },
+      "properties": {
+        "group_id": "pro-bono-advocates",
+        "name": "Pro Bono Advocates",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "STALE",
+        "category": "Legal Advocacy for DV Survivors"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64817587283441,
+          41.94495840375296
+        ]
+      },
+      "properties": {
+        "group_id": "center-on-halsted-lgbtq-violence-resource-line",
+        "name": "Center on Halsted - LGBTQ Violence Resource Line",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Domestic Violence Services (LGBTQ Focus)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73866002804318,
+          41.882068458318386
+        ]
+      },
+      "properties": {
+        "group_id": "greenhouse-shelter-jane-addams-hull-house-successor-programs",
+        "name": "Greenhouse Shelter (Jane Addams Hull House successor programs)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side",
+        "verification_status": "VERIFIED",
+        "category": "Domestic Violence Shelter & Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61824704790678,
+          41.761276036312765
+        ]
+      },
+      "properties": {
+        "group_id": "south-suburban-family-shelter-anew",
+        "name": "South Suburban Family Shelter (Anew)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Suburbs (serves South Side Chicago referrals)",
+        "verification_status": "STALE",
+        "category": "Domestic Violence Shelter & Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74117534641265,
+          41.883457140789794
+        ]
+      },
+      "properties": {
+        "group_id": "rush-community-health-outreach-chro",
+        "name": "RUSH Community Health Outreach (CHRO)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side (Near Rush Medical Campus)",
+        "verification_status": "VERIFIED",
+        "category": "Medical Outreach / Naloxone Training"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61999894669083,
+          41.76203780037582
+        ]
+      },
+      "properties": {
+        "group_id": "tasc-treatment-alternatives-for-safe-communities",
+        "name": "TASC (Treatment Alternatives for Safe Communities)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Loop / Near South Side",
+        "verification_status": "VERIFIED",
+        "category": "Criminal Justice / Substance Use Diversion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5939818154433,
+          41.79562046738942
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-hyde-park-village",
+        "name": "Chicago Hyde Park Village",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Hyde Park",
+        "verification_status": "VERIFIED",
+        "category": "Aging-in-Place Village Model"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65783510561315,
+          41.99044193676317
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-methodist-senior-services-cmss-senior-connections",
+        "name": "Chicago Methodist Senior Services (CMSS) \u2013 Senior Connections",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Andersonville / Edgewater",
+        "verification_status": "VERIFIED",
+        "category": "Senior Companion / Intergenerational Programs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65014437838973,
+          41.94558960470767
+        ]
+      },
+      "properties": {
+        "group_id": "h-o-m-e-housing-opportunities-maintenance-for-the-elderly",
+        "name": "H.O.M.E. (Housing Opportunities & Maintenance for the Elderly)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview",
+        "verification_status": "VERIFIED",
+        "category": "Senior Housing & Home Repair"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74131422667847,
+          41.879610728789714
+        ]
+      },
+      "properties": {
+        "group_id": "little-brothers-friends-of-the-elderly-chicago",
+        "name": "Little Brothers \u2013 Friends of the Elderly (Chicago)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Elder Companionship / Isolation Prevention"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66289047629927,
+          41.99944229730431
+        ]
+      },
+      "properties": {
+        "group_id": "northside-community-resources-ncr",
+        "name": "Northside Community Resources (NCR)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Senior Case Management / Aging in Place"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62004998589414,
+          41.75882164911048
+        ]
+      },
+      "properties": {
+        "group_id": "black-youth-project-100-byp100",
+        "name": "Black Youth Project 100 (BYP100)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Youth Abolitionist Organizing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6599884965899,
+          41.973848936348645
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-books-to-women-in-prison-cbwp",
+        "name": "Chicago Books to Women in Prison (CBWP)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Books & Arts in Prison"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74236068526812,
+          41.879549292368985
+        ]
+      },
+      "properties": {
+        "group_id": "a-safe-haven",
+        "name": "A Safe Haven",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side",
+        "verification_status": "VERIFIED",
+        "category": "Housing / Multi-Service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66074842479532,
+          41.968937591488654
+        ]
+      },
+      "properties": {
+        "group_id": "catholic-charities-of-the-archdiocese-of-chicago",
+        "name": "Catholic Charities of the Archdiocese of Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Multi-Service / Food"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66239844165467,
+          41.85319947950572
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-animal-care-and-control-cacc",
+        "name": "Chicago Animal Care and Control (CACC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Animal Welfare / Animal Control"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73827465682564,
+          41.88038153944021
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-cares",
+        "name": "Chicago Cares",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Citywide (South & West Side focus)",
+        "verification_status": "VERIFIED",
+        "category": "Volunteer Coordination / Community"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73921900580484,
+          41.88149518039647
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-commons",
+        "name": "Chicago Commons",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side (Multiple Locations)",
+        "verification_status": "VERIFIED",
+        "category": "Early Childhood / Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66077423386797,
+          41.97060728440045
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-methodist-senior-services-cmss",
+        "name": "Chicago Methodist Senior Services (CMSS)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "North Side",
+        "verification_status": "VERIFIED",
+        "category": "Senior Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6637918222858,
+          41.855624438647524
+        ]
+      },
+      "properties": {
+        "group_id": "gads-hill-center",
+        "name": "Gads Hill Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Youth / Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74081324618966,
+          41.88253643715168
+        ]
+      },
+      "properties": {
+        "group_id": "greater-chicago-food-depository",
+        "name": "Greater Chicago Food Depository",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Food Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66422347012059,
+          41.99659387281934
+        ]
+      },
+      "properties": {
+        "group_id": "howard-and-evanston-community-center",
+        "name": "Howard and Evanston Community Center",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Rogers Park",
+        "verification_status": "VERIFIED",
+        "category": "Community Development"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66197091156779,
+          41.855354825701085
+        ]
+      },
+      "properties": {
+        "group_id": "instituto-del-progreso-latino",
+        "name": "Instituto del Progreso Latino",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen",
+        "verification_status": "VERIFIED",
+        "category": "Education / Immigration Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72511548332125,
+          41.95356593427554
+        ]
+      },
+      "properties": {
+        "group_id": "irving-park-community-food-pantry",
+        "name": "Irving Park Community Food Pantry",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Irving Park",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.70754503104335,
+          41.92085193594239
+        ]
+      },
+      "properties": {
+        "group_id": "lucha-latinxs-united-for-change-in-housing-action",
+        "name": "LUCHA (Latinxs United for Change in Housing Action)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Logan Square",
+        "verification_status": "VERIFIED",
+        "category": "Housing Advocacy / Community"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.74150130749122,
+          41.88115458238614
+        ]
+      },
+      "properties": {
+        "group_id": "mercy-home-for-boys-girls",
+        "name": "Mercy Home for Boys & Girls",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Youth Services / Child Welfare"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64901930823521,
+          41.9450603507507
+        ]
+      },
+      "properties": {
+        "group_id": "nourishing-hope-formerly-lakeview-pantry",
+        "name": "Nourishing Hope (formerly Lakeview Pantry)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Lakeview / Multiple Locations",
+        "verification_status": "VERIFIED",
+        "category": "Food Pantry"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66240529127839,
+          41.85502521756843
+        ]
+      },
+      "properties": {
+        "group_id": "safe-humane-chicago",
+        "name": "Safe Humane Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen (via CACC)",
+        "verification_status": "VERIFIED",
+        "category": "Animal Welfare / Youth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.70667811772739,
+          41.92128595924342
+        ]
+      },
+      "properties": {
+        "group_id": "wicker-park-bucktown-mutual-aid",
+        "name": "Wicker Park Bucktown Mutual Aid",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Wicker Park / Logan Square",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Community Mutual Aid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73815772834165,
+          41.883084213448086
+        ]
+      },
+      "properties": {
+        "group_id": "arise-chicago",
+        "name": "Arise Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near West Side",
+        "verification_status": "VERIFIED",
+        "category": "Labor Justice / Worker Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6565663340569,
+          41.97337522164087
+        ]
+      },
+      "properties": {
+        "group_id": "asian-americans-advancing-justice-chicago",
+        "name": "Asian Americans Advancing Justice | Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Racial Equity / Civil Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59156594186724,
+          41.77465784402528
+        ]
+      },
+      "properties": {
+        "group_id": "blacks-in-green-big",
+        "name": "Blacks in Green (BIG)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn",
+        "verification_status": "VERIFIED",
+        "category": "Environmental Justice / Black Sustainability"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.619699372451,
+          41.821219402502486
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-urban-league",
+        "name": "Chicago Urban League",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Bronzeville",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Racial Economic Equity"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.72636294520845,
+          41.9691148802463
+        ]
+      },
+      "properties": {
+        "group_id": "communities-united",
+        "name": "Communities United",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Albany Park / Citywide",
+        "verification_status": "VERIFIED",
+        "category": "Multi-Issue Racial Justice / Youth & Education"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.70599797091036,
+          41.920060943593555
+        ]
+      },
+      "properties": {
+        "group_id": "palenque-lsna-logan-square-neighborhood-association",
+        "name": "Palenque LSNA (Logan Square Neighborhood Association)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Logan Square / Avondale",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Multi-Issue Community Power / Education & Immigration"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59270555115461,
+          41.77577092683749
+        ]
+      },
+      "properties": {
+        "group_id": "southside-together-formerly-stop-not-me-we",
+        "name": "Southside Together (formerly STOP + Not Me We)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn",
+        "verification_status": "UNCERTAIN",
+        "category": "Racial & Economic Justice / Community Power"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.59410033149112,
+          41.77539612045218
+        ]
+      },
+      "properties": {
+        "group_id": "workers-center-for-racial-justice",
+        "name": "Workers Center for Racial Justice",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Woodlawn",
+        "verification_status": "VERIFIED",
+        "category": "Economic Justice / Black Liberation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66152028144307,
+          41.971532938892004
+        ]
+      },
+      "properties": {
+        "group_id": "access-living-of-metropolitan-chicago",
+        "name": "Access Living of Metropolitan Chicago",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Disability Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6175950383397,
+          41.7602875845681
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-cred-creating-real-economic-destiny",
+        "name": "Chicago CRED (Creating Real Economic Destiny)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side / West Side",
+        "verification_status": "VERIFIED",
+        "category": "Gun Violence Prevention"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62145900381194,
+          41.75994592940548
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-workers-collaborative",
+        "name": "Chicago Workers Collaborative",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Back of the Yards / South Side",
+        "verification_status": "VERIFIED",
+        "category": "Labor / Workers' Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65944485508695,
+          41.969224020314
+        ]
+      },
+      "properties": {
+        "group_id": "illinois-coalition-for-immigrant-and-refugee-rights-icirr",
+        "name": "Illinois Coalition for Immigrant and Refugee Rights (ICIRR)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side",
+        "verification_status": "VERIFIED",
+        "category": "Immigration / Refugee Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.62204903641798,
+          41.76035452661094
+        ]
+      },
+      "properties": {
+        "group_id": "naacp-chicago-southside-branch",
+        "name": "NAACP Chicago Southside Branch",
+        "location_name": "Neighbourhood Centroid",
+        "address": "South Side",
+        "verification_status": "VERIFIED",
+        "category": "Civil Rights / Racial Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.73850585411085,
+          41.88420015418436
+        ]
+      },
+      "properties": {
+        "group_id": "naacp-chicago-westside-branch",
+        "name": "NAACP Chicago Westside Branch",
+        "location_name": "Neighbourhood Centroid",
+        "address": "West Side",
+        "verification_status": "VERIFIED",
+        "category": "Civil Rights / Racial Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6621347808574,
+          41.96777297352313
+        ]
+      },
+      "properties": {
+        "group_id": "organized-communities-against-deportations-ocad",
+        "name": "Organized Communities Against Deportations (OCAD)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Near North Side",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Immigration / Deportation Defense"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.65861159540431,
+          41.97369851241986
+        ]
+      },
+      "properties": {
+        "group_id": "uptown-people-s-law-center-uplc",
+        "name": "Uptown People's Law Center (UPLC)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Uptown",
+        "verification_status": "VERIFIED",
+        "category": "Legal Advocacy / Civil Rights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.61641985290771,
+          41.82434362893788
+        ]
+      },
+      "properties": {
+        "group_id": "bronzeville-kenwood-mutual-aid-bkma",
+        "name": "Bronzeville Kenwood Mutual Aid (BKMA)",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Bronzeville / Kenwood",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "General Mutual Aid / Food Justice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66025160976923,
+          41.856238958820505
+        ]
+      },
+      "properties": {
+        "group_id": "chicago-community-jail-support",
+        "name": "Chicago Community Jail Support",
+        "location_name": "Neighbourhood Centroid",
+        "address": "Pilsen / Little Village",
+        "verification_status": "LIKELY_ACTIVE",
+        "category": "Reentry / Legal Support"
       }
     }
   ]

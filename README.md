@@ -2,7 +2,7 @@
 
 > A verified, living directory of mutual aid and community support groups across the Chicago area.
 
-**105 groups · 21 categories · 40+ neighborhoods · 72+ verified active**
+**470 total groups · Verified for 2025/2026 activity · 307+ confirmed active**
 
 🌐 **[lumpencamp.github.io/chicago-corps](https://lumpencamp.github.io/chicago-corps/)**
 
