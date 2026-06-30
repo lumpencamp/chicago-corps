@@ -211,14 +211,16 @@ def inject_into_html(groups, geojson):
         flags=re.DOTALL,
     )
 
+    groups_json = json.dumps(groups).replace('</', '<\\/')
+    geojson_json = json.dumps(geojson).replace('</', '<\\/')
     script_block = (
         "\n<script>\n"
         "/* DATA_INJECTION_START */\n"
-        f"window.CHICAGO_CORPS_DATA = {{\n"
-        f"  generated_at: '{datetime.now().isoformat()}',\n"
-        f"  groups: {json.dumps(groups).replace('</', '<\\/')},\n"
-        f"  geojson: {json.dumps(geojson).replace('</', '<\\/')}\n"
-        "}};\n"
+        "window.CHICAGO_CORPS_DATA = {\n"
+        "  generated_at: '" + datetime.now().isoformat() + "',\n"
+        "  groups: " + groups_json + ",\n"
+        "  geojson: " + geojson_json + "\n"
+        "};\n"
         "/* DATA_INJECTION_END */\n"
         "</script>\n"
     )
