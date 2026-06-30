@@ -97,7 +97,12 @@ def geocode_address(address, city="Chicago"):
 
 
 def process_locations():
-    """Load locations.csv, geocode any rows that are missing coordinates, and save."""
+    """Load locations.csv, geocode any rows that are missing coordinates, and save.
+
+    On CI (GitHub Actions) we skip live geocoding to avoid flaky network calls —
+    any rows without coordinates are simply omitted from the GeoJSON and the
+    neighbourhood-centroid fallback in build_geojson() picks them up instead.
+    """
     loc_file = DATA_DIR / "locations.csv"
     if not loc_file.exists():
         return []
@@ -105,6 +110,12 @@ def process_locations():
     with open(loc_file, "r", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
         fieldnames = list(rows[0].keys()) if rows else []
+
+    # Detect CI environment — skip live API calls to avoid build failures
+    is_ci = os.environ.get("CI") or os.environ.get("GITHUB_ACTIONS")
+    if is_ci:
+        print("  CI environment detected — skipping live geocoding, using cached coordinates only.")
+        return rows
 
     updated = False
     for row in rows:
